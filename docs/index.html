@@ -411,6 +411,7 @@
   function readLS(k, d) { try { var v = localStorage.getItem("finds:" + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } }
   function writeLS(k, v) { try { localStorage.setItem("finds:" + k, JSON.stringify(v)); } catch (e) {} }
   function money(n) { return n == null ? "price not listed" : "$" + Math.round(n); }
+  function linkable(u) { return /^https?:\/\//.test(u || ""); }
   function when(iso) {
     if (!iso) return "";
     var d = new Date(iso); if (isNaN(d)) return "";
@@ -456,7 +457,8 @@
     writeLS("queue", queue);
     flush();
   }
-  function setSaving(on) { $("saving").hidden = !on; }
+  var SAVING_OFFLINE = "Some verdicts haven't saved yet. They'll send when you're back online.";
+  function setSaving(on, text) { $("saving").textContent = text || SAVING_OFFLINE; $("saving").hidden = !on; }
   function flush() {
     if (flushing || !queue.length || !WORKER_URL || !TOKEN) return;
     flushing = true;
@@ -465,10 +467,17 @@
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ token: TOKEN, kind: item.kind, key: item.key, value: item.value })
     }).then(function (r) {
-      if (r.status === 204 || r.status === 400) { queue.shift(); writeLS("queue", queue); return true; }
+      // 400 means the Worker will never accept this item; 401/403 mean the page's key is wrong.
+      // Both are permanent, so drop the item rather than retrying it forever.
+      if (r.status === 204 || r.status === 400) { queue.shift(); writeLS("queue", queue); return null; }
+      if (r.status === 401 || r.status === 403) {
+        queue.shift(); writeLS("queue", queue);
+        return "This page's key was rejected; tell Marcus.";
+      }
       throw new Error("status " + r.status);
-    }).then(function () {
-      flushing = false; setSaving(false);
+    }).then(function (problem) {
+      flushing = false;
+      if (problem) setSaving(true, problem); else setSaving(false);
       if (queue.length) flush();
     }).catch(function () {
       flushing = false; setSaving(true);
@@ -510,14 +519,16 @@
     var meta = bagsMeta[f.bag] || {}, def = BAG_BY_ID[f.bag];
     var deal = f.kind === "deal" || (meta.deal_price != null && f.price != null && f.price <= meta.deal_price);
     var extras = [f.condition, f.seller ? "seller " + f.seller : null].filter(Boolean).join(" · ");
+    var img = '<img class="main" src="' + esc(f.image || "") + '" alt="" draggable="false">';
     return '<div class="photo">' +
-      '<a href="' + esc(f.url) + '" target="_blank" rel="noopener" draggable="false">' +
-      '<img class="main" src="' + esc(f.image || "") + '" alt="" draggable="false"></a>' +
+      (linkable(f.url)
+        ? '<a href="' + esc(f.url) + '" target="_blank" rel="noopener" draggable="false">' + img + '</a>'
+        : img) +
       (def ? '<button class="ref" type="button" aria-label="Her reference photo" data-img="' + esc(def.img) + '"><img src="' + esc(def.img) + '" alt="" draggable="false"></button>' : '') +
       '<span class="stamp no">Not it</span><span class="stamp keep">Keep</span></div>' +
       '<div class="info"><div class="row">' +
       '<span class="price' + (deal ? ' deal' : '') + '">' + money(f.price) + '</span>' +
-      (f.old_price != null ? '<span class="was">' + money(f.old_price) + '</span>' : '') +
+      (f.old_price != null ? '<span class="was">was ' + money(f.old_price) + '</span>' : '') +
       '<span class="src">' + (SRC[f.source] || esc(f.source)) + '</span>' +
       (f.stale ? '<span class="stale">may be sold</span>' : '') +
       '</div><h3>' + esc(f.title || "(no title)") + '</h3>' +
@@ -549,6 +560,7 @@
   }
 
   function fly(card, dir, cb) {
+    $("btn-no").disabled = $("btn-keep").disabled = true;   // re-enabled by renderReview
     var w = card.offsetWidth || 320;
     card.classList.remove("dragging");
     card.style.transition = "transform .25s ease";
@@ -620,8 +632,10 @@
       groups[bag].forEach(function (f) {
         var deal = f.kind === "deal" || (meta.deal_price != null && f.price != null && f.price <= meta.deal_price);
         var row = document.createElement("div"); row.className = "krow";
-        row.innerHTML = '<a href="' + esc(f.url) + '" target="_blank" rel="noopener"><img src="' + esc(f.image || "") + '" alt=""></a>' +
-          '<div><div class="t"><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.title || "(no title)") + '</a></div>' +
+        var thumb = '<img src="' + esc(f.image || "") + '" alt="">', title = esc(f.title || "(no title)");
+        var open = '<a href="' + esc(f.url) + '" target="_blank" rel="noopener">';
+        row.innerHTML = (linkable(f.url) ? open + thumb + '</a>' : thumb) +
+          '<div><div class="t">' + (linkable(f.url) ? open + title + '</a>' : title) + '</div>' +
           '<div class="m"><span class="' + (deal ? 'deal' : '') + '">' + money(f.price) + (deal ? ' deal' : '') + '</span>' +
           (f.old_price != null ? ' · was ' + money(f.old_price) : '') + ' · ' + (SRC[f.source] || esc(f.source)) +
           (f.stale ? ' · <em>may be sold</em>' : '') + '</div></div>' +

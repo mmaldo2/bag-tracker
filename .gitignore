@@ -6,3 +6,4 @@ state/browser-profile/
 worker/node_modules/
 worker/.wrangler/
 worker/.dev.vars
+.superpowers/

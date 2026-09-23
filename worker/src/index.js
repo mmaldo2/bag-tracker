@@ -5,6 +5,10 @@ const VALUES = {
   listing: new Set(["no", "keep", "clear"]),
   bag: new Set(["wanted", "found", "owned", "clear"]),
 };
+const KEY_RE = {
+  listing: /^(ebay|poshmark|depop|mercari):[A-Za-z0-9_.-]{1,120}$/,   // Depop ids are slugs
+  bag: /^[a-z0-9-]{1,40}$/,                                          // bag ids from config.yaml
+};
 const TTL_SECONDS = 60 * 24 * 3600;
 
 function cors(env) {
@@ -56,7 +60,8 @@ export default {
       try { body = await request.json(); } catch { return empty(400, env); }
       if (!body || !env.TOKEN || body.token !== env.TOKEN) return empty(401, env);
       const { kind, key, value } = body;
-      if (!VALUES[kind] || typeof key !== "string" || !key || key.length > 200 || !VALUES[kind].has(value)) {
+      if (!Object.prototype.hasOwnProperty.call(VALUES, kind) || typeof key !== "string" ||
+          !KEY_RE[kind].test(key) || !VALUES[kind].has(value)) {
         return empty(400, env);
       }
       const k = (kind === "listing" ? "l:" : "b:") + key;

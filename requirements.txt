@@ -1,4 +1,5 @@
 requests>=2.31
 pyyaml>=6.0
+# tests: pip install pytest playwright && playwright install chromium
 # home machine only (Depop + Mercari, both drive a headless browser):
 # playwright>=1.45   then: playwright install chromium

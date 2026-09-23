@@ -79,5 +79,5 @@ def save(path, finds, bags_cfg, now):
     }
     path = str(path)
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(doc, f, indent=1)

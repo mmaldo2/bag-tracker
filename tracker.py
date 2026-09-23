@@ -263,7 +263,7 @@ def main():
     finds_list = finds_mod.load(FINDS)
     keep_keys = set(verdicts_mod.unnotified_keeps(verdicts))
     kept = [{**f, "bag": all_bag_names.get(f["bag"], f["bag"]), "bag_id": f["bag"], "kind": "kept"}
-            for f in finds_list if f["key"] in keep_keys]
+            for f in finds_list if f.get("key") in keep_keys]
 
     log(f"{matched} matched a bag, {len(alerts)} alerts, {len(kept)} newly kept"
         + (f", {skipped_rejected} rejected skipped" if skipped_rejected else ""))

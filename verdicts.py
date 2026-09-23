@@ -28,6 +28,9 @@ def load(path):
         return _empty()
     if not isinstance(d, dict):
         return _empty()
+    for k in ("listings", "bags"):
+        if d.get(k) is not None and not isinstance(d.get(k), dict):
+            return _empty()
     return {"fetched": d.get("fetched"),
             "listings": dict(d.get("listings") or {}),
             "bags": dict(d.get("bags") or {})}

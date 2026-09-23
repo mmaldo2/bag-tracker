@@ -51,6 +51,7 @@ def site(tmp_path_factory):
     time.sleep(1.0)
     yield f"http://127.0.0.1:{port}/"
     proc.kill()
+    proc.wait()
 
 
 @pytest.fixture
@@ -90,6 +91,7 @@ def _wait_for_posts(pg, n):
         if len(pg.posts) >= n:
             return
         pg.wait_for_timeout(100)
+    pytest.fail(f"no POST arrived (have {len(pg.posts)}, wanted {n})")
 
 
 def test_initial_render(page):
