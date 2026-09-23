@@ -168,3 +168,33 @@ def test_missing_finds_file(site):
 
 def test_no_horizontal_overflow(page):
     assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth")
+
+
+@pytest.mark.parametrize("size", [(390, 844), (375, 667)])
+def test_review_tab_fits_viewport_without_scrolling(site, size):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        pg = browser.new_page(viewport={"width": size[0], "height": size[1]}, has_touch=True, is_mobile=True)
+        pg.goto(site)
+        pg.wait_for_selector(".card")
+        assert pg.evaluate("document.documentElement.scrollHeight <= window.innerHeight + 1")
+        assert pg.evaluate("(m => m.scrollHeight <= m.clientHeight + 1)(document.querySelector('main'))")
+        keep = pg.locator("#btn-keep").bounding_box()
+        nav_top = pg.locator(".tabs").bounding_box()["y"]
+        assert keep["y"] + keep["height"] <= nav_top, "keep button hidden under the tab bar"
+        browser.close()
+
+
+def test_vertical_drag_does_not_move_card(page):
+    card = page.locator(".card:not(.next)")
+    box = card.bounding_box()
+    x, y = box["x"] + box["width"] / 2, box["y"] + box["height"] / 2
+    page.mouse.move(x, y)
+    page.mouse.down()
+    for i in range(1, 11):
+        page.mouse.move(x, y + 12 * i)
+    transform = card.evaluate("el => el.style.transform")
+    page.mouse.up()
+    assert transform in ("", "none"), transform
+    assert "Chelsea one" in page.locator(".card:not(.next) h3").inner_text()
+    assert page.posts == []

@@ -35,7 +35,7 @@
   *, *::before, *::after { box-sizing: inherit; }
   html { height: 100%; }
   body {
-    margin: 0; min-height: 100%; background: var(--bg); color: var(--cocoa);
+    margin: 0; height: 100vh; height: 100dvh; display: flex; flex-direction: column; background: var(--bg); color: var(--cocoa);
     font-family: var(--body); font-size: 1.08rem; line-height: 1.5; -webkit-font-smoothing: antialiased;
     padding: env(safe-area-inset-top, 0px) 16px calc(var(--nav-h) + env(safe-area-inset-bottom, 0px)) 16px;
     overflow-x: hidden;
@@ -46,12 +46,13 @@
   button { font: inherit; color: inherit; cursor: pointer; }
   [hidden] { display: none !important; }
 
-  .top { text-align: center; padding: 18px 0 10px; }
+  .top { flex: 0 0 auto; text-align: center; padding: 10px 0 6px; }
   .top h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 500; letter-spacing: .01em; }
   .top .sub { margin: 4px 0 0; font-style: italic; color: var(--cocoa-soft); font-size: 1rem; }
-  main { max-width: 1120px; margin: 0 auto; }
+  main { width: 100%; max-width: 1120px; margin: 0 auto; flex: 1 1 auto; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; }
   .tab { display: none; }
-  .tab.active { display: block; }
+  .tab.active { display: block; flex: 0 0 auto; }
+  #tab-review.active { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; }
 
   /* ---------- title box + lace rule ---------- */
   .titlebox {
@@ -67,11 +68,11 @@
   }
 
   /* ---------- review stack ---------- */
-  .stack { position: relative; height: min(72vh, 680px); max-width: 480px; margin: 6px auto 0; touch-action: pan-y; }
+  .stack { position: relative; flex: 1 1 auto; min-height: 0; max-height: 720px; width: 100%; max-width: 480px; margin: 4px auto 0; touch-action: pan-y; }
   .card {
     position: absolute; inset: 0; display: flex; flex-direction: column;
     background: var(--cream-2); border: 1px solid var(--rule); padding: 10px; box-shadow: var(--shadow);
-    touch-action: none; user-select: none; -webkit-user-select: none; will-change: transform;
+    touch-action: pan-y; user-select: none; -webkit-user-select: none; will-change: transform;
     transition: transform .25s ease, box-shadow .25s ease;
   }
   .card.dragging { transition: none; }
@@ -105,9 +106,9 @@
   .card h3 { font-size: 1.25rem; font-weight: 600; line-height: 1.2; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .card .bagline { margin: 0; font-size: .98rem; color: var(--cocoa-soft); font-style: italic; }
   .card .note { margin: 0; font-size: .95rem; color: var(--cocoa-soft); }
-  .actions { display: flex; justify-content: center; gap: 28px; margin: 18px 0 8px; }
+  .actions { flex: 0 0 auto; display: flex; justify-content: center; gap: 28px; margin: 12px 0 4px; }
   .actions button {
-    width: 64px; height: 64px; border-radius: 50%; border: 1px solid var(--rule); background: var(--cream-2);
+    width: 58px; height: 58px; border-radius: 50%; border: 1px solid var(--rule); background: var(--cream-2);
     font-family: var(--display); font-size: 1.7rem; box-shadow: var(--shadow);
   }
   .actions button:hover, .actions button:focus-visible { background: var(--cocoa); color: var(--cream); outline: none; }
@@ -588,7 +589,12 @@
       if (!dragging) return;
       dx = e.clientX - startX; dy = e.clientY - startY;
       if (Math.abs(dx) > 6 || Math.abs(dy) > 6) moved = true;
-      card.style.transform = "translate(" + dx + "px, " + (dy * 0.3) + "px) rotate(" + (dx / 18) + "deg)";
+      if (Math.abs(dx) < 12 && Math.abs(dy) > 12) {  // vertical gesture: let the page have it
+        dragging = false; card.classList.remove("dragging"); card.style.transform = "";
+        try { card.releasePointerCapture(e.pointerId); } catch (err) {}
+        return;
+      }
+      card.style.transform = "translate(" + dx + "px, 0) rotate(" + (dx / 18) + "deg)";
       card.classList.toggle("lean-no", dx < -40);
       card.classList.toggle("lean-keep", dx > 40);
     });
@@ -695,6 +701,7 @@
     document.querySelectorAll(".tabs button").forEach(function (b) { b.classList.toggle("on", b.dataset.tab === name); });
     writeLS("tab", name);
     window.scrollTo(0, 0);
+    var m = document.querySelector("main"); if (m) m.scrollTop = 0;
   }
   document.querySelectorAll(".tabs button").forEach(function (b) {
     b.addEventListener("click", function () { showTab(b.dataset.tab); });
