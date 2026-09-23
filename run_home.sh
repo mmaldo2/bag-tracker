@@ -10,7 +10,7 @@ PY=python3
 [ -x .venv/bin/python ] && PY=.venv/bin/python
 git config merge.jsonstate.driver "\"$PY\" merge_state.py %O %A %B"
 git rebase --abort >/dev/null 2>&1 || true     # never stay wedged from a previous run
-git pull --rebase --quiet
+git pull --rebase --autostash --quiet
 "$PY" sync_verdicts.py
 "$PY" tracker.py --sources home
 for f in state/seen.json state/verdicts.json docs/finds.json docs/verdicts.json; do
