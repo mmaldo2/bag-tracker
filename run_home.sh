@@ -11,5 +11,7 @@ PY=python3
 git pull --rebase --quiet
 "$PY" sync_verdicts.py
 "$PY" tracker.py --sources home
-git add state/seen.json state/verdicts.json docs/finds.json docs/verdicts.json 2>/dev/null || true
+for f in state/seen.json state/verdicts.json docs/finds.json docs/verdicts.json; do
+  [ -f "$f" ] && git add "$f"
+done
 git diff --cached --quiet || { git commit -qm "state(home): $(date -u +%Y-%m-%dT%H:%MZ)"; git push --quiet; }
