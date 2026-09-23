@@ -1,4 +1,4 @@
-"""Send alerts.  Every channel with its env vars set is used; nothing else is.
+"""Send alerts and "she kept" notes.  Every channel with its env vars set is used; nothing else is.
 
   Discord   DISCORD_WEBHOOK_URL
   ntfy      NTFY_TOPIC            (optional NTFY_SERVER, default https://ntfy.sh)
@@ -11,6 +11,7 @@ import requests
 from email.mime.text import MIMEText
 
 SOURCE_LABEL = {"ebay": "eBay", "poshmark": "Poshmark", "mercari": "Mercari", "depop": "Depop"}
+KEPT_COLOR = 0x4E6B3A
 
 
 def _fmt_price(a):
@@ -21,7 +22,7 @@ def _fmt_price(a):
 
 
 def _headline(a):
-    kind = {"new": "New listing", "deal": "DEAL", "drop": "Price drop"}[a["kind"]]
+    kind = {"new": "New listing", "deal": "DEAL", "drop": "Price drop", "kept": "She kept"}[a["kind"]]
     return f"{kind}: {a['bag']}"
 
 
@@ -41,10 +42,11 @@ def discord(alerts):
     url = os.environ.get("DISCORD_WEBHOOK_URL")
     if not url:
         return False
-    colors = {"new": 0xE9A7AC, "deal": 0xC0392B, "drop": 0xD98F96}
+    colors = {"new": 0xE9A7AC, "deal": 0xC0392B, "drop": 0xD98F96, "kept": KEPT_COLOR}
     for i in range(0, len(alerts), 10):  # Discord allows 10 embeds per message
         embeds = []
-        for a in alerts[i:i + 10]:
+        chunk = alerts[i:i + 10]
+        for a in chunk:
             e = {
                 "title": (a["title"] or a["bag"])[:250],
                 "url": a["url"],
@@ -55,7 +57,12 @@ def discord(alerts):
             if a.get("image"):
                 e["thumbnail"] = {"url": a["image"]}
             embeds.append(e)
-        content = "💸 **Deal alert**" if any(a["kind"] == "deal" for a in alerts[i:i + 10]) else "🍒 New finds"
+        if any(a["kind"] == "deal" for a in chunk):
+            content = "💸 **Deal alert**"
+        elif any(a["kind"] != "kept" for a in chunk):
+            content = "🍒 New finds"
+        else:
+            content = "💌 She kept some"
         r = requests.post(url, json={"content": content, "embeds": embeds}, timeout=30)
         r.raise_for_status()
     return True
@@ -71,7 +78,7 @@ def ntfy(alerts):
         headers = {
             "Title": _headline(a).encode("utf-8"),
             "Click": a["url"] or "",
-            "Tags": "cherries" if a["kind"] != "deal" else "moneybag,cherries",
+            "Tags": "moneybag,cherries" if a["kind"] == "deal" else ("heart" if a["kind"] == "kept" else "cherries"),
             "Priority": "high" if a["kind"] == "deal" else "default",
         }
         if a.get("image"):
@@ -99,17 +106,24 @@ def telegram(alerts):
 
 
 # ---------- Email ----------
-def email(alerts):
+def email_lines(alerts, kept):
+    lines = [f"{_headline(a)}\n{a['title']}\n{_body_line(a)}\n{a['url']}\n" for a in alerts]
+    if kept:
+        lines.append("---- She kept ----\n")
+        lines += [f"{_headline(a)}\n{a['title']}\n{_body_line(a)}\n{a['url']}\n" for a in kept]
+    return lines
+
+
+def email(alerts, kept=None):
     host = os.environ.get("SMTP_HOST")
     to = os.environ.get("EMAIL_TO")
     if not host or not to:
         return False
-    lines = []
-    for a in alerts:
-        lines.append(f"{_headline(a)}\n{a['title']}\n{_body_line(a)}\n{a['url']}\n")
-    msg = MIMEText("\n".join(lines))
+    kept = kept or []
+    msg = MIMEText("\n".join(email_lines(alerts, kept)))
     deals = sum(1 for a in alerts if a["kind"] == "deal")
-    msg["Subject"] = f"Bag tracker: {len(alerts)} new" + (f", {deals} deal" if deals else "")
+    subject = f"Bag tracker: {len(alerts)} new" + (f", {deals} deal" if deals else "") + (f", {len(kept)} kept" if kept else "")
+    msg["Subject"] = subject
     msg["From"] = os.environ.get("SMTP_USER", "bag-tracker")
     msg["To"] = to
     with smtplib.SMTP(host, int(os.environ.get("SMTP_PORT", "587"))) as s:
@@ -120,14 +134,18 @@ def email(alerts):
     return True
 
 
-def send(alerts):
+def send(alerts, kept=None):
     """Fan out to every configured channel. Returns the list of channels that sent."""
-    if not alerts:
+    kept = kept or []
+    if not alerts and not kept:
         return []
     sent = []
-    for name, fn in (("discord", discord), ("ntfy", ntfy), ("telegram", telegram), ("email", email)):
+    for name, fn in (("discord", lambda: discord(alerts + kept)),
+                     ("ntfy", lambda: ntfy(alerts + kept)),
+                     ("telegram", lambda: telegram(alerts + kept)),
+                     ("email", lambda: email(alerts, kept))):
         try:
-            if fn(alerts):
+            if fn():
                 sent.append(name)
         except Exception as e:  # one channel failing must not block the others
             print(f"[notify] {name} failed: {e}")
