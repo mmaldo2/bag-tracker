@@ -439,16 +439,22 @@
     if (o && (!s || o.t >= (s.t || ""))) return o.status;
     return s ? s.status : "wanted";
   }
+  var GRACE_MS = 2 * 60 * 1000;  // how much newer the server file must be before "absent" means "cleared"
+  function newerBy(a, b, ms) { var da = new Date(a), db = new Date(b); return !isNaN(da) && !isNaN(db) && (da - db) > ms; }
   function pruneOverlay() {
     var fetched = verdicts.fetched || "";
+    var queued = {};
+    queue.forEach(function (q) { queued[q.kind + ":" + q.key] = true; });
     Object.keys(overlay).forEach(function (k) {
       var o = overlay[k], s = verdicts.listings[k];
-      if (s && (s.t || "") >= o.t) delete overlay[k];
-      else if (!s && o.v === null && fetched >= o.t) delete overlay[k];
+      if (s && (s.t || "") >= o.t) delete overlay[k];                       // server caught up
+      else if (!s && o.v === null && fetched >= o.t) delete overlay[k];    // our undo landed
+      else if (!s && !queued["listing:" + k] && newerBy(fetched, o.t, GRACE_MS)) delete overlay[k];  // server cleared it
     });
     Object.keys(bagOverlay).forEach(function (k) {
       var o = bagOverlay[k], s = verdicts.bags[k];
       if (s && (s.t || "") >= o.t) delete bagOverlay[k];
+      else if (!s && !queued["bag:" + k] && newerBy(fetched, o.t, GRACE_MS)) delete bagOverlay[k];
     });
     writeLS("overlay", overlay); writeLS("bagOverlay", bagOverlay);
   }
@@ -713,6 +719,15 @@
     $("badge").textContent = n ? String(n) : "";
   }
   function render() { renderReview(); renderKept(); renderBadge(); }
+
+  // ---------- reset (open the page with ?reset to forget every swipe made on this device) ----------
+  if (/[?&]reset\b/.test(location.search)) {
+    Object.keys(overlay).forEach(function (k) { if (overlay[k] && overlay[k].v) queue.push({ kind: "listing", key: k, value: "clear" }); });
+    Object.keys(bagOverlay).forEach(function (k) { queue.push({ kind: "bag", key: k, value: "clear" }); });
+    overlay = {}; bagOverlay = {}; history = [];
+    writeLS("overlay", overlay); writeLS("bagOverlay", bagOverlay); writeLS("queue", queue);
+    try { window.history.replaceState(null, "", location.pathname); } catch (e) {}
+  }
 
   // ---------- load ----------
   function getJSON(name) {

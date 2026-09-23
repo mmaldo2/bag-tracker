@@ -198,3 +198,45 @@ def test_vertical_drag_does_not_move_card(page):
     assert transform in ("", "none"), transform
     assert "Chelsea one" in page.locator(".card:not(.next) h3").inner_text()
     assert page.posts == []
+
+
+def _seed_overlay(pg, site, key, t_iso):
+    pg.goto(site)
+    pg.wait_for_selector(".card")
+    pg.evaluate("([k, t]) => localStorage.setItem('finds:overlay', JSON.stringify({[k]: {v: 'no', t}}))", [key, t_iso])
+
+
+def test_local_swipe_forgotten_once_server_cleared_it(site):
+    import datetime as dt
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        pg = browser.new_page(viewport={"width": 390, "height": 844})
+        old = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(minutes=10)).isoformat()
+        _seed_overlay(pg, site, "mercari:m1", old)
+        pg.reload(); pg.wait_for_selector(".card")
+        assert "Chelsea one" not in pg.locator(".card:not(.next) h3").inner_text()  # fixture verdicts.json is older: swipe still honoured
+        fresh = dt.datetime.now(dt.timezone.utc).isoformat()
+        pg.route("**/verdicts.json", lambda r: r.fulfill(status=200, content_type="application/json",
+                                                         body=json.dumps({"fetched": fresh, "listings": {}, "bags": {}})))
+        pg.reload(); pg.wait_for_selector(".card")
+        assert "Chelsea one" in pg.locator(".card:not(.next) h3").inner_text()
+        assert pg.evaluate("JSON.parse(localStorage.getItem('finds:overlay') || '{}')") == {}
+        browser.close()
+
+
+def test_reset_param_forgets_local_swipes_and_clears_server(site):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        pg = browser.new_page(viewport={"width": 390, "height": 844})
+        posts = []
+        pg.add_init_script("window.WORKER_URL_OVERRIDE = 'https://worker.test'")
+        pg.route("https://worker.test/v", lambda r: (posts.append(json.loads(r.request.post_data or "{}")), r.fulfill(status=204)))
+        _seed_overlay(pg, site, "mercari:m1", "2026-09-23T18:25:00.000Z")
+        pg.reload(); pg.wait_for_selector(".card")
+        assert pg.locator("#badge").inner_text() == "2"
+        pg.goto(site + "?reset"); pg.wait_for_selector(".card")
+        assert pg.locator("#badge").inner_text() == "3"
+        assert "reset" not in pg.url
+        _wait_for_posts(pg, 1) if False else pg.wait_for_timeout(500)
+        assert {"kind": "listing", "key": "mercari:m1", "value": "clear"}.items() <= posts[-1].items()
+        browser.close()

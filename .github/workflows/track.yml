@@ -1,4 +1,5 @@
 name: bag tracker
+# Schedules below are registered by GitHub when this file changes on the default branch.
 
 on:
   schedule:
