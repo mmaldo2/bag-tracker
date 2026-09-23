@@ -1,0 +1,5 @@
+.env
+state/probe/
+__pycache__/
+.venv/
+state/browser-profile/

@@ -1,0 +1,169 @@
+# Bag tracker configuration.
+#
+# Matching works on listing titles (lowercased).
+#   must:     a list of groups; every group must be satisfied, a group is satisfied
+#             if ANY of its terms appears in the title.  So
+#               must: [[coach], [soho], [flap, "1463", "1444"]]
+#             means "coach" AND "soho" AND ("flap" OR "1463" OR "1444").
+#   exclude:  if ANY of these appears, the listing is ignored for this bag.
+#   max_price: listings above this are ignored (asking price, before shipping).
+#   deal_price: at or below this you get the loud alert.
+#   ebay_queries: what the tracker types into eBay AND Poshmark for this bag (both free, every cycle).
+#   extra_queries: shorter queries for the browser-driven sources (Depop, Mercari, or Apify if enabled).
+#                  Only the rare bags have them; the common bags are well covered by eBay + Poshmark.
+
+global_exclude:
+  - wallet
+  - wristlet
+  - keychain
+  - key fob
+  - coin purse
+  - cosmetic
+  - makeup bag
+  - dupe
+  - inspired
+  - replica
+  - lot of
+  - bundle
+  - flats
+  - sandal
+  - boot
+  - heel
+  - scarf
+  - hat
+  - belt
+  - phone case
+  - sleeve
+  - planner
+  - strap only
+  - charm only
+  - sneaker
+  - shoe
+  - sunglasses
+
+bags:
+  - id: black-flap-1463
+    name: "Black Signature Flap #1463 / #1444"
+    must: [[coach], ["1463", "1444"], [black], [signature, jacquard, canvas, "sig c"]]
+    exclude: [brown, khaki, pink, red, white, patchwork, tassel, crossbody]
+    max_price: 220
+    deal_price: 110
+    ebay_queries:
+      - "coach 1463 black"
+      - "coach 1444 black"
+      - "coach signature flap black silver buckle"
+
+  - id: black-soho-satchel
+    name: "Black Soho Signature Satchel (Boston)"
+    must: [[coach], [soho, boston, satchel], [black], [signature, jacquard, canvas, "sig c"]]
+    exclude: [brown, khaki, pink, patchwork, hobo, tote, flap, ashley, stripe, oversized, messenger, crossbody, floral, mini]
+    max_price: 160
+    deal_price: 75
+    ebay_queries:
+      - "coach soho signature satchel black"
+      - "coach signature boston bag black silver"
+
+  - id: black-soho-flap-shoulder
+    name: "Black Soho Signature Flap Shoulder Bag"
+    must: [[coach], [soho], [flap, shoulder], [black], [signature, jacquard, canvas, "sig c"]]
+    exclude: [brown, khaki, pink, patchwork, "1463", "1444", crossbody, "9480"]
+    max_price: 150
+    deal_price: 65
+    ebay_queries:
+      - "coach soho signature flap shoulder bag black"
+
+  - id: brown-large-soho-flap
+    name: "Brown Large Soho Flap (khaki / mahogany)"
+    must: [[coach], [soho], [flap], [brown, khaki, mahogany, tan], [signature, jacquard, canvas, "sig c"]]
+    exclude: [black, pink, patchwork, small, mini, crossbody]
+    max_price: 150
+    deal_price: 60
+    ebay_queries:
+      - "coach soho signature flap large khaki brown"
+
+  - id: bonnie-satchel
+    name: "Brown Bonnie Satchel Shoulder Bag"
+    must: [[coach], [bonnie, "buckle strap", "buckle straps", "silver rings"], [brown, mahogany, chocolate]]
+    exclude: [black, pink, patchwork, poppy, wallet]
+    max_price: 170
+    deal_price: 80
+    ebay_queries:
+      - "coach bonnie signature satchel brown"
+      - "coach signature satchel brown silver rings buckle straps"
+
+  - id: chelsea-braided
+    name: "Brown Chelsea Optic Satchel, braided handles"
+    must: [[coach], [chelsea], [optic, braided, "turn lock", turnlock], [satchel, braided, handbag]]
+    exclude: [black, pink, hobo, wallet, heritage stripe, crossbody, tote]
+    max_price: 240
+    deal_price: 120
+    ebay_queries:
+      - "coach chelsea optic signature braided satchel"
+      - "coach chelsea turnlock satchel brown braided handles"
+    extra_queries:
+      - "coach chelsea braided"
+      - "coach chelsea optic satchel"
+
+  - id: brown-soho-satchel
+    name: "Brown Soho Signature Satchel (Boston)"
+    must: [[coach], [soho, boston, satchel], [brown, khaki, mahogany], [signature, jacquard, canvas, "sig c"]]
+    exclude: [black, pink, patchwork, hobo, tote, chelsea, flap, messenger, crossbody, stripe, duffle, red, beige]
+    max_price: 170
+    deal_price: 80
+    ebay_queries:
+      - "coach soho signature satchel khaki brown"
+
+  - id: patchwork-leopard-tote
+    name: "Signature Patchwork Gallery Tote, leopard patch"
+    must: [[coach], [patchwork], [tote, gallery, "11495", "12843", "12527"]]
+    exclude: [black, pink, purple, denim, white, "hampton", "carly", hobo, wallet]
+    max_price: 240
+    deal_price: 110
+    ebay_queries:
+      - "coach patchwork tote leopard"
+      - "coach signature patchwork gallery tote cheetah"
+      - "coach patchwork 11495"
+    extra_queries:
+      - "coach patchwork tote"
+      - "coach patchwork leopard"
+
+  - id: poppy-pink-double-pocket
+    name: "Poppy Signature Double Pocket, pink trim"
+    must: [[coach], [poppy], [signature, jacquard, "sig c", canvas], [pink], ["double pocket", pocket, "push lock", pushlock, khaki]]
+    exclude: [black, purple, tartan, plaid, sequin, glam, wallet, wristlet, tote, groovy, kyra, daisy, demi, sateen, stripe, multicolor, orange, applique, crossbody]
+    max_price: 180
+    deal_price: 80
+    ebay_queries:
+      - "coach poppy signature pink pocket bag"
+      - "coach poppy khaki pink patent"
+    extra_queries:
+      - "coach poppy pink"
+      - "coach poppy signature"
+
+# Notify when a listing you've already seen drops in price by at least this fraction.
+price_drop_fraction: 0.15
+
+# Forget listings older than this so the state file stays small.
+seen_ttl_days: 90
+
+# Broad queries run on every "deep" source (Depop, Mercari, Apify) in addition to each bag's extra_queries.
+sweep_queries:
+  - "vintage coach signature"
+
+# How many results to pull per query on the browser-driven sources.
+deep_limit: 24
+
+ebay:
+  marketplace: EBAY_US
+  limit: 50            # results per query, max 200
+  # Applied to every eBay query. Keeps auctions AND buy-it-now.
+  extra_filters: "priceCurrency:USD"
+
+# Optional paid fallback. Only used with `--sources apify` and an APIFY_TOKEN. Uses sweep_queries + extra_queries.
+apify:
+  actor: "crawlerbros~mercari-poshmark-depop-scraper"
+  platforms: [mercari, depop]
+  sort_by: newest      # if the actor rejects this, check its Input tab for accepted values ("relevance" always works)
+  max_items: 15        # per query per platform. This number times queries times platforms times runs/day is your bill.
+  poll_seconds: 15
+  max_wait_seconds: 900
