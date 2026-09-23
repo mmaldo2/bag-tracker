@@ -7,4 +7,4 @@ ALLOWED_ORIGIN = "https://mmaldo2.github.io"
 
 [[kv_namespaces]]
 binding = "VERDICTS"
-id = "filled-in-by-step-5"
+id = "fb180e02dd8347dfb5f9f891604c9b29"
