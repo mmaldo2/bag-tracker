@@ -46,13 +46,13 @@
   button { font: inherit; color: inherit; cursor: pointer; }
   [hidden] { display: none !important; }
 
-  .top { flex: 0 0 auto; text-align: center; padding: 10px 0 6px; }
+  .top { flex: 0 0 auto; text-align: center; padding: 10px 0 6px; position: relative; z-index: 0; }
   .top h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 500; letter-spacing: .01em; }
   .top .sub { margin: 4px 0 0; font-style: italic; color: var(--cocoa-soft); font-size: 1rem; }
-  main { width: 100%; max-width: 1120px; margin: 0 auto; flex: 1 1 auto; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; }
+  main { width: 100%; max-width: 1120px; margin: 0 auto; flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
   .tab { display: none; }
-  .tab.active { display: block; flex: 0 0 auto; }
-  #tab-review.active { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; }
+  .tab.active { display: block; flex: 1 1 auto; min-height: 0; overflow-y: auto; }
+  #tab-review.active { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; overflow: visible; }
 
   /* ---------- title box + lace rule ---------- */
   .titlebox {
@@ -75,7 +75,8 @@
     touch-action: pan-y; user-select: none; -webkit-user-select: none; will-change: transform;
     transition: transform .25s ease, box-shadow .25s ease;
   }
-  .card.dragging { transition: none; }
+  .card.dragging { transition: none; z-index: 3; }
+  .stack { z-index: 2; }
   .card.next { transform: scale(.96) translateY(12px); box-shadow: none; pointer-events: none; }
   .card .photo { position: relative; flex: 1 1 auto; min-height: 0; background: var(--cream); overflow: hidden; }
   .card .photo a { display: block; height: 100%; -webkit-user-drag: none; }
