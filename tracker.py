@@ -8,6 +8,7 @@
   python tracker.py --init             # record everything currently listed WITHOUT alerting (do this once)
   python tracker.py --dry-run          # show what would be sent; don't notify, don't save
   python tracker.py --probe depop|mercari|poshmark|apify:depop   # print a raw result to debug a source
+  python sync_verdicts.py           # pull her swipe verdicts from the Worker (run before tracker.py)
 """
 import argparse
 import json
@@ -21,9 +22,14 @@ import yaml
 
 from sources import ebay, poshmark, depop, mercari, apify_actor
 import notify
+import finds as finds_mod
+import verdicts as verdicts_mod
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(ROOT, "state", "seen.json")
+FINDS = os.path.join(ROOT, "docs", "finds.json")
+VERDICTS = os.path.join(ROOT, "state", "verdicts.json")
+VERDICTS_SITE = os.path.join(ROOT, "docs", "verdicts.json")
 
 
 # ---------- matching ----------
@@ -194,6 +200,14 @@ def main():
         print(json.dumps(rec, indent=2)[:6000])
         return
 
+    verdicts = verdicts_mod.load(VERDICTS)
+    all_bag_names = {b["id"]: b["name"] for b in bags}
+    owned = verdicts_mod.owned_bags(verdicts) & set(all_bag_names)
+    if owned:
+        log(f"skipping owned bags: {', '.join(sorted(owned))}")
+    bags = [b for b in bags if b["id"] not in owned]
+    rejected = verdicts_mod.rejected(verdicts)
+
     groups = {
         "ebay": ["ebay"], "poshmark": ["poshmark"], "depop": ["depop"], "mercari": ["mercari"], "apify": ["apify"],
         "cloud": ["ebay", "poshmark"], "home": ["depop", "mercari"], "all": ["ebay", "poshmark", "depop", "mercari"],
@@ -212,10 +226,16 @@ def main():
     log(f"{len(uniq)} unique listings fetched")
 
     state = load_state()
-    now = datetime.now(timezone.utc).isoformat()
+    now_dt = datetime.now(timezone.utc)
+    now = now_dt.isoformat()
     alerts = []
+    matched_recs = []
     matched = 0
+    skipped_rejected = 0
     for key, l in uniq.items():
+        if key in rejected:
+            skipped_rejected += 1
+            continue
         bag = classify(l, bags, gex)
         if not bag:
             continue
@@ -227,36 +247,53 @@ def main():
             kind = "deal" if (price is not None and bag.get("deal_price") and price <= bag["deal_price"]) else "new"
             alerts.append({**base, "kind": kind})
             state[key] = {"bag": bag["id"], "price": price, "first_seen": now, "last_seen": now, "title": l["title"]}
+            matched_recs.append({"key": key, "bag": bag["id"], "listing": l, "kind": kind, "old_price": None, "first_seen": now})
         else:
             old = prev.get("price")
             frac = cfg.get("price_drop_fraction", 0.15)
+            akind = None
             if price is not None and old and price <= old * (1 - frac):
-                kind = "deal" if (bag.get("deal_price") and price <= bag["deal_price"]) else "drop"
-                alerts.append({**base, "kind": kind, "old_price": old})
+                akind = "deal" if (bag.get("deal_price") and price <= bag["deal_price"]) else "drop"
+                alerts.append({**base, "kind": akind, "old_price": old})
                 prev["price"] = price
             prev["last_seen"] = now
+            matched_recs.append({"key": key, "bag": bag["id"], "listing": l, "kind": akind,
+                                 "old_price": old if akind else None, "first_seen": prev.get("first_seen") or now})
 
-    log(f"{matched} matched a bag, {len(alerts)} alerts")
+    finds_list = finds_mod.load(FINDS)
+    keep_keys = set(verdicts_mod.unnotified_keeps(verdicts))
+    kept = [{**f, "bag": all_bag_names.get(f["bag"], f["bag"]), "bag_id": f["bag"], "kind": "kept"}
+            for f in finds_list if f["key"] in keep_keys]
+
+    log(f"{matched} matched a bag, {len(alerts)} alerts, {len(kept)} newly kept"
+        + (f", {skipped_rejected} rejected skipped" if skipped_rejected else ""))
+
+    def persist():
+        save_state(state, cfg.get("seen_ttl_days", 90))
+        finds_mod.save(FINDS, finds_mod.update(finds_list, matched_recs, rejected, now_dt), bags, now_dt)
 
     if args.init:
         log("init: recorded current listings, no alerts sent")
-        save_state(state, cfg.get("seen_ttl_days", 90))
+        persist()
         return
 
     # Loud first, then newest.
     alerts.sort(key=lambda a: ({"deal": 0, "drop": 1, "new": 2}[a["kind"]], a.get("created") or ""), reverse=False)
-    for a in alerts:
+    for a in alerts + kept:
         log(f"  [{a['kind']:<4}] {a['bag']:<45} ${a['price'] or 0:>6.0f}  {a['source']:<9} {a['title'][:70]}")
 
     if args.dry_run:
         log("dry run: nothing sent, state not saved")
         return
 
-    sent = notify.send(alerts)
-    if alerts and not sent:
+    sent = notify.send(alerts, kept)
+    if (alerts or kept) and not sent:
         log("WARNING: alerts found but no notification channel is configured; state NOT saved so they resend next run")
         sys.exit(2)
-    save_state(state, cfg.get("seen_ttl_days", 90))
+    persist()
+    if kept:
+        verdicts_mod.mark_notified(verdicts, [k["key"] for k in kept])
+        verdicts_mod.save(verdicts, VERDICTS, VERDICTS_SITE)
     log(f"sent via {sent}" if sent else "nothing to send")
 
 
