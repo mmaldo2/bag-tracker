@@ -26,12 +26,18 @@ def main():
         r = requests.get(url.rstrip("/") + "/v", headers={"Authorization": f"Bearer {token}"}, timeout=30)
         r.raise_for_status()
         fetched = r.json()
+        if not isinstance(fetched, dict):
+            raise ValueError("payload is not an object")
     except Exception as e:
         print(f"verdicts: fetch failed, keeping previous file: {e}", flush=True)
         return 0
-    existing = verdicts_mod.load(STATE_PATH)
-    merged = verdicts_mod.merge(existing, fetched, datetime.now(timezone.utc).isoformat())
-    verdicts_mod.save(merged, STATE_PATH, SITE_PATH)
+    try:
+        existing = verdicts_mod.load(STATE_PATH)
+        merged = verdicts_mod.merge(existing, fetched, datetime.now(timezone.utc).isoformat())
+        verdicts_mod.save(merged, STATE_PATH, SITE_PATH)
+    except Exception as e:
+        print(f"verdicts: merge failed, keeping previous file: {e}", flush=True)
+        return 0
     print(f"verdicts: {len(merged['listings'])} listing verdicts, {len(merged['bags'])} bag statuses", flush=True)
     return 0
 
