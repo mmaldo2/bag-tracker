@@ -1,3 +1,7 @@
 * text=auto eol=lf
 *.png binary
 *.jpg binary
+state/seen.json merge=jsonstate
+state/verdicts.json merge=jsonstate
+docs/finds.json merge=jsonstate
+docs/verdicts.json merge=jsonstate
