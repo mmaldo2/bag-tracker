@@ -6,8 +6,8 @@ const VALUES = {
   bag: new Set(["wanted", "found", "owned", "clear"]),
 };
 const KEY_RE = {
-  listing: /^(ebay|poshmark|depop|mercari):[A-Za-z0-9_.-]{1,120}$/,   // Depop ids are slugs
-  bag: /^[a-z0-9-]{1,40}$/,                                          // bag ids from config.yaml
+  listing: /^(ebay|poshmark|depop|mercari):[A-Za-z0-9_.|-]{1,120}$/,  // eBay Browse ids look like v1|254582474636|0
+  bag: /^[a-z0-9-]{1,40}$/,                                           // bag ids from config.yaml
 };
 const TTL_SECONDS = 60 * 24 * 3600;
 
