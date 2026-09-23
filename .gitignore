@@ -3,3 +3,6 @@ state/probe/
 __pycache__/
 .venv/
 state/browser-profile/
+worker/node_modules/
+worker/.wrangler/
+worker/.dev.vars
