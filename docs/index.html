@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vintage Coach Bags</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    box-sizing: border-box;
+    --bg: #E9A7AC; --bg-deep: #DB929A; --cream: #F7EBDC; --cream-2: #FBF3E8;
+    --cocoa: #5B2A14; --cocoa-soft: #7A4630; --lace: #9C5D58; --rule: rgba(91,42,20,.45);
+    --tag-rare: #7A1F2B; --tag-uncommon: #8A5A1E; --tag-common: #4E6B3A;
+    --shadow: 0 10px 30px rgba(91,42,20,.18);
+    --display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    --body: "EB Garamond", Georgia, "Times New Roman", serif;
+    --nav-h: 64px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #4A2A30; --bg-deep: #3C2026; --cream: #F3E3D6; --cream-2: #5A363C;
+      --cocoa: #F6E6DA; --cocoa-soft: #E2C7B8; --lace: #D69AA0; --rule: rgba(246,230,218,.45);
+      --tag-rare: #F1A6B0; --tag-uncommon: #F0C98A; --tag-common: #B9D9A3;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #4A2A30; --bg-deep: #3C2026; --cream: #F3E3D6; --cream-2: #5A363C;
+    --cocoa: #F6E6DA; --cocoa-soft: #E2C7B8; --lace: #D69AA0; --rule: rgba(246,230,218,.45);
+    --tag-rare: #F1A6B0; --tag-uncommon: #F0C98A; --tag-common: #B9D9A3;
+    --shadow: 0 10px 30px rgba(0,0,0,.35);
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html { height: 100%; }
+  body {
+    margin: 0; min-height: 100%; background: var(--bg); color: var(--cocoa);
+    font-family: var(--body); font-size: 1.08rem; line-height: 1.5; -webkit-font-smoothing: antialiased;
+    padding: env(safe-area-inset-top, 0px) 16px calc(var(--nav-h) + env(safe-area-inset-bottom, 0px)) 16px;
+    overflow-x: hidden;
+  }
+  a { color: inherit; }
+  img { max-width: 100%; display: block; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 600; margin: 0; line-height: 1.1; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  [hidden] { display: none !important; }
+
+  .top { text-align: center; padding: 18px 0 10px; }
+  .top h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 500; letter-spacing: .01em; }
+  .top .sub { margin: 4px 0 0; font-style: italic; color: var(--cocoa-soft); font-size: 1rem; }
+  main { max-width: 1120px; margin: 0 auto; }
+  .tab { display: none; }
+  .tab.active { display: block; }
+
+  /* ---------- title box + lace rule ---------- */
+  .titlebox {
+    border: 1px solid var(--rule); padding: 8px 16px 10px; margin: 26px 0 26px;
+    display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  }
+  .titlebox h2 { font-size: clamp(1.6rem, 4.5vw, 2.3rem); font-weight: 500; }
+  .titlebox .sub { font-style: italic; color: var(--cocoa-soft); }
+  .lace-rule {
+    height: 10px; margin: -18px 0 22px;
+    background: radial-gradient(circle at 5px 5px, var(--lace) 3px, transparent 3.5px) 0 0 / 10px 10px repeat-x;
+    opacity: .75;
+  }
+
+  /* ---------- review stack ---------- */
+  .stack { position: relative; height: min(72vh, 680px); max-width: 480px; margin: 6px auto 0; touch-action: pan-y; }
+  .card {
+    position: absolute; inset: 0; display: flex; flex-direction: column;
+    background: var(--cream-2); border: 1px solid var(--rule); padding: 10px; box-shadow: var(--shadow);
+    touch-action: none; user-select: none; -webkit-user-select: none; will-change: transform;
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .card.dragging { transition: none; }
+  .card.next { transform: scale(.96) translateY(12px); box-shadow: none; pointer-events: none; }
+  .card .photo { position: relative; flex: 1 1 auto; min-height: 0; background: var(--cream); overflow: hidden; }
+  .card .photo a { display: block; height: 100%; -webkit-user-drag: none; }
+  .card .photo img.main { width: 100%; height: 100%; object-fit: cover; -webkit-user-drag: none; }
+  .card .ref {
+    position: absolute; left: 10px; bottom: 10px; width: 84px; height: 84px; padding: 3px;
+    background: var(--cream-2); border: 1px solid var(--rule); box-shadow: var(--shadow);
+  }
+  .card .ref img { width: 100%; height: 100%; object-fit: cover; }
+  .card .ref::after {
+    content: "hers"; position: absolute; left: 0; right: 0; bottom: -1px; font-size: .72rem; text-align: center;
+    background: var(--cream-2); color: var(--cocoa-soft); font-style: italic;
+  }
+  .stamp {
+    position: absolute; top: 18px; padding: 4px 12px; font-family: var(--display); font-size: 1.5rem; font-weight: 600;
+    border: 2px solid; opacity: 0; transform: rotate(-12deg); transition: opacity .15s;
+  }
+  .stamp.no { right: 16px; color: #7A1F2B; border-color: #7A1F2B; transform: rotate(12deg); }
+  .stamp.keep { left: 16px; color: #4E6B3A; border-color: #4E6B3A; }
+  .card.lean-no .stamp.no, .card.lean-keep .stamp.keep { opacity: 1; }
+  .card .info { padding: 10px 4px 2px; display: grid; gap: 4px; }
+  .card .row { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; font-size: 1rem; color: var(--cocoa-soft); }
+  .card .price { font-family: var(--display); font-size: 1.6rem; font-weight: 600; color: var(--cocoa); }
+  .card .price.deal { color: #C0392B; }
+  .card .price.deal::after { content: " deal"; font-size: .95rem; font-style: italic; font-weight: 500; }
+  .card .was { text-decoration: line-through; }
+  .card .stale { font-style: italic; color: var(--tag-uncommon); }
+  .card h3 { font-size: 1.25rem; font-weight: 600; line-height: 1.2; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .bagline { margin: 0; font-size: .98rem; color: var(--cocoa-soft); font-style: italic; }
+  .card .note { margin: 0; font-size: .95rem; color: var(--cocoa-soft); }
+  .actions { display: flex; justify-content: center; gap: 28px; margin: 18px 0 8px; }
+  .actions button {
+    width: 64px; height: 64px; border-radius: 50%; border: 1px solid var(--rule); background: var(--cream-2);
+    font-family: var(--display); font-size: 1.7rem; box-shadow: var(--shadow);
+  }
+  .actions button:hover, .actions button:focus-visible { background: var(--cocoa); color: var(--cream); outline: none; }
+  .actions button[disabled] { opacity: .35; cursor: default; }
+  .empty { text-align: center; padding: 40px 12px; font-style: italic; color: var(--cocoa-soft); }
+  .empty strong { font-style: normal; font-family: var(--display); font-size: 1.5rem; display: block; color: var(--cocoa); font-weight: 500; }
+  .saving { text-align: center; font-size: .9rem; font-style: italic; color: var(--tag-uncommon); }
+
+  /* ---------- kept ---------- */
+  .kept-group { margin-bottom: 26px; }
+  .kept-group h3 { font-size: 1.4rem; margin-bottom: 8px; }
+  .krow {
+    display: grid; grid-template-columns: 72px 1fr auto; gap: 12px; align-items: center;
+    background: var(--cream-2); border: 1px solid var(--rule); padding: 8px; margin-bottom: 8px;
+  }
+  .krow img { width: 72px; height: 72px; object-fit: cover; }
+  .krow .t { font-weight: 500; line-height: 1.25; }
+  .krow .m { font-size: .95rem; color: var(--cocoa-soft); }
+  .krow .m .deal { color: #C0392B; }
+  .krow .x { border: 1px solid var(--rule); background: none; padding: 4px 10px; font-size: .9rem; }
+  .krow .x:hover { background: var(--cocoa); color: var(--cream); }
+
+  /* ---------- bags ---------- */
+  .bags { display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); align-items: start; }
+  .bag { display: grid; gap: 12px; }
+  .bag .frame { background: var(--cream-2); border: 1px solid var(--rule); padding: 10px; box-shadow: var(--shadow); }
+  .bag .frame img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+  .bag h3 { font-size: 1.55rem; font-weight: 600; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: .98rem; color: var(--cocoa-soft); }
+  .tag { font-style: italic; }
+  .tag.rare { color: var(--tag-rare); } .tag.uncommon { color: var(--tag-uncommon); } .tag.common { color: var(--tag-common); }
+  .bag p { margin: 0; }
+  .bag .note { color: var(--cocoa-soft); font-size: 1rem; }
+  .hunt { display: flex; flex-wrap: wrap; gap: 6px 8px; margin-top: 2px; }
+  .hunt a { text-decoration: none; border: 1px solid var(--rule); padding: 4px 10px; font-size: .95rem; background: var(--cream-2); color: var(--cocoa); }
+  .hunt a:hover, .hunt a:focus-visible { background: var(--cocoa); color: var(--cream); outline: none; }
+  .status { display: flex; align-items: center; gap: 8px; font-size: .98rem; color: var(--cocoa-soft); flex-wrap: wrap; }
+  .seg { display: inline-flex; border: 1px solid var(--rule); }
+  .seg button { background: var(--cream-2); border: 0; border-right: 1px solid var(--rule); padding: 4px 10px; font-size: .95rem; }
+  .seg button:last-child { border-right: 0; }
+  .seg button.on { background: var(--cocoa); color: var(--cream); }
+  .owned-note { font-size: .9rem; font-style: italic; color: var(--cocoa-soft); }
+
+  /* ---------- prose ---------- */
+  details.fold { border-top: 1px solid var(--rule); margin-top: 22px; }
+  details.fold summary { cursor: pointer; padding: 12px 0; font-family: var(--display); font-size: 1.6rem; font-weight: 500; list-style: none; display: flex; justify-content: space-between; align-items: baseline; }
+  details.fold summary::-webkit-details-marker { display: none; }
+  details.fold summary::after { content: "+"; font-size: 1.6rem; }
+  details.fold[open] summary::after { content: "−"; }
+  details.fold summary .sub { font-family: var(--body); font-size: 1rem; font-style: italic; color: var(--cocoa-soft); font-weight: 400; }
+  details.fold .body { padding-bottom: 18px; }
+  .cols { display: grid; gap: 22px 40px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .platform { border-top: 1px solid var(--rule); padding-top: 12px; }
+  .platform h3 { font-size: 1.5rem; }
+  .platform p { margin: 6px 0 0; }
+  .platform .how { font-style: italic; color: var(--cocoa-soft); }
+  .platform a.go { display: inline-block; margin-top: 8px; font-size: .98rem; }
+  ul.check { padding-left: 1.2em; margin: 0; }
+  ul.check li { margin: 6px 0; }
+  .callout { background: var(--cream-2); border: 1px solid var(--rule); padding: 16px 20px; margin-top: 22px; }
+  .callout p { margin: 0; }
+  .recs { display: grid; gap: 18px 32px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .rec { border-top: 1px solid var(--rule); padding-top: 10px; }
+  .rec h3 { font-size: 1.5rem; }
+  .rec .why { margin: 4px 0 0; }
+  .rec .range { margin: 4px 0 0; color: var(--cocoa-soft); font-style: italic; font-size: 1rem; }
+  .rec .hunt { margin-top: 8px; }
+
+  /* ---------- bottom tabs ---------- */
+  .tabs {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; display: flex;
+    background: var(--cream); border-top: 1px solid rgba(91,42,20,.35);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .tabs button {
+    flex: 1; height: var(--nav-h); background: none; border: 0; color: #5B2A14;
+    font-family: var(--display); font-size: 1.2rem; font-weight: 600; position: relative;
+  }
+  .tabs button.on { color: #5B2A14; box-shadow: inset 0 3px 0 #5B2A14; }
+  .badge {
+    display: inline-block; min-width: 22px; padding: 0 6px; margin-left: 6px; border-radius: 11px;
+    background: #7A1F2B; color: #F7EBDC; font-family: var(--body); font-size: .85rem; line-height: 22px; vertical-align: middle;
+  }
+  .badge:empty { display: none; }
+
+  .toast {
+    position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--nav-h) + 14px + env(safe-area-inset-bottom, 0px));
+    z-index: 6; display: flex; gap: 14px; align-items: center;
+    background: #5B2A14; color: #F7EBDC; padding: 8px 14px; box-shadow: var(--shadow); font-size: 1rem;
+  }
+  .toast button { background: none; border: 1px solid rgba(247,235,220,.6); color: inherit; padding: 2px 10px; }
+  .lightbox { position: fixed; inset: 0; z-index: 7; background: rgba(60,20,10,.85); display: grid; place-items: center; padding: 24px; }
+  .lightbox img { max-height: 90vh; max-width: 100%; border: 6px solid var(--cream-2); }
+  @media (prefers-reduced-motion: reduce) { .card { transition: none; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>Vintage Coach Bags</h1>
+  <p class="sub" id="subline">Loading the latest finds…</p>
+</header>
+
+<main>
+  <section id="tab-review" class="tab active" aria-label="Review">
+    <div id="stack" class="stack"></div>
+    <div class="actions">
+      <button id="btn-no" type="button" aria-label="Not it">✕</button>
+      <button id="btn-keep" type="button" aria-label="Keep">♥</button>
+    </div>
+    <p id="saving" class="saving" hidden>Some verdicts haven't saved yet. They'll send when you're back online.</p>
+    <div id="review-empty" class="empty" hidden></div>
+  </section>
+
+  <section id="tab-kept" class="tab" aria-label="Kept">
+    <div class="titlebox"><h2>Kept</h2><span class="sub">the ones worth a closer look</span></div>
+    <div class="lace-rule"></div>
+    <div id="kept"></div>
+  </section>
+
+  <section id="tab-bags" class="tab" aria-label="Bags">
+    <div class="titlebox"><h2>Black Bags</h2><span class="sub">the three she reaches for first</span></div>
+    <div class="lace-rule"></div>
+    <div class="bags" data-group="black"></div>
+    <div class="titlebox"><h2>Brown Bags</h2><span class="sub">khaki, mahogany and chocolate</span></div>
+    <div class="lace-rule"></div>
+    <div class="bags" data-group="brown"></div>
+    <div class="titlebox"><h2>Misc.</h2><span class="sub">the two rare ones</span></div>
+    <div class="lace-rule"></div>
+    <div class="bags" data-group="misc"></div>
+
+    <details class="fold">
+      <summary>Where to Hunt <span class="sub">and how each place tells you something new showed up</span></summary>
+      <div class="body">
+        <div class="cols">
+          <div class="platform"><h3>Gem</h3><p>One search across eBay, Poshmark, Depop, Etsy, Mercari, The RealReal and hundreds of small vintage shops. The best first stop for anything on this list.</p><p class="how">Make a free account, search a bag, then save the search and turn on alerts.</p><a class="go" href="https://gem.app" target="_blank" rel="noopener">gem.app</a></div>
+          <div class="platform"><h3>eBay</h3><p>The deepest supply of Y2K Coach by far, and the only place with reliable sold-price history.</p><p class="how">Save a search sorted by "newly listed"; eBay emails once a day when new matches appear. Always check "sold items" before paying asking price.</p><a class="go" href="https://www.ebay.com/sch/i.html?_nkw=vintage+coach+signature+bag&_sop=10" target="_blank" rel="noopener">ebay.com</a></div>
+          <div class="platform"><h3>Mercari</h3><p>Cheaper than eBay for common bags, and sellers accept offers freely.</p><p class="how">Save a search and turn on notifications under Settings; pushes arrive with a delay, email arrives as a daily digest.</p><a class="go" href="https://www.mercari.com/search/?keyword=vintage%20coach%20signature" target="_blank" rel="noopener">mercari.com</a></div>
+          <div class="platform"><h3>Poshmark</h3><p>Lots of Coach, priced high but everyone haggles. Bundle two items from one closet for a discount.</p><p class="how">Tap the star to save a search. New matches only show as a red dot in your Saved tab, so open the app every day or two.</p><a class="go" href="https://poshmark.com/search?query=vintage%20coach%20signature&department=Women" target="_blank" rel="noopener">poshmark.com</a></div>
+          <div class="platform"><h3>Depop</h3><p>Where the "cherry charm on a Soho flap" crowd actually sells. Styled photos, quick turnover.</p><p class="how">Star a search to save it and opt in to notifications; Depop sends one weekly push per saved search, and saved searches can't be edited, only remade.</p><a class="go" href="https://www.depop.com/search/?q=vintage%20coach%20signature" target="_blank" rel="noopener">depop.com</a></div>
+          <div class="platform"><h3>Etsy</h3><p>Curated vintage sellers with good photos and honest condition notes. Slightly pricier, far fewer fakes.</p><p class="how">Favorite the shops that keep turning up; they restock in batches.</p><a class="go" href="https://www.etsy.com/search?q=vintage%20coach%20signature%20bag" target="_blank" rel="noopener">etsy.com</a></div>
+          <div class="platform"><h3>Beni</h3><p>A free app and browser extension that searches 40+ resale sites at once.</p><p class="how">Set an alert for a bag and it emails you when a match appears. A good backup to Gem.</p><a class="go" href="https://www.joinbeni.com" target="_blank" rel="noopener">joinbeni.com</a></div>
+        </div>
+        <div class="callout"><p>Search by style number wherever you can ("Coach 1463"), then by the name sellers actually use ("Coach Soho flap black"), then by the loose description ("Coach signature flap silver buckle"). Rare bags are usually listed by people who don't know what they have.</p></div>
+      </div>
+    </details>
+
+    <details class="fold">
+      <summary>Before You Buy <span class="sub">a two-minute check that saves the disappointment</span></summary>
+      <div class="body">
+        <div class="cols">
+          <div><h3>Ask the seller for</h3><ul class="check">
+            <li>A photo of the creed patch inside (the leather stamp with "No." and a code like F05K-1463). The last four digits are the style number.</li>
+            <li>The bottom corners. Jacquard wears through there first and it can't be fixed.</li>
+            <li>The inside lining under a light. Pen marks and makeup stains hide in the shadows.</li>
+            <li>Hardware close-ups. Silver plating flakes on the buckles and rings and shows brass underneath.</li>
+          </ul></div>
+          <div><h3>Signs it's real</h3><ul class="check">
+            <li>The Cs on the front are mirrored in pairs and sit centered and symmetrical, not sliced off at the seams.</li>
+            <li>Stitching is even and tight, especially where the leather trim meets fabric.</li>
+            <li>The hangtag is a plain leather lozenge with "COACH" stamped, on a chain or ring.</li>
+            <li>Under-$40 "new with tags" is a warning sign. These were $200 to $400 bags new.</li>
+          </ul></div>
+        </div>
+        <div class="callout"><p>A fair price: check eBay's sold listings for the same style, then aim for the middle. Ask about musty smell before buying; jacquard holds onto it. A little handle creasing and light corner scuffing are normal for twenty-year-old bags and are fine to pay less for.</p></div>
+      </div>
+    </details>
+
+    <details class="fold">
+      <summary>Beyond Coach <span class="sub">same era, same spirit, same budget</span></summary>
+      <div class="body"><div class="recs" data-group="recs1"></div></div>
+    </details>
+
+    <details class="fold">
+      <summary>Beyond Coach, a step up <span class="sub">the logo canvases these bags were dreaming of</span></summary>
+      <div class="body">
+        <div class="recs" data-group="recs2"></div>
+        <div class="callout"><p>And the cherries: the bag charm in every one of these photos is the thread that ties the whole collection together. Coach made its own enamel and acrylic cherry charms in the same years; Juicy Couture and Betsey Johnson made louder ones.
+          <span class="hunt" style="display:inline-flex;margin-left:8px;vertical-align:middle">
+            <a href="https://www.ebay.com/sch/i.html?_nkw=coach+cherry+bag+charm&_sop=10" target="_blank" rel="noopener">eBay</a>
+            <a href="https://www.depop.com/search/?q=cherry%20bag%20charm" target="_blank" rel="noopener">Depop</a>
+            <a href="https://www.etsy.com/search?q=cherry%20bag%20charm" target="_blank" rel="noopener">Etsy</a>
+          </span></p></div>
+      </div>
+    </details>
+
+    <details class="fold">
+      <summary>If You Only Do Three Things</summary>
+      <div class="body">
+        <ul class="check" style="font-size:1.15rem">
+          <li>Make a Gem account and save one search per bag with alerts on. That covers most of the internet at once.</li>
+          <li>Save the two rare ones (the leopard patchwork tote and the pink Poppy) on eBay, Mercari and Depop too. Those are the ones that vanish in an hour.</li>
+          <li>Before paying, look at eBay's sold listings for that style. Asking prices on Poshmark are a wish, not a price.</li>
+        </ul>
+        <div class="callout"><p>Your wanted / found / owned choices and your swipes are shared with the tracker, so marking a bag owned stops the searching for it, and anything you swipe away stays gone.</p></div>
+      </div>
+    </details>
+  </section>
+</main>
+
+<nav class="tabs" aria-label="Sections">
+  <button type="button" data-tab="review" class="on">Review<span class="badge" id="badge"></span></button>
+  <button type="button" data-tab="kept">Kept</button>
+  <button type="button" data-tab="bags">Bags</button>
+</nav>
+<div id="toast" class="toast" hidden><span id="toast-text"></span><button id="undo" type="button">Undo</button></div>
+<div id="lightbox" class="lightbox" hidden><img id="lightbox-img" alt="Her reference photo"></div>
+
+<script>
+(function () {
+  // ---------- config ----------
+  var WORKER_URL = window.WORKER_URL_OVERRIDE || "https://bag-verdicts.REPLACE-ME.workers.dev";
+  var TOKEN = "1f167927093e8b345a9429ab1b4f63d4efd60aef3d20cb67d34910f88deb3a7c";
+  var SRC = { ebay: "eBay", poshmark: "Poshmark", mercari: "Mercari", depop: "Depop" };
+
+  // ---------- her bags (ids match config.yaml) ----------
+  var BAGS = [
+    { id: "black-soho-satchel", group: "black", img: "img/black-soho-satchel.jpg",
+      name: "Soho Signature Satchel (Boston)", style: "mid-2000s, silver hardware, buckle-tab pockets",
+      rarity: "common", price: "$60 to $130",
+      note: "Turns up weekly. Hold out for clean corners and no lining stains.",
+      q: "Coach Soho signature satchel black" },
+    { id: "black-flap-1463", group: "black", img: "img/black-flap-1463.jpg",
+      name: "Signature Flap, #1463 / #1444", style: "1463 is the medium (12 × 7 in), 1444 the small (9 × 6 in)",
+      rarity: "common", price: "$80 to $180; new-with-tags runs higher",
+      note: "Search the number itself. The medium is far more common than the small.",
+      q: "Coach 1463 black signature flap", q2: "Coach 1444 black signature flap" },
+    { id: "black-soho-flap-shoulder", group: "black", img: "img/black-soho-flap-shoulder.jpg",
+      name: "Soho Signature Flap Shoulder Bag", style: "ring-linked leather strap, buckle flap, 2005 to 2007",
+      rarity: "common", price: "$50 to $120",
+      note: "Many sizes exist; the strap with the metal rings is the tell for this one.",
+      q: "Coach Soho signature flap shoulder bag black silver" },
+    { id: "brown-large-soho-flap", group: "brown", img: "img/brown-large-soho-flap.jpg",
+      name: "Large Soho Flap, khaki and mahogany", style: "brass buckle, suede-trimmed flap",
+      rarity: "common", price: "$50 to $120",
+      note: "The most plentiful Coach bag of its decade. Be picky about the suede on the flap.",
+      q: "Coach Soho signature flap khaki brown brass" },
+    { id: "bonnie-satchel", group: "brown", img: "img/bonnie-satchel.jpg",
+      name: "Bonnie Satchel Shoulder Bag, brown", style: "dark brown Signature, silver rings, buckled straps",
+      rarity: "uncommon", price: "$60 to $140",
+      note: "Sellers name this one inconsistently. Search by description, not just the name.",
+      q: "Coach signature satchel brown silver buckle straps", q2: "Coach Bonnie satchel brown" },
+    { id: "chelsea-braided", group: "brown", img: "img/chelsea-braided.jpg",
+      name: "Chelsea Optic Signature Satchel, braided handles", style: "turn-lock flap, optic C jacquard, 2005 to 2006",
+      rarity: "rare", price: "$90 to $200",
+      note: "The braided handles are the rare part; plain-handle Chelsea satchels are everywhere. Ask for a creed photo.",
+      q: "Coach Chelsea optic signature braided handle satchel", q2: "Coach Chelsea turnlock satchel brown" },
+    { id: "brown-soho-satchel", group: "brown", img: "img/brown-soho-satchel.jpg",
+      name: "Soho Signature Satchel (Boston), khaki", style: "silver hardware, twin buckle tabs, same body as the black",
+      rarity: "common", price: "$60 to $140",
+      note: "If the black one shows up first at a good price, this is the same bag in a different colorway.",
+      q: "Coach Soho signature satchel khaki brown" },
+    { id: "patchwork-leopard-tote", group: "misc", img: "img/patchwork-leopard-tote.jpg",
+      name: "Signature Patchwork Gallery Tote, leopard patch", style: "2006 holiday patchwork, brass hardware; style numbers seen: 11495, 12843, 12527",
+      rarity: "rare", price: "$80 to $200",
+      note: "Patchwork totes are common; this exact mix with the leopard and snake patches is not. Search 'leopard' and 'cheetah' both.",
+      q: "Coach patchwork tote leopard", q2: "Coach signature patchwork gallery tote cheetah" },
+    { id: "poppy-pink-double-pocket", group: "misc", img: "img/poppy-pink-double-pocket.jpg",
+      name: "Poppy Signature Double Pocket, pink trim", style: "khaki jacquard, pink patent trim and push-locks, 2009 to 2010",
+      rarity: "rare", price: "$60 to $150",
+      note: "Poppy was a short-lived line and pink trim was one colorway among many. Expect months, not weeks.",
+      q: "Coach Poppy signature pink double pocket", q2: "Coach Poppy khaki pink patent pocket bag" }
+  ];
+  var BAG_BY_ID = {};
+  BAGS.forEach(function (b) { BAG_BY_ID[b.id] = b; });
+
+  var RECS1 = [
+    { name: "Dooney & Bourke Signature and 'It' bags", why: "The other monogram canvas of 2004. The rainbow-logo It bags are having the same comeback her Coach bags are.", range: "$40 to $150", q: "Dooney Bourke It bag signature vintage" },
+    { name: "Kate Spade Sam bag", why: "Boxy, black, nylon, a little prim. The same quiet confidence as her black Soho flap, without the logo.", range: "$40 to $120 vintage; reissued new", q: "Kate Spade Sam bag vintage" },
+    { name: "Juicy Couture velour Daydreamer", why: "Louder cousin of the pink Poppy: brown or pink velour, gold charms, ridiculous and perfect.", range: "$50 to $150", q: "Juicy Couture Daydreamer velour bag" },
+    { name: "Michael Kors early monogram (2005 to 2010)", why: "Brown Signature-style jacquard with heavy gold hardware. Closest in feel to her Chelsea satchel.", range: "$40 to $120", q: "Michael Kors monogram satchel vintage brown" },
+    { name: "Betsey Johnson novelty bags", why: "For the cherry-charm side of her taste. Hearts, bows, fruit, in leather that has aged surprisingly well.", range: "$40 to $120", q: "Betsey Johnson vintage bag cherry" },
+    { name: "Coach's own re-issue of the Soho Flap", why: "Coach brought the 2006 Soho Flap back in Signature jacquard. New, guaranteed real, and it looks right next to the vintage ones.", range: "around $400 new", q: "Coach Soho flap signature jacquard CJ814", site: ["coach.com", "https://www.coach.com/products/soho-flap-bag-in-signature-jacquard/CJ814.html"] }
+  ];
+  var RECS2 = [
+    { name: "Gucci GG canvas Boston or Abbey", why: "The GG monogram satchel is what the Soho Boston was quietly nodding at. Brown canvas, leather trim, brass.", range: "$300 to $800", q: "Gucci GG canvas Boston bag vintage" },
+    { name: "Fendi Zucca baguette or Mama", why: "Brown-on-tan logo jacquard with a flap and one big buckle. Her flap bags, one tier up.", range: "$400 to $900", q: "Fendi Zucca baguette vintage" },
+    { name: "Burberry Nova Check shoulder bag", why: "Beige check instead of Cs, same 2000s shoulder-bag shapes, and cheaper than people assume.", range: "$150 to $400", q: "Burberry Nova check shoulder bag vintage" },
+    { name: "Céline Macadam", why: "The under-the-radar one: 1970s to 2000s brown logo canvas from before Céline got minimal. Boston bags and flaps both exist.", range: "$300 to $700", q: "Celine Macadam vintage bag" },
+    { name: "Dior Trotter (Diorissimo) canvas", why: "Navy or brown logo jacquard, 2000 to 2005, with Boston bags and pochettes that echo her satchels.", range: "$400 to $1,000", q: "Dior Trotter Boston bag vintage" },
+    { name: "Louis Vuitton Mini Lin Speedy", why: "Soft woven monogram instead of coated canvas, in ebène brown. The gentlest way into LV and the closest in texture to jacquard.", range: "$700 to $1,200", q: "Louis Vuitton Mini Lin Speedy ebene" }
+  ];
+
+  // ---------- helpers ----------
+  function $(id) { return document.getElementById(id); }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function enc(s) { return encodeURIComponent(s); }
+  function links(q) {
+    return [
+      ["eBay", "https://www.ebay.com/sch/i.html?_nkw=" + enc(q).replace(/%20/g, "+") + "&_sop=10"],
+      ["Poshmark", "https://poshmark.com/search?query=" + enc(q) + "&department=Women"],
+      ["Mercari", "https://www.mercari.com/search/?keyword=" + enc(q)],
+      ["Depop", "https://www.depop.com/search/?q=" + enc(q)],
+      ["Etsy", "https://www.etsy.com/search?q=" + enc(q)]
+    ];
+  }
+  function huntHTML(q) {
+    return '<div class="hunt">' + links(q).map(function (l) {
+      return '<a href="' + l[1] + '" target="_blank" rel="noopener">' + l[0] + '</a>';
+    }).join("") + '</div>';
+  }
+  function readLS(k, d) { try { var v = localStorage.getItem("finds:" + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } }
+  function writeLS(k, v) { try { localStorage.setItem("finds:" + k, JSON.stringify(v)); } catch (e) {} }
+  function money(n) { return n == null ? "price not listed" : "$" + Math.round(n); }
+  function when(iso) {
+    if (!iso) return "";
+    var d = new Date(iso); if (isNaN(d)) return "";
+    return d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+  }
+
+  // ---------- state ----------
+  var finds = [], bagsMeta = {}, generated = null, findsMissing = false;
+  var verdicts = { fetched: null, listings: {}, bags: {} };
+  var overlay = readLS("overlay", {});       // listing key -> {v: "no"|"keep"|null, t}
+  var bagOverlay = readLS("bagOverlay", {}); // bag id -> {status, t}
+  var queue = readLS("queue", []);           // unsent posts
+  var history = [];                          // for undo
+  var flushing = false;
+
+  function verdictFor(key) {
+    var o = overlay[key], s = verdicts.listings[key];
+    if (o && (!s || o.t >= (s.t || ""))) return o.v;
+    return s ? s.v : null;
+  }
+  function bagStatus(id) {
+    var o = bagOverlay[id], s = verdicts.bags[id];
+    if (o && (!s || o.t >= (s.t || ""))) return o.status;
+    return s ? s.status : "wanted";
+  }
+  function pruneOverlay() {
+    var fetched = verdicts.fetched || "";
+    Object.keys(overlay).forEach(function (k) {
+      var o = overlay[k], s = verdicts.listings[k];
+      if (s && (s.t || "") >= o.t) delete overlay[k];
+      else if (!s && o.v === null && fetched >= o.t) delete overlay[k];
+    });
+    Object.keys(bagOverlay).forEach(function (k) {
+      var o = bagOverlay[k], s = verdicts.bags[k];
+      if (s && (s.t || "") >= o.t) delete bagOverlay[k];
+    });
+    writeLS("overlay", overlay); writeLS("bagOverlay", bagOverlay);
+  }
+
+  // ---------- worker ----------
+  function post(kind, key, value) {
+    queue.push({ kind: kind, key: key, value: value });
+    writeLS("queue", queue);
+    flush();
+  }
+  function setSaving(on) { $("saving").hidden = !on; }
+  function flush() {
+    if (flushing || !queue.length || !WORKER_URL || !TOKEN) return;
+    flushing = true;
+    var item = queue[0];
+    fetch(WORKER_URL + "/v", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ token: TOKEN, kind: item.kind, key: item.key, value: item.value })
+    }).then(function (r) {
+      if (r.status === 204 || r.status === 400) { queue.shift(); writeLS("queue", queue); return true; }
+      throw new Error("status " + r.status);
+    }).then(function () {
+      flushing = false; setSaving(false);
+      if (queue.length) flush();
+    }).catch(function () {
+      flushing = false; setSaving(true);
+    });
+  }
+  window.addEventListener("online", flush);
+
+  // ---------- verdicts ----------
+  function setVerdict(key, v) {
+    overlay[key] = { v: v, t: new Date().toISOString() }; writeLS("overlay", overlay);
+    post("listing", key, v);
+    history.push(key);
+    showToast(v === "no" ? "Not it" : "Kept");
+  }
+  function undo() {
+    var key = history.pop(); if (!key) return;
+    overlay[key] = { v: null, t: new Date().toISOString() }; writeLS("overlay", overlay);
+    post("listing", key, "clear");
+    hideToast(); render();
+  }
+  function setBag(id, status) {
+    bagOverlay[id] = { status: status, t: new Date().toISOString() }; writeLS("bagOverlay", bagOverlay);
+    post("bag", id, status);
+    renderBags();
+  }
+
+  var toastTimer = null;
+  function showToast(text) {
+    $("toast-text").textContent = text; $("toast").hidden = false;
+    clearTimeout(toastTimer); toastTimer = setTimeout(hideToast, 5000);
+  }
+  function hideToast() { $("toast").hidden = true; }
+  $("undo").addEventListener("click", undo);
+
+  // ---------- review ----------
+  function unreviewed() { return finds.filter(function (f) { return !verdictFor(f.key); }); }
+
+  function cardHTML(f) {
+    var meta = bagsMeta[f.bag] || {}, def = BAG_BY_ID[f.bag];
+    var deal = f.kind === "deal" || (meta.deal_price != null && f.price != null && f.price <= meta.deal_price);
+    var extras = [f.condition, f.seller ? "seller " + f.seller : null].filter(Boolean).join(" · ");
+    return '<div class="photo">' +
+      '<a href="' + esc(f.url) + '" target="_blank" rel="noopener" draggable="false">' +
+      '<img class="main" src="' + esc(f.image || "") + '" alt="" draggable="false"></a>' +
+      (def ? '<button class="ref" type="button" aria-label="Her reference photo" data-img="' + esc(def.img) + '"><img src="' + esc(def.img) + '" alt="" draggable="false"></button>' : '') +
+      '<span class="stamp no">Not it</span><span class="stamp keep">Keep</span></div>' +
+      '<div class="info"><div class="row">' +
+      '<span class="price' + (deal ? ' deal' : '') + '">' + money(f.price) + '</span>' +
+      (f.old_price != null ? '<span class="was">' + money(f.old_price) + '</span>' : '') +
+      '<span class="src">' + (SRC[f.source] || esc(f.source)) + '</span>' +
+      (f.stale ? '<span class="stale">may be sold</span>' : '') +
+      '</div><h3>' + esc(f.title || "(no title)") + '</h3>' +
+      '<p class="bagline">Matched to: ' + esc(meta.name || (def && def.name) || f.bag) + '</p>' +
+      (extras ? '<p class="note">' + esc(extras) + '</p>' : '') + '</div>';
+  }
+
+  function renderReview() {
+    var stack = $("stack"), list = unreviewed();
+    stack.innerHTML = "";
+    var empty = $("review-empty");
+    $("btn-no").disabled = $("btn-keep").disabled = !list.length;
+    if (!list.length) {
+      stack.hidden = true; empty.hidden = false;
+      empty.innerHTML = findsMissing
+        ? '<strong>The tracker hasn’t run yet.</strong>Come back after the first pass.'
+        : '<strong>Nothing new to review.</strong>' + (generated ? 'Last checked ' + esc(when(generated)) + '.' : '');
+      return;
+    }
+    stack.hidden = false; empty.hidden = true;
+    list.slice(0, 2).reverse().forEach(function (f, i, arr) {
+      var card = document.createElement("article");
+      card.className = "card" + (i === arr.length - 1 ? "" : " next");
+      card.dataset.key = f.key;
+      card.innerHTML = cardHTML(f);
+      stack.appendChild(card);
+      if (i === arr.length - 1) attachDrag(card, f.key);
+    });
+  }
+
+  function fly(card, dir, cb) {
+    var w = card.offsetWidth || 320;
+    card.classList.remove("dragging");
+    card.style.transition = "transform .25s ease";
+    card.style.transform = "translate(" + (dir * w * 1.5) + "px, 0) rotate(" + (dir * 30) + "deg)";
+    setTimeout(cb, 260);
+  }
+  function decide(v) {
+    var card = $("stack").querySelector(".card:not(.next)");
+    if (!card) return;
+    var key = card.dataset.key;
+    fly(card, v === "no" ? -1 : 1, function () { setVerdict(key, v); render(); });
+  }
+  $("btn-no").addEventListener("click", function () { decide("no"); });
+  $("btn-keep").addEventListener("click", function () { decide("keep"); });
+
+  function attachDrag(card, key) {
+    var startX = 0, startY = 0, dx = 0, dy = 0, dragging = false, moved = false, startT = 0;
+    card.addEventListener("pointerdown", function (e) {
+      if (e.button) return;
+      if (e.target.closest(".ref")) return;
+      dragging = true; moved = false; dx = dy = 0; startX = e.clientX; startY = e.clientY; startT = Date.now();
+      card.setPointerCapture(e.pointerId); card.classList.add("dragging");
+    });
+    card.addEventListener("pointermove", function (e) {
+      if (!dragging) return;
+      dx = e.clientX - startX; dy = e.clientY - startY;
+      if (Math.abs(dx) > 6 || Math.abs(dy) > 6) moved = true;
+      card.style.transform = "translate(" + dx + "px, " + (dy * 0.3) + "px) rotate(" + (dx / 18) + "deg)";
+      card.classList.toggle("lean-no", dx < -40);
+      card.classList.toggle("lean-keep", dx > 40);
+    });
+    function end(e) {
+      if (!dragging) return;
+      dragging = false;
+      card.classList.remove("dragging", "lean-no", "lean-keep");
+      var w = card.offsetWidth || 320, dt = Math.max(Date.now() - startT, 1), vel = Math.abs(dx) / dt;
+      if (Math.abs(dx) > w / 3 || (vel > 0.6 && Math.abs(dx) > 40)) {
+        var v = dx < 0 ? "no" : "keep";
+        fly(card, dx < 0 ? -1 : 1, function () { setVerdict(key, v); render(); });
+      } else {
+        card.style.transform = "";
+      }
+    }
+    card.addEventListener("pointerup", end);
+    card.addEventListener("pointercancel", end);
+    card.addEventListener("click", function (e) {
+      if (moved) { e.preventDefault(); return; }
+      var ref = e.target.closest(".ref");
+      if (ref) { e.preventDefault(); $("lightbox-img").src = ref.dataset.img; $("lightbox").hidden = false; }
+    });
+  }
+  $("lightbox").addEventListener("click", function () { $("lightbox").hidden = true; });
+
+  // ---------- kept ----------
+  function renderKept() {
+    var host = $("kept"), kept = finds.filter(function (f) { return verdictFor(f.key) === "keep"; });
+    host.innerHTML = "";
+    if (!kept.length) {
+      host.innerHTML = '<div class="empty"><strong>Nothing kept yet.</strong>Swipe right on a find to keep it here.</div>';
+      return;
+    }
+    var order = Object.keys(bagsMeta).length ? Object.keys(bagsMeta) : BAGS.map(function (b) { return b.id; });
+    var groups = {};
+    kept.forEach(function (f) { (groups[f.bag] = groups[f.bag] || []).push(f); });
+    Object.keys(groups).sort(function (a, b) { return order.indexOf(a) - order.indexOf(b); }).forEach(function (bag) {
+      var meta = bagsMeta[bag] || {}, def = BAG_BY_ID[bag];
+      var g = document.createElement("div"); g.className = "kept-group";
+      g.innerHTML = '<h3>' + esc(meta.name || (def && def.name) || bag) + '</h3>';
+      groups[bag].forEach(function (f) {
+        var deal = f.kind === "deal" || (meta.deal_price != null && f.price != null && f.price <= meta.deal_price);
+        var row = document.createElement("div"); row.className = "krow";
+        row.innerHTML = '<a href="' + esc(f.url) + '" target="_blank" rel="noopener"><img src="' + esc(f.image || "") + '" alt=""></a>' +
+          '<div><div class="t"><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.title || "(no title)") + '</a></div>' +
+          '<div class="m"><span class="' + (deal ? 'deal' : '') + '">' + money(f.price) + (deal ? ' deal' : '') + '</span>' +
+          (f.old_price != null ? ' · was ' + money(f.old_price) : '') + ' · ' + (SRC[f.source] || esc(f.source)) +
+          (f.stale ? ' · <em>may be sold</em>' : '') + '</div></div>' +
+          '<button class="x" type="button" data-key="' + esc(f.key) + '">remove</button>';
+        row.querySelector(".x").addEventListener("click", function () { setVerdict(f.key, "no"); render(); });
+        g.appendChild(row);
+      });
+      host.appendChild(g);
+    });
+  }
+
+  // ---------- bags ----------
+  var rarityLabel = { common: "easy to find", uncommon: "takes some looking", rare: "rare" };
+  function renderBags() {
+    document.querySelectorAll(".bags").forEach(function (h) { h.innerHTML = ""; });
+    BAGS.forEach(function (b) {
+      var host = document.querySelector('.bags[data-group="' + b.group + '"]');
+      if (!host) return;
+      var status = bagStatus(b.id);
+      var el = document.createElement("article");
+      el.className = "bag";
+      el.innerHTML =
+        '<div class="frame"><img src="' + b.img + '" alt="' + esc(b.name) + '"></div>' +
+        '<h3>' + esc(b.name) + '</h3>' +
+        '<div class="meta"><span class="tag ' + b.rarity + '">' + rarityLabel[b.rarity] + '</span><span>' + esc(b.price) + '</span></div>' +
+        '<p class="note">' + esc(b.style) + '</p>' +
+        '<p>' + esc(b.note) + '</p>' +
+        huntHTML(b.q) +
+        (b.q2 ? '<p class="note" style="margin-top:4px">Also try: "' + esc(b.q2) + '"</p>' : '') +
+        '<div class="status">Status <span class="seg">' +
+        ["wanted", "found", "owned"].map(function (s) {
+          return '<button type="button" data-s="' + s + '"' + (s === status ? ' class="on"' : '') + '>' +
+            ({ wanted: "wanted", found: "found one, watching", owned: "owned" })[s] + '</button>';
+        }).join("") + '</span>' +
+        (status === "owned" ? '<span class="owned-note">the tracker stops watching this one</span>' : '') + '</div>';
+      el.querySelectorAll(".seg button").forEach(function (btn) {
+        btn.addEventListener("click", function () { if (btn.dataset.s !== bagStatus(b.id)) setBag(b.id, btn.dataset.s); });
+      });
+      host.appendChild(el);
+    });
+  }
+  function renderRecs(list, group) {
+    var host = document.querySelector('.recs[data-group="' + group + '"]');
+    host.innerHTML = "";
+    list.forEach(function (r) {
+      var el = document.createElement("article");
+      el.className = "rec";
+      el.innerHTML = '<h3>' + esc(r.name) + '</h3><p class="why">' + esc(r.why) + '</p><p class="range">' + esc(r.range) + '</p>' + huntHTML(r.q);
+      if (r.site) { var s = document.createElement("a"); s.href = r.site[1]; s.target = "_blank"; s.rel = "noopener"; s.textContent = r.site[0]; el.querySelector(".hunt").prepend(s); }
+      host.appendChild(el);
+    });
+  }
+
+  // ---------- tabs ----------
+  function showTab(name) {
+    document.querySelectorAll(".tab").forEach(function (t) { t.classList.toggle("active", t.id === "tab-" + name); });
+    document.querySelectorAll(".tabs button").forEach(function (b) { b.classList.toggle("on", b.dataset.tab === name); });
+    writeLS("tab", name);
+    window.scrollTo(0, 0);
+  }
+  document.querySelectorAll(".tabs button").forEach(function (b) {
+    b.addEventListener("click", function () { showTab(b.dataset.tab); });
+  });
+
+  function renderBadge() {
+    var n = unreviewed().length;
+    $("badge").textContent = n ? String(n) : "";
+  }
+  function render() { renderReview(); renderKept(); renderBadge(); }
+
+  // ---------- load ----------
+  function getJSON(name) {
+    return fetch(name, { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+  }
+  Promise.all([getJSON("finds.json"), getJSON("verdicts.json")]).then(function (res) {
+    var fd = res[0], vd = res[1];
+    if (fd && Array.isArray(fd.finds)) {
+      finds = fd.finds; bagsMeta = fd.bags || {}; generated = fd.generated || null;
+    } else {
+      findsMissing = true;
+    }
+    if (vd && typeof vd === "object") {
+      verdicts = { fetched: vd.fetched || null, listings: vd.listings || {}, bags: vd.bags || {} };
+    }
+    pruneOverlay();
+    $("subline").textContent = findsMissing ? "Nine bags worth waiting for, where to find them, and what to pay."
+      : (generated ? "Last checked " + when(generated) + "." : "");
+    render(); renderBags(); renderRecs(RECS1, "recs1"); renderRecs(RECS2, "recs2");
+    showTab(readLS("tab", "review"));
+    flush();
+  });
+})();
+</script>
+</body>
+</html>
