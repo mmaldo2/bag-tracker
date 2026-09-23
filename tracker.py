@@ -77,7 +77,8 @@ def load_state():
 def save_state(state, ttl_days):
     cutoff = (datetime.now(timezone.utc) - timedelta(days=ttl_days)).isoformat()
     state = {k: v for k, v in state.items() if v.get("last_seen", "") >= cutoff}
-    with open(STATE, "w") as f:
+    with open(STATE, "w", encoding="utf-8", newline="
+") as f:
         json.dump(state, f, indent=1, sort_keys=True)
     return state
 
