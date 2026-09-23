@@ -63,3 +63,11 @@ no model involved (`--no-agent`), trigger it once, and confirm it worked. Nothin
 - Do not wrap the job in a model prompt, add retries, proxies, or notifications; the script
   already emails Marcus and commits its own state.
 - Do not create more than one job for this.
+
+## Outcome (2026-09-23)
+
+Registered as `bag-tracker-home` (every 30m, no-agent) under the `finance` profile. The `.sh` wrapper
+failed from the gateway with exit 127 because the gateway's PATH has neither Git Bash nor git. Replaced
+by `bag-home.py` in the same scripts folder: Hermes runs `.py` with its own interpreter, and the
+wrapper launches `C:\Program Files\Gitinash.exe ./run_home.sh` with Git's directories prepended
+to PATH, appending to `state/home.log`. First triggered run pushed `state(home): 2026-09-23T17:47Z`.
