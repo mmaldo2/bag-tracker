@@ -1,5 +1,11 @@
 {
  "bags": {},
- "fetched": "2026-09-23T16:35:08.671206+00:00",
- "listings": {}
+ "fetched": "2026-09-23T16:37:29.010898+00:00",
+ "listings": {
+  "poshmark:6aaadfd1571a7ecbe693c324": {
+   "notified": false,
+   "t": "2026-09-23T16:36:58.827Z",
+   "v": "no"
+  }
+ }
 }
