@@ -1,5 +1,126 @@
 {
  "bags": {},
- "fetched": "2026-09-23T18:49:32.819072+00:00",
- "listings": {}
+ "fetched": "2026-09-23T19:21:35.638096+00:00",
+ "listings": {
+  "depop:b0rizy-coach-chelsea-signature-braided-strap-fecc": {
+   "notified": true,
+   "t": "2026-09-23T18:51:20.903Z",
+   "v": "keep"
+  },
+  "mercari:m14336017791": {
+   "notified": false,
+   "t": "2026-09-23T18:51:58.443Z",
+   "v": "no"
+  },
+  "mercari:m17567676097": {
+   "notified": false,
+   "t": "2026-09-23T18:52:10.492Z",
+   "v": "no"
+  },
+  "mercari:m25108516584": {
+   "notified": false,
+   "t": "2026-09-23T18:51:46.201Z",
+   "v": "no"
+  },
+  "mercari:m26701684556": {
+   "notified": false,
+   "t": "2026-09-23T18:51:52.290Z",
+   "v": "no"
+  },
+  "mercari:m39508493714": {
+   "notified": false,
+   "t": "2026-09-23T18:52:04.572Z",
+   "v": "no"
+  },
+  "mercari:m64510635953": {
+   "notified": false,
+   "t": "2026-09-23T18:51:27.826Z",
+   "v": "no"
+  },
+  "mercari:m67355432424": {
+   "notified": false,
+   "t": "2026-09-23T18:51:40.047Z",
+   "v": "no"
+  },
+  "mercari:m76858086192": {
+   "notified": false,
+   "t": "2026-09-23T18:51:33.837Z",
+   "v": "no"
+  },
+  "poshmark:5503a9a344adba74400034bd": {
+   "notified": false,
+   "t": "2026-09-23T18:57:48.996Z",
+   "v": "no"
+  },
+  "poshmark:5786fd9413302a16b600a14e": {
+   "notified": false,
+   "t": "2026-09-23T18:57:59.986Z",
+   "v": "no"
+  },
+  "poshmark:579bc45a2ba50afe6004eaea": {
+   "notified": false,
+   "t": "2026-09-23T18:53:46.851Z",
+   "v": "no"
+  },
+  "poshmark:684a97a6b591ed25c5cac5ef": {
+   "notified": false,
+   "t": "2026-09-23T18:59:09.436Z",
+   "v": "no"
+  },
+  "poshmark:68d1661aa2c540d35f6abf02": {
+   "notified": false,
+   "t": "2026-09-23T18:54:00.202Z",
+   "v": "no"
+  },
+  "poshmark:6924b78ac71ba1220bdb1b78": {
+   "notified": false,
+   "t": "2026-09-23T18:53:40.859Z",
+   "v": "no"
+  },
+  "poshmark:69586fb09f034cface3c80dd": {
+   "notified": true,
+   "t": "2026-09-23T18:52:16.404Z",
+   "v": "keep"
+  },
+  "poshmark:69beafafdc3b468e456590d0": {
+   "notified": false,
+   "t": "2026-09-23T18:53:35.149Z",
+   "v": "no"
+  },
+  "poshmark:69c96f0124d2e73c50461753": {
+   "notified": false,
+   "t": "2026-09-23T18:53:11.927Z",
+   "v": "no"
+  },
+  "poshmark:6a79ec249bca6175d439b40b": {
+   "notified": true,
+   "t": "2026-09-23T18:52:29.106Z",
+   "v": "keep"
+  },
+  "poshmark:6a91e13a192125001afb90ba": {
+   "notified": false,
+   "t": "2026-09-23T18:53:29.440Z",
+   "v": "no"
+  },
+  "poshmark:6aa6d75b4adcb3f18129e276": {
+   "notified": true,
+   "t": "2026-09-23T18:52:55.531Z",
+   "v": "keep"
+  },
+  "poshmark:6aa730f6192125d9d002a52d": {
+   "notified": false,
+   "t": "2026-09-23T18:53:23.760Z",
+   "v": "no"
+  },
+  "poshmark:6ab09c0441ae66a4a43f7f1c": {
+   "notified": false,
+   "t": "2026-09-23T18:53:17.946Z",
+   "v": "no"
+  },
+  "poshmark:6ab16de94985e8e6319167a7": {
+   "notified": false,
+   "t": "2026-09-23T18:53:01.290Z",
+   "v": "no"
+  }
+ }
 }
