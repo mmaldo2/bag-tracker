@@ -1,6 +1,6 @@
 # Bag tracker
 
-Watches eBay, Poshmark, Depop and Mercari for nine specific vintage Coach bags and posts new listings, deals and price drops to a shared Discord channel. Free to run: nothing here costs money unless you opt into the paid fallback at the bottom.
+Watches eBay, Poshmark, Depop and Mercari for nine specific vintage Coach bags and emails you new listings, deals and price drops (Discord, ntfy and Telegram optional). Free to run: nothing here costs money unless you opt into the paid fallback at the bottom.
 
 ## How it works
 
@@ -15,7 +15,7 @@ You can run cloud-only and skip the home machine entirely. You'll still get eBay
 
 ## Setup: cloud (20 minutes)
 
-1. **Repo.** New private GitHub repo, push this folder. Settings → Actions → General → Workflow permissions → *Read and write*.
+1. **Repo.** New **public** GitHub repo (GitHub Pages on the free plan needs public; nothing secret is in it — the Worker token in `docs/index.html` is deliberate and only guards drive-by writes), push this folder. Settings → Actions → General → Workflow permissions → *Read and write*.
 2. **eBay keys.** developer.ebay.com → sign in → *Application Keys* → create a **Production** keyset. Copy App ID and Cert ID. Free; this uses ~1,200 of the 5,000 daily calls.
 3. **Discord.** Server → channel `#bag-alerts` → Integrations → Webhooks → New → copy URL. Invite her. Both of you mute everything but this channel.
 4. **Secrets.** Repo → Settings → Secrets and variables → Actions:
@@ -43,7 +43,14 @@ On the machine that will run Depop and Mercari:
     git clone <your repo> ~/bag-tracker && cd ~/bag-tracker
     pip3 install -r requirements.txt playwright
     playwright install chromium
-    echo 'DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/...' > .env
+    echo 'VERDICT_URL=https://bag-verdicts.<you>.workers.dev' > .env
+    echo 'VERDICT_TOKEN=<the same token as the Worker secret and docs/index.html>' >> .env
+    # and, only if this machine should email too, the SMTP vars the same way:
+    echo 'SMTP_HOST=smtp.gmail.com' >> .env
+    echo 'SMTP_PORT=587' >> .env
+    echo 'SMTP_USER=you@gmail.com' >> .env
+    echo 'SMTP_PASS=<gmail app password>' >> .env
+    echo 'EMAIL_TO=her@example.com' >> .env
     python3 tracker.py --probe depop      # should print a few product cards; saves a screenshot to state/probe/
     python3 tracker.py --probe mercari    # should print a few items; saves a screenshot to state/probe/
     python3 tracker.py --sources home --init
@@ -89,3 +96,11 @@ If you'd rather not keep a home machine on, or one site starts blocking you, `so
 
 - Auction end-time reminders for eBay.
 - Authentication: it can't spot a fake. The pre-purchase checklist on the hunting-guide page still applies.
+
+## Running the tests
+
+    pip install pytest playwright && playwright install chromium
+    python -m pytest -q
+
+The Playwright test drives `docs/index.html` in headless Chromium at phone width and takes about
+30 seconds; the rest run in well under a second.
