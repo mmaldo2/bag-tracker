@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T19:22:53.105343+00:00",
+ "generated": "2026-09-23T19:49:35.332492+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -70,7 +70,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-09-23T16:38:14.355697+00:00",
+   "last_seen": "2026-09-23T19:49:35.332492+00:00",
    "stale": false
   },
   {
@@ -87,7 +87,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-09-23T16:38:14.355697+00:00",
+   "last_seen": "2026-09-23T19:49:35.332492+00:00",
    "stale": false
   },
   {
@@ -104,7 +104,24 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/09/13/6aa6d75b4adcb3f18129e276/m_6aa6d75b4adcb3f18129e278.jpg",
    "seller": "junasjewel",
    "condition": "ug",
-   "last_seen": "2026-09-23T16:38:14.355697+00:00",
+   "last_seen": "2026-09-23T19:49:35.332492+00:00",
+   "stale": false
+  },
+  {
+   "key": "poshmark:6aaadfd1571a7ecbe693c324",
+   "first_seen": "2026-09-23T16:36:08.002035+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-flap-1463",
+   "title": "Vintage Coach 1463 Y2K Black Signature Double Pocket Soho Hobo Shoulder Bag",
+   "price": 175.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6aaadfd1571a7ecbe693c324",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/09/16/6aaadfd1571a7ecbe693c324/m_6aaae0181921255668cce492.jpg",
+   "seller": "pgh_fan",
+   "condition": null,
+   "last_seen": "2026-09-23T19:49:35.332492+00:00",
    "stale": false
   }
  ]
