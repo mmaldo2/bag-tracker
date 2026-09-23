@@ -24,9 +24,15 @@ You can run cloud-only and skip the home machine entirely. You'll still get eBay
    |---|---|
    | `EBAY_CLIENT_ID` | eBay App ID |
    | `EBAY_CLIENT_SECRET` | eBay Cert ID |
-   | `DISCORD_WEBHOOK_URL` | webhook URL |
+   | `VERDICT_URL` | Deployed Cloudflare Worker URL |
+   | `VERDICT_TOKEN` | Shared token for Worker |
+   | `SMTP_HOST` | `smtp.gmail.com` |
+   | `SMTP_PORT` | `587` |
+   | `SMTP_USER` | Your email address |
+   | `SMTP_PASS` | Gmail app password |
+   | `EMAIL_TO` | Recipient email address |
 
-   Other channels, optional, all can be on at once: `NTFY_TOPIC`; `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID`; `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `EMAIL_TO`.
+   Other channels, optional, all can be on at once: `DISCORD_WEBHOOK_URL`; `NTFY_TOPIC`; `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID`.
 5. **Seed it.** Actions → *bag tracker* → *Run workflow* → sources `cloud`, init `true`. Records what's currently listed without sending 200 alerts.
 6. **Watch a real run.** Actions → next scheduled run → log shows one line per query with a count, then one line per alert.
 
@@ -41,15 +47,32 @@ On the machine that will run Depop and Mercari:
     python3 tracker.py --probe depop      # should print a few product cards; saves a screenshot to state/probe/
     python3 tracker.py --probe mercari    # should print a few items; saves a screenshot to state/probe/
     python3 tracker.py --sources home --init
+    python3 sync_verdicts.py     # pulls her swipes; needs VERDICT_URL and VERDICT_TOKEN in .env
     python3 tracker.py --sources home --dry-run
 
 Then schedule it. macOS/Linux `crontab -e`:
 
     */30 * * * * /Users/you/bag-tracker/run_home.sh >> /Users/you/bag-tracker/state/home.log 2>&1
 
+On Windows, the equivalent is a Task Scheduler job that runs `"C:\Program Files\Git\bin\bash.exe" -lc "/path/to/bag-tracker/run_home.sh >> /path/to/bag-tracker/state/home.log 2>&1"` every 30 minutes.
+
 The machine needs to be awake for the cron to fire (on a Mac: System Settings → Energy → prevent sleep, or use `caffeinate`). A Raspberry Pi on the router is the fire-and-forget version.
 
 **If a probe fails at home:** Depop returning 0 items with a "Forbidden" screenshot means the User-Agent in `depop.py` needs refreshing to a current Chrome string. Mercari returning 0 items with a "Just a moment" screenshot means Cloudflare is challenging the browser; `mercari.py` needs the locally installed Google Chrome (it falls back to Playwright's Chromium, which gets challenged). Install Chrome, or fall back to Apify for that one site.
+
+## Her page
+
+`docs/` is published with GitHub Pages (Settings → Pages → branch `main`, folder `/docs`). It reads
+`docs/finds.json` (the tracker writes it every run) and `docs/verdicts.json` (pulled from the Worker
+before every run). She swipes left for "not it" and right for "keep"; both go to a tiny Cloudflare
+Worker in `worker/` and come back into the tracker next run, so rejected listings never re-alert and a
+bag marked "owned" is no longer searched. Anything she keeps shows up in your next email.
+
+Worker setup, once: `cd worker && npx wrangler login && npx wrangler kv namespace create VERDICTS`
+(paste the id into `wrangler.toml`), `npx wrangler secret put TOKEN`, `npx wrangler deploy`. Put the
+same token in the page (`TOKEN` at the top of the script in `docs/index.html`), in `.env`, and in the
+`VERDICT_TOKEN` secret; the deployed URL goes in `VERDICT_URL`. `ALLOWED_ORIGIN` in `wrangler.toml`
+must be your Pages origin (`https://<you>.github.io`).
 
 ## Tuning
 
@@ -66,4 +89,3 @@ If you'd rather not keep a home machine on, or one site starts blocking you, `so
 
 - Auction end-time reminders for eBay.
 - Authentication: it can't spot a fake. The pre-purchase checklist on the hunting-guide page still applies.
-- The pretty page: this repo could write a `finds.json` and republish the guide with a live "recent finds" slide. Second pass.
