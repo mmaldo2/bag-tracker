@@ -37,7 +37,7 @@ def save(verdicts, *paths):
     for p in paths:
         p = str(p)
         os.makedirs(os.path.dirname(p) or ".", exist_ok=True)
-        with open(p, "w", encoding="utf-8") as f:
+        with open(p, "w", encoding="utf-8", newline="\n") as f:
             json.dump(verdicts, f, indent=1, sort_keys=True)
 
 

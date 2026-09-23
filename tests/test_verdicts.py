@@ -58,3 +58,11 @@ def test_helpers():
     V.mark_notified(v, ["b", "zzz"])
     assert v["listings"]["b"]["notified"] is True
     assert V.unnotified_keeps(v) == []
+
+
+def test_save_uses_lf_line_endings(tmp_path):
+    v = {"fetched": "t", "listings": {"a": {"v": "no", "t": "t", "notified": False}}, "bags": {}}
+    p = tmp_path / "v.json"
+    V.save(v, p)
+    data = p.read_bytes()
+    assert b"\r\n" not in data
