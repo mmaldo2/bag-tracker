@@ -75,7 +75,7 @@ worker/ (Cloudflare Worker + KV, free tier)
 - `POST /v` JSON body `{"token": "...", "kind": "listing"|"bag", "key": "...", "value": "no"|"keep"|"clear"|"wanted"|"found"|"owned"}`.
   Stores `l:<key>` or `b:<key>` -> `{"v"|"status", "t"}` with a 60-day expiry; `clear` deletes.
   Returns 204. Wrong token: 401. Malformed: 400. Keys are capped at 200 chars.
-- `GET /v?token=...` returns the two maps above (without `notified`). Wrong token: 401.
+- `GET /v` with header `Authorization: Bearer <token>` returns the two maps above (without `notified`). Missing or wrong token: 401. The token is never placed in a URL, so it stays out of request logs.
 - CORS: `Access-Control-Allow-Origin` is exactly the Pages origin; preflight handled.
 - Token is a random 32-byte hex string generated once. It lives in the page source, in
   `.env`, and in the Actions secrets. Its job is to stop drive-by writes, not determined ones;
