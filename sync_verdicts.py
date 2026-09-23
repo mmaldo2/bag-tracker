@@ -23,7 +23,7 @@ def main():
         print("verdicts: VERDICT_URL / VERDICT_TOKEN not set, skipping", flush=True)
         return 0
     try:
-        r = requests.get(url.rstrip("/") + "/v", params={"token": token}, timeout=30)
+        r = requests.get(url.rstrip("/") + "/v", headers={"Authorization": f"Bearer {token}"}, timeout=30)
         r.raise_for_status()
         fetched = r.json()
     except Exception as e:
