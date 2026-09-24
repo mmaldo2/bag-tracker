@@ -720,13 +720,16 @@
   }
   function render() { renderReview(); renderKept(); renderBadge(); }
 
-  // ---------- reset (open the page with ?reset to forget every swipe made on this device) ----------
+  // ---------- reset (open the page with ?reset to start over; asks first, so a re-opened link is harmless) ----------
   if (/[?&]reset\b/.test(location.search)) {
-    Object.keys(overlay).forEach(function (k) { if (overlay[k] && overlay[k].v) queue.push({ kind: "listing", key: k, value: "clear" }); });
-    Object.keys(bagOverlay).forEach(function (k) { queue.push({ kind: "bag", key: k, value: "clear" }); });
-    overlay = {}; bagOverlay = {}; history = [];
-    writeLS("overlay", overlay); writeLS("bagOverlay", bagOverlay); writeLS("queue", queue);
     try { window.history.replaceState(null, "", location.pathname); } catch (e) {}
+    var hasSwipes = Object.keys(overlay).length || Object.keys(bagOverlay).length;
+    if (hasSwipes && window.confirm("Start over? This forgets every swipe you have made, here and on the server, and brings all the cards back.")) {
+      Object.keys(overlay).forEach(function (k) { if (overlay[k] && overlay[k].v) queue.push({ kind: "listing", key: k, value: "clear" }); });
+      Object.keys(bagOverlay).forEach(function (k) { queue.push({ kind: "bag", key: k, value: "clear" }); });
+      overlay = {}; bagOverlay = {}; history = [];
+      writeLS("overlay", overlay); writeLS("bagOverlay", bagOverlay); writeLS("queue", queue);
+    }
   }
 
   // ---------- load ----------

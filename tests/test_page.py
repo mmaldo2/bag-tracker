@@ -234,6 +234,10 @@ def test_reset_param_forgets_local_swipes_and_clears_server(site):
         _seed_overlay(pg, site, "mercari:m1", "2026-09-23T18:25:00.000Z")
         pg.reload(); pg.wait_for_selector(".card")
         assert pg.locator("#badge").inner_text() == "2"
+        # a dismissed confirm (the default) must change nothing
+        pg.goto(site + "?reset"); pg.wait_for_selector(".card")
+        assert pg.locator("#badge").inner_text() == "2" and posts == []
+        pg.once("dialog", lambda d: d.accept())
         pg.goto(site + "?reset"); pg.wait_for_selector(".card")
         assert pg.locator("#badge").inner_text() == "3"
         assert "reset" not in pg.url
