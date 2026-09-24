@@ -29,8 +29,11 @@ def _parse(s):
         return None
 
 
-def update(existing, matched, rejected, now):
-    """Merge this run's matches into the existing records, then apply the prune/stale/cap rules."""
+def update(existing, matched, rejected, now, kept=frozenset()):
+    """Merge this run's matches into the existing records, then apply the prune/stale/cap rules.
+
+    Keys in `kept` (her "keep" verdicts) are exempt from the 14-day prune and the cap, so the Kept
+    tab holds them until she removes them; they still get the stale marker."""
     now_iso = now.isoformat()
     by_key = {r["key"]: dict(r) for r in existing if r.get("key")}
     for m in matched:
@@ -57,18 +60,21 @@ def update(existing, matched, rejected, now):
 
     cutoff = now - timedelta(days=KEEP_DAYS)
     stale_cutoff = now - timedelta(days=STALE_DAYS)
-    out = []
+    keeps, others = [], []
     for rec in by_key.values():
         if rec["key"] in rejected:
             continue
+        is_kept = rec["key"] in kept
         first = _parse(rec.get("first_seen"))
-        if first is None or first < cutoff:
+        if not is_kept and (first is None or first < cutoff):
             continue
         last = _parse(rec.get("last_seen"))
         rec["stale"] = bool(last is None or last < stale_cutoff)
-        out.append(rec)
+        (keeps if is_kept else others).append(rec)
+    others.sort(key=lambda r: r.get("first_seen") or "", reverse=True)
+    out = keeps + others[:max(MAX - len(keeps), 0)]
     out.sort(key=lambda r: r.get("first_seen") or "", reverse=True)
-    return out[:MAX]
+    return out
 
 
 def save(path, finds, bags_cfg, now):

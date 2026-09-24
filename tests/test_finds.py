@@ -80,3 +80,16 @@ def test_save_and_load_roundtrip(tmp_path):
     assert doc["bags"] == {"chelsea-braided": {"name": "Chelsea", "deal_price": 120}}
     assert F.load(p) == recs
     assert F.load(tmp_path / "missing.json") == []
+
+
+def test_kept_listings_survive_prune_and_cap():
+    old_first = (NOW - timedelta(days=30)).isoformat()
+    kept_old = {"key": "poshmark:kept", "bag": "b", "kind": "new", "old_price": None,
+                "first_seen": old_first, "last_seen": old_first}
+    matched = [M(key=f"e:{i}", first_seen=(NOW - timedelta(minutes=i)).isoformat()) for i in range(45)]
+    out = F.update([kept_old], matched, set(), NOW, kept={"poshmark:kept"})
+    keys = [r["key"] for r in out]
+    assert "poshmark:kept" in keys and len(out) == F.MAX
+    assert next(r for r in out if r["key"] == "poshmark:kept")["stale"] is True
+    # without the keep verdict the same old record is pruned
+    assert "poshmark:kept" not in [r["key"] for r in F.update([kept_old], matched, set(), NOW)]

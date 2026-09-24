@@ -270,7 +270,8 @@ def main():
 
     def persist():
         save_state(state, cfg.get("seen_ttl_days", 90))
-        finds_mod.save(FINDS, finds_mod.update(finds_list, matched_recs, rejected, now_dt), bags, now_dt)
+        kept_keys_all = {k for k, v in verdicts["listings"].items() if isinstance(v, dict) and v.get("v") == "keep"}
+        finds_mod.save(FINDS, finds_mod.update(finds_list, matched_recs, rejected, now_dt, kept=kept_keys_all), bags, now_dt)
 
     if args.init:
         log("init: recorded current listings, no alerts sent")
