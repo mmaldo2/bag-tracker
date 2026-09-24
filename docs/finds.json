@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T02:18:57.179893+00:00",
+ "generated": "2026-09-24T02:50:53.395188+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:reinasssancy-vintage-coach-soho-brown-signature-6941",
+   "first_seen": "2026-09-24T02:50:53.395188+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "brown-soho-satchel",
+   "title": "vintage coach soho brown signature (Coach women's brown bag)",
+   "price": 35,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/reinasssancy-vintage-coach-soho-brown-signature-6941/",
+   "image": "https://media-photos.depop.com/b1/10860670/4773922013_a7745931e25d4ceea398486796f0c87c/P0.jpg",
+   "seller": "reinasssancy",
+   "condition": null,
+   "last_seen": "2026-09-24T02:50:53.395188+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
    "first_seen": "2026-09-23T23:38:50.168261+00:00",
    "kind": "new",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/r1/283006094/4772447060_0a4d853be1c24ae29f209bdf5246667b/P0.jpg",
    "seller": "diataprdz",
    "condition": null,
-   "last_seen": "2026-09-24T02:18:57.179893+00:00",
+   "last_seen": "2026-09-24T02:50:53.395188+00:00",
    "stale": false
   },
   {
