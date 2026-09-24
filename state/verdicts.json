@@ -1,6 +1,6 @@
 {
  "bags": {},
- "fetched": "2026-09-24T22:01:37.800701+00:00",
+ "fetched": "2026-09-24T22:33:37.655598+00:00",
  "listings": {
   "depop:b0rizy-coach-chelsea-signature-braided-strap-fecc": {
    "notified": false,
@@ -16,6 +16,11 @@
    "notified": true,
    "t": "2026-09-24T01:01:31.428Z",
    "v": "keep"
+  },
+  "depop:marinavtp-coach-large-patchwork-tote-large-06b5": {
+   "notified": false,
+   "t": "2026-09-24T22:31:22.881Z",
+   "v": "no"
   },
   "depop:mirowpreo-unique-coach-patchwork-tote-featuring-673a": {
    "notified": false,
@@ -90,6 +95,11 @@
   "poshmark:579bc45a2ba50afe6004eaea": {
    "notified": false,
    "t": "2026-09-24T01:05:29.816Z",
+   "v": "no"
+  },
+  "poshmark:6750bbd147c130f84a7e09fd": {
+   "notified": false,
+   "t": "2026-09-24T22:31:25.773Z",
    "v": "no"
   },
   "poshmark:684a97a6b591ed25c5cac5ef": {
