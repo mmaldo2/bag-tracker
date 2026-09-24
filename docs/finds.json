@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T02:50:53.395188+00:00",
+ "generated": "2026-09-24T03:22:51.854477+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:chxrrybloom916-coach-patchwork-tote-bag-before-733e",
+   "first_seen": "2026-09-24T03:22:51.854477+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork tote bag before (Coach women's multi colour bag)",
+   "price": 38,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/chxrrybloom916-coach-patchwork-tote-bag-before-733e/",
+   "image": "https://media-photos.depop.com/b1/409852466/4753993319_94344acc2b71491997e4a9529f25fd39/P0.jpg",
+   "seller": "chxrrybloom916",
+   "condition": null,
+   "last_seen": "2026-09-24T03:22:51.854477+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:reinasssancy-vintage-coach-soho-brown-signature-6941",
    "first_seen": "2026-09-24T02:50:53.395188+00:00",
    "kind": "deal",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/b1/10860670/4773922013_a7745931e25d4ceea398486796f0c87c/P0.jpg",
    "seller": "reinasssancy",
    "condition": null,
-   "last_seen": "2026-09-24T02:50:53.395188+00:00",
+   "last_seen": "2026-09-24T03:22:51.854477+00:00",
    "stale": false
   },
   {
@@ -70,7 +87,7 @@
    "image": "https://media-photos.depop.com/r1/283006094/4772447060_0a4d853be1c24ae29f209bdf5246667b/P0.jpg",
    "seller": "diataprdz",
    "condition": null,
-   "last_seen": "2026-09-24T02:50:53.395188+00:00",
+   "last_seen": "2026-09-24T03:22:51.854477+00:00",
    "stale": false
   },
   {
