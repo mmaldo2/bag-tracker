@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T04:58:50.468432+00:00",
+ "generated": "2026-09-24T05:30:50.884670+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:petsav-coach-vintage-patchwork-tote-bag-b170",
+   "first_seen": "2026-09-24T05:30:50.884670+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach vintage patchwork tote bag (Coach women's multi colour bag)",
+   "price": 200,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/petsav-coach-vintage-patchwork-tote-bag-b170/",
+   "image": "https://media-photos.depop.com/r1/38028338/4666320325_3d054883801145f99acbb73990addf08/P0.jpg",
+   "seller": "petsav",
+   "condition": null,
+   "last_seen": "2026-09-24T05:30:50.884670+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:chxrrybloom916-coach-patchwork-tote-bag-before-733e",
    "first_seen": "2026-09-24T03:22:51.854477+00:00",
    "kind": "deal",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/b1/409852466/4753993319_94344acc2b71491997e4a9529f25fd39/P0.jpg",
    "seller": "chxrrybloom916",
    "condition": null,
-   "last_seen": "2026-09-24T04:58:50.468432+00:00",
+   "last_seen": "2026-09-24T05:30:50.884670+00:00",
    "stale": false
   },
   {
