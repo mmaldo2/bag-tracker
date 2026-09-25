@@ -66,7 +66,7 @@ no model involved (`--no-agent`), trigger it once, and confirm it worked. Nothin
 
 ## Outcome (2026-09-23)
 
-Registered as `bag-tracker-home` (every 30m, no-agent) under the `finance` profile. The `.sh` wrapper
+Registered as `bag-tracker-home` (every 30m at first, changed to hourly on 2026-09-24 after a day of data showed ~5 new matches/day; no-agent) under the `finance` profile. The `.sh` wrapper
 failed from the gateway with exit 127 because the gateway's PATH has neither Git Bash nor git. Replaced
 by `bag-home.py` in the same scripts folder: Hermes runs `.py` with its own interpreter, and the
 wrapper launches `C:\Program Files\Git\bin\bash.exe ./run_home.sh` with Git's directories prepended

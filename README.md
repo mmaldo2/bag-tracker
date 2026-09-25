@@ -7,7 +7,7 @@ Watches eBay, Poshmark, Depop and Mercari for nine specific vintage Coach bags a
 Two runners share one repo and one `state/seen.json`:
 
 - **Cloud (GitHub Actions, every 20 min):** eBay via its official free API, and Poshmark by reading the JSON embedded in its search page. Both work from GitHub's servers.
-- **Home (your laptop / old machine / Pi, every 30 min):** Depop and Mercari. Both refuse datacenter IPs, so they run from a home connection, and both need a headless browser (Playwright), which the script drives; Depop's plain web API now rejects non-browser requests even from home.
+- **Home (your laptop / old machine / Pi, hourly):** Depop and Mercari. Both refuse datacenter IPs, so they run from a home connection, and both need a headless browser (Playwright), which the script drives; Depop's plain web API now rejects non-browser requests even from home.
 
 Every listing title is matched against per-bag rules in `config.yaml` (must-have term groups, exclusions, a max price and a "deal" price). New matches go to Discord as embeds with the photo, price, source and seller; deals get a red embed; a listing you've already seen that drops 15% re-alerts as a price drop. State is committed back after each run so nothing repeats.
 
@@ -57,11 +57,11 @@ On the machine that will run Depop and Mercari:
     python3 sync_verdicts.py     # pulls her swipes; needs VERDICT_URL and VERDICT_TOKEN in .env
     python3 tracker.py --sources home --dry-run
 
-Then schedule it. macOS/Linux `crontab -e`:
+Then schedule it hourly (30 minutes turned out to buy almost nothing: about five new matches a day across all sources, at double the page loads from the one IP that matters). macOS/Linux `crontab -e`:
 
-    */30 * * * * /Users/you/bag-tracker/run_home.sh >> /Users/you/bag-tracker/state/home.log 2>&1
+    0 * * * * /Users/you/bag-tracker/run_home.sh >> /Users/you/bag-tracker/state/home.log 2>&1
 
-On Windows, the equivalent is a Task Scheduler job that runs `"C:\Program Files\Git\bin\bash.exe" -lc "/path/to/bag-tracker/run_home.sh >> /path/to/bag-tracker/state/home.log 2>&1"` every 30 minutes.
+On Windows, the equivalent is a Task Scheduler job that runs `"C:\Program Files\Git\bin\bash.exe" -lc "/path/to/bag-tracker/run_home.sh >> /path/to/bag-tracker/state/home.log 2>&1"` every hour.
 
 The machine needs to be awake for the cron to fire (on a Mac: System Settings → Energy → prevent sleep, or use `caffeinate`). A Raspberry Pi on the router is the fire-and-forget version.
 

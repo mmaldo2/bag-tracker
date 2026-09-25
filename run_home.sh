@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Runs the Depop + Mercari pass from a home machine and syncs state with the repo.
-# Schedule it every 30 minutes (cron on macOS/Linux, Task Scheduler on Windows; see README).
+# Schedule it hourly (cron on macOS/Linux; on this machine a Hermes cron job, see notes/hermes-handoff.md).
 # Secrets: put DISCORD_WEBHOOK_URL / SMTP_* / VERDICT_* in a file called .env next to this script.
 set -euo pipefail
 cd "$(dirname "$0")"
