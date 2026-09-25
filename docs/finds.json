@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T02:18:54.601681+00:00",
+ "generated": "2026-09-25T02:50:53.812526+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "mercari:m15557265062",
+   "first_seen": "2026-09-25T02:50:53.812526+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Vintage Y2k Soho Signature Hobo Shoulder Bag Black canvas leather - Coach",
+   "price": 120,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m15557265062/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m15557265062_1.jpg?width=256&quality=75&_=1790303795",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-09-25T02:50:53.812526+00:00",
+   "stale": false
+  },
   {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
    "first_seen": "2026-09-23T23:38:50.168261+00:00",
