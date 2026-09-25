@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T07:34:01.314360+00:00",
+ "generated": "2026-09-25T08:15:52.608431+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,74 @@
  },
  "finds": [
   {
+   "key": "depop:thriftywndthrivingg-2007-coach-holiday-patchwork-tote-ffd1",
+   "first_seen": "2026-09-25T08:15:52.608431+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "2007 coach holiday patchwork tote (Coach women's multi colour bag)",
+   "price": 210,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/thriftywndthrivingg-2007-coach-holiday-patchwork-tote-ffd1/",
+   "image": "https://media-photos.depop.com/r1/33967031/4777620665_175db154df534c84be781b361bf019f2/P0.jpg",
+   "seller": "thriftywndthrivingg",
+   "condition": null,
+   "last_seen": "2026-09-25T08:15:52.608431+00:00",
+   "stale": false
+  },
+  {
+   "key": "depop:henlokitty_xoxo_-authentic-coach-signature-patchwork-tote-9da0",
+   "first_seen": "2026-09-25T08:15:52.608431+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "authentic coach signature patchwork tote (Coach women's multi colour bag)",
+   "price": 165,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/henlokitty_xoxo_-authentic-coach-signature-patchwork-tote-9da0/",
+   "image": "https://media-photos.depop.com/r1/4359197/4771992562_0e7b6391cab9471e8a58c81c90bb9f56/P0.jpg",
+   "seller": "henlokitty_xoxo_",
+   "condition": null,
+   "last_seen": "2026-09-25T08:15:52.608431+00:00",
+   "stale": false
+  },
+  {
+   "key": "depop:coknr-coach-patchwork-tote-bag-with-52dc",
+   "first_seen": "2026-09-25T08:15:52.608431+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork tote bag with (Coach women's brown and gold bag)",
+   "price": 200,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/coknr-coach-patchwork-tote-bag-with-52dc/",
+   "image": "https://media-photos.depop.com/r1/321206372/4744255461_d8e5c8f5f9534a96b122c5e7f1ace7d0/P0.jpg",
+   "seller": "coknr",
+   "condition": null,
+   "last_seen": "2026-09-25T08:15:52.608431+00:00",
+   "stale": false
+  },
+  {
+   "key": "depop:denimlnthedaily-coach-vintage-patchwork-signature-tote-5936",
+   "first_seen": "2026-09-25T08:15:52.608431+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach vintage patchwork signature tote (Coach women's vintage designer brown and tan glam avant_garde streetwear bag)",
+   "price": 220,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/denimlnthedaily-coach-vintage-patchwork-signature-tote-5936/",
+   "image": "https://media-photos.depop.com/r1/454957777/4753099207_567e03666f3b49b8bbcdfcd09a3efc2b/P0.jpg",
+   "seller": "denimlnthedaily",
+   "condition": null,
+   "last_seen": "2026-09-25T08:15:52.608431+00:00",
+   "stale": false
+  },
+  {
    "key": "mercari:m15557265062",
    "first_seen": "2026-09-25T02:50:53.812526+00:00",
    "kind": "new",
@@ -53,7 +121,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m15557265062_1.jpg?width=256&quality=75&_=1790303795",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-09-25T07:13:53.367438+00:00",
+   "last_seen": "2026-09-25T08:15:52.608431+00:00",
    "stale": false
   },
   {
@@ -70,7 +138,7 @@
    "image": "https://media-photos.depop.com/r1/283006094/4772447060_0a4d853be1c24ae29f209bdf5246667b/P0.jpg",
    "seller": "diataprdz",
    "condition": null,
-   "last_seen": "2026-09-24T03:22:51.854477+00:00",
+   "last_seen": "2026-09-25T08:15:52.608431+00:00",
    "stale": false
   },
   {
