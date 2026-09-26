@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T01:49:54.201342+00:00",
+ "generated": "2026-09-26T02:51:52.814251+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "mercari:m95197557037",
+   "first_seen": "2026-09-26T02:51:52.814251+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "Y2K Patchwork Tote Bag With Suede & Patent Leather #9752 - Coach",
+   "price": 175,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m95197557037/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m95197557037_1.jpg?width=256&quality=75&_=1790390203",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-09-26T02:51:52.814251+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:fcercefitz-y2k-coach-patchwork-brownmetallic-tote-72fc",
    "first_seen": "2026-09-25T13:25:54.993164+00:00",
    "kind": "deal",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/r1/249583812/4616453317_ea392c8eed014d70a6d38be477be5899/P0.jpg",
    "seller": "fcercefitz",
    "condition": null,
-   "last_seen": "2026-09-26T01:49:54.201342+00:00",
+   "last_seen": "2026-09-26T02:51:52.814251+00:00",
    "stale": false
   },
   {
