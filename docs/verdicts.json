@@ -1,6 +1,6 @@
 {
  "bags": {},
- "fetched": "2026-09-26T23:30:39.205547+00:00",
+ "fetched": "2026-09-27T00:32:39.943839+00:00",
  "listings": {
   "depop:b0rizy-coach-chelsea-signature-braided-strap-fecc": {
    "notified": false,
@@ -12,10 +12,30 @@
    "t": "2026-09-24T05:49:32.106Z",
    "v": "no"
   },
+  "depop:coknr-coach-patchwork-tote-bag-with-52dc": {
+   "notified": false,
+   "t": "2026-09-27T00:22:30.882Z",
+   "v": "no"
+  },
+  "depop:denimlnthedaily-coach-vintage-patchwork-signature-tote-5936": {
+   "notified": false,
+   "t": "2026-09-27T00:22:31.769Z",
+   "v": "no"
+  },
   "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8": {
    "notified": true,
    "t": "2026-09-24T01:01:31.428Z",
    "v": "keep"
+  },
+  "depop:fcercefitz-y2k-coach-patchwork-brownmetallic-tote-72fc": {
+   "notified": false,
+   "t": "2026-09-27T00:22:22.833Z",
+   "v": "no"
+  },
+  "depop:henlokitty_xoxo_-authentic-coach-signature-patchwork-tote-9da0": {
+   "notified": false,
+   "t": "2026-09-27T00:22:29.763Z",
+   "v": "no"
   },
   "depop:marinavtp-coach-large-patchwork-tote-large-06b5": {
    "notified": false,
@@ -37,9 +57,24 @@
    "t": "2026-09-24T05:49:38.317Z",
    "v": "no"
   },
+  "depop:requnemretro-vintage-y2k-coach-soho-signature-b8eb": {
+   "notified": false,
+   "t": "2026-09-27T00:22:19.633Z",
+   "v": "no"
+  },
+  "depop:thriftywndthrivingg-2007-coach-holiday-patchwork-tote-ffd1": {
+   "notified": false,
+   "t": "2026-09-27T00:22:24.284Z",
+   "v": "no"
+  },
   "mercari:m14336017791": {
    "notified": false,
    "t": "2026-09-24T01:01:59.077Z",
+   "v": "no"
+  },
+  "mercari:m15557265062": {
+   "notified": false,
+   "t": "2026-09-27T00:22:32.664Z",
    "v": "no"
   },
   "mercari:m17567676097": {
@@ -72,6 +107,11 @@
    "t": "2026-09-24T01:01:47.466Z",
    "v": "no"
   },
+  "mercari:m75713435525": {
+   "notified": false,
+   "t": "2026-09-27T00:22:18.833Z",
+   "v": "no"
+  },
   "mercari:m76858086192": {
    "notified": false,
    "t": "2026-09-24T01:01:46.407Z",
@@ -80,6 +120,11 @@
   "mercari:m85502086328": {
    "notified": false,
    "t": "2026-09-24T01:01:37.377Z",
+   "v": "no"
+  },
+  "mercari:m95197557037": {
+   "notified": false,
+   "t": "2026-09-27T00:22:22.026Z",
    "v": "no"
   },
   "poshmark:5503a9a344adba74400034bd": {
@@ -165,6 +210,11 @@
   "poshmark:6ab16de94985e8e6319167a7": {
    "notified": false,
    "t": "2026-09-24T01:05:20.265Z",
+   "v": "no"
+  },
+  "poshmark:6ab7c909f09fc89fe4ea1ccd": {
+   "notified": false,
+   "t": "2026-09-27T00:22:21.002Z",
    "v": "no"
   }
  }
