@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T11:55:55.158931+00:00",
+ "generated": "2026-09-27T12:57:54.989780+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "depop:miagr_15-vintage-coach-holiday-patchwork-tote-f1f1",
+   "first_seen": "2026-09-27T12:57:54.989780+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "vintage coach holiday patchwork tote (Women's multi colour bag)",
+   "price": 60,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/miagr_15-vintage-coach-holiday-patchwork-tote-f1f1/",
+   "image": "https://media-photos.depop.com/b1/282116000/3382738645_fb1428291cfa4637b8721f420bbe9b47/P0.jpg",
+   "seller": "miagr_15",
+   "condition": null,
+   "last_seen": "2026-09-27T12:57:54.989780+00:00",
+   "stale": false
+  },
   {
    "key": "poshmark:6ab88723441b19e4927a68ca",
    "first_seen": "2026-09-27T07:50:06.553134+00:00",
