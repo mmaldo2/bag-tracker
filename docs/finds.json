@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T01:22:00.334836+00:00",
+ "generated": "2026-09-28T02:23:58.197580+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:aorkivevtg-coach-holiday-patchwork-gallery-tote-1c94",
+   "first_seen": "2026-09-28T02:23:58.197580+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach holiday patchwork gallery tote (Coach women's multi colour boho y2_k chic bag)",
+   "price": 70,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/aorkivevtg-coach-holiday-patchwork-gallery-tote-1c94/",
+   "image": "https://media-photos.depop.com/b1/442690084/4806608185_ea65b76778344c98b4cea1a4f7ba68f0/P0.jpg",
+   "seller": "aorkivevtg",
+   "condition": null,
+   "last_seen": "2026-09-28T02:23:58.197580+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:as4rid2026-vintage-coach-ocelot-patchwork-tote-6008",
    "first_seen": "2026-09-27T18:07:56.672846+00:00",
    "kind": "deal",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/r1/342621699/4802355843_f0933647b2b24a239e97045e48adacb4/P0.jpg",
    "seller": "as4rid2026",
    "condition": null,
-   "last_seen": "2026-09-28T01:22:00.334836+00:00",
+   "last_seen": "2026-09-28T02:23:58.197580+00:00",
    "stale": false
   },
   {
@@ -70,7 +87,7 @@
    "image": "https://media-photos.depop.com/b1/11219157/4790554390_2f00be82f905462ea386be32039507b1/P0.jpg",
    "seller": "sorybby31",
    "condition": null,
-   "last_seen": "2026-09-28T01:22:00.334836+00:00",
+   "last_seen": "2026-09-28T02:23:58.197580+00:00",
    "stale": false
   },
   {
@@ -87,7 +104,7 @@
    "image": "https://media-photos.depop.com/b1/282116000/3382738645_fb1428291cfa4637b8721f420bbe9b47/P0.jpg",
    "seller": "miagr_15",
    "condition": null,
-   "last_seen": "2026-09-28T01:22:00.334836+00:00",
+   "last_seen": "2026-09-28T02:23:58.197580+00:00",
    "stale": false
   },
   {
@@ -190,7 +207,7 @@
    "seller": "junasjewel",
    "condition": "ug",
    "last_seen": "2026-09-25T01:54:51.300036+00:00",
-   "stale": false
+   "stale": true
   },
   {
    "key": "poshmark:684a97a6b591ed25c5cac5ef",
