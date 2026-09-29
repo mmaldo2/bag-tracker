@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T01:07:57.831963+00:00",
+ "generated": "2026-09-29T02:09:59.287089+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "depop:alevabb-vintage-y2k-coach-soho-signature-b63a",
+   "first_seen": "2026-09-29T02:09:59.287089+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "brown-soho-satchel",
+   "title": "vintage y2k coach soho signature (Coach women's brown and tan bag)",
+   "price": 110,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/alevabb-vintage-y2k-coach-soho-signature-b63a/",
+   "image": "https://media-photos.depop.com/r1/300830401/4743441042_58a49b472762426da0576ca5765eb126/P0.jpg",
+   "seller": "alevabb",
+   "condition": null,
+   "last_seen": "2026-09-29T02:09:59.287089+00:00",
+   "stale": false
+  },
   {
    "key": "poshmark:6abaf3664941b5a3711f944b",
    "first_seen": "2026-09-28T23:13:15.983377+00:00",
@@ -87,7 +104,7 @@
    "image": "https://media-photos.depop.com/r1/281391925/4811988945_e622db4b513445a7bd8fdbcb19a18cd5/P0.jpg",
    "seller": "onew9eelerr",
    "condition": null,
-   "last_seen": "2026-09-29T01:07:57.831963+00:00",
+   "last_seen": "2026-09-29T02:09:59.287089+00:00",
    "stale": false
   },
   {
@@ -104,7 +121,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m83011018147_1.jpg?width=256&quality=75&_=1788920779",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-09-29T01:07:57.831963+00:00",
+   "last_seen": "2026-09-29T02:09:59.287089+00:00",
    "stale": false
   },
   {
