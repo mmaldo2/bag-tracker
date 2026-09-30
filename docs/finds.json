@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T13:01:05.485935+00:00",
+ "generated": "2026-09-30T13:17:59.370307+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:vvle5_512-vintage-y2k-coach-signature-soho-4e12",
+   "first_seen": "2026-09-30T13:17:59.370307+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "black-soho-satchel",
+   "title": "vintage y2k coach signature soho (Coach women's black bag)",
+   "price": 22,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/vvle5_512-vintage-y2k-coach-signature-soho-4e12/",
+   "image": "https://media-photos.depop.com/r1/465901061/4821376162_385826749fbf4e30a012ec2c1471a513/P0.jpg",
+   "seller": "vvle5_512",
+   "condition": null,
+   "last_seen": "2026-09-30T13:17:59.370307+00:00",
+   "stale": false
+  },
+  {
    "key": "mercari:m67977789283",
    "first_seen": "2026-09-30T01:55:58.632038+00:00",
    "kind": "new",
@@ -53,7 +70,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m67977789283_1.jpg?width=256&quality=75&_=1790732104",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-09-30T12:15:57.263201+00:00",
+   "last_seen": "2026-09-30T13:17:59.370307+00:00",
    "stale": false
   },
   {
@@ -189,7 +206,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m83011018147_1.jpg?width=256&quality=75&_=1788920779",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-09-30T12:15:57.263201+00:00",
+   "last_seen": "2026-09-30T13:17:59.370307+00:00",
    "stale": false
   },
   {
