@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T01:35:58.680444+00:00",
+ "generated": "2026-10-01T01:41:59.834882+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "depop:claireaustrka-coach-patchwork-tote-bag-with-d009",
+   "first_seen": "2026-10-01T01:41:59.834882+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork tote bag with (Coach women's multi colour bag)",
+   "price": 65,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/claireaustrka-coach-patchwork-tote-bag-with-d009/",
+   "image": "https://media-photos.depop.com/r1/417680328/4832798586_753cbce87bb64efbaed32f1ec97e60fe/P0.jpg",
+   "seller": "claireaustrka",
+   "condition": null,
+   "last_seen": "2026-10-01T01:41:59.834882+00:00",
+   "stale": false
+  },
   {
    "key": "mercari:m21513440842",
    "first_seen": "2026-09-30T16:23:55.991815+00:00",
@@ -240,7 +257,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m83011018147_1.jpg?width=256&quality=75&_=1788920779",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-01T00:40:00.315784+00:00",
+   "last_seen": "2026-10-01T01:41:59.834882+00:00",
    "stale": false
   },
   {
@@ -342,7 +359,7 @@
    "image": "https://media-photos.depop.com/b1/282116000/3382738645_fb1428291cfa4637b8721f420bbe9b47/P0.jpg",
    "seller": "miagr_15",
    "condition": null,
-   "last_seen": "2026-10-01T00:40:00.315784+00:00",
+   "last_seen": "2026-10-01T01:41:59.834882+00:00",
    "stale": false
   },
   {
