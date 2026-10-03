@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T20:56:09.914651+00:00",
+ "generated": "2026-10-03T21:54:04.311149+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "mercari:m44886252042",
+   "first_seen": "2026-10-03T21:54:04.311149+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "chelsea-braided",
+   "title": "Vintage Chelsea Optic Signature Satchel - Coach",
+   "price": 190,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m44886252042/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m44886252042_1.jpg?width=256&quality=75&_=1790379526",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-03T21:54:04.311149+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:babybeniao-coach-patchwork-leather-tote-bag-fb92",
    "first_seen": "2026-10-03T18:48:00.880376+00:00",
    "kind": "new",
@@ -70,7 +87,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m47919012289_1.jpg?width=256&quality=75&_=1791043709",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-03T20:51:59.687303+00:00",
+   "last_seen": "2026-10-03T21:54:04.311149+00:00",
    "stale": false
   },
   {
@@ -104,7 +121,7 @@
    "image": "https://media-photos.depop.com/b1/312870995/4845493872_c106934688d942698ae91b91f648eb24/P0.jpg",
    "seller": "nicholvrene",
    "condition": null,
-   "last_seen": "2026-10-03T20:51:59.687303+00:00",
+   "last_seen": "2026-10-03T21:54:04.311149+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m72894200698_1.jpg?width=256&quality=75&_=1790998134",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-03T20:51:59.687303+00:00",
+   "last_seen": "2026-10-03T21:54:04.311149+00:00",
    "stale": false
   },
   {
@@ -172,7 +189,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m86684334585_1.jpg?width=256&quality=75&_=1790969129",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-03T20:51:59.687303+00:00",
+   "last_seen": "2026-10-03T21:54:04.311149+00:00",
    "stale": false
   },
   {
