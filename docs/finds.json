@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T14:12:27.098821+00:00",
+ "generated": "2026-10-04T14:25:59.857882+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:mhpuni-vintage-coach-multicoloured-patchwork-tote-9d77",
+   "first_seen": "2026-10-04T14:25:59.857882+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "vintage coach multicoloured patchwork tote (Coach women's multi colour bag)",
+   "price": 131.25,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/mhpuni-vintage-coach-multicoloured-patchwork-tote-9d77/",
+   "image": "https://media-photos.depop.com/r1/40542730/4825653348_a0b243187abe4bc5b062d5468b2ad92c/P0.jpg",
+   "seller": "mhpuni",
+   "condition": null,
+   "last_seen": "2026-10-04T14:25:59.857882+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:thevictorian9wan-authentic-y2k-coach-patchwork-tote-9a68",
    "first_seen": "2026-10-04T12:22:00.609113+00:00",
    "kind": "new",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/r1/53559562/4837776236_5220cf1d0e0e42069d18bc963425e9f7/P0.jpg",
    "seller": "thevictorian9wan",
    "condition": null,
-   "last_seen": "2026-10-04T13:24:00.099754+00:00",
+   "last_seen": "2026-10-04T14:25:59.857882+00:00",
    "stale": false
   },
   {
@@ -87,7 +104,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51112965022_1.jpg?width=256&quality=75&_=1791073416",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T13:24:00.099754+00:00",
+   "last_seen": "2026-10-04T14:25:59.857882+00:00",
    "stale": false
   },
   {
@@ -104,7 +121,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m44886252042_1.jpg?width=256&quality=75&_=1790379526",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T13:24:00.099754+00:00",
+   "last_seen": "2026-10-04T14:25:59.857882+00:00",
    "stale": false
   },
   {
@@ -138,7 +155,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m47919012289_1.jpg?width=256&quality=75&_=1791114652",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T13:24:00.099754+00:00",
+   "last_seen": "2026-10-04T14:25:59.857882+00:00",
    "stale": false
   },
   {
@@ -189,7 +206,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m72894200698_1.jpg?width=256&quality=75&_=1790998134",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T13:24:00.099754+00:00",
+   "last_seen": "2026-10-04T14:25:59.857882+00:00",
    "stale": false
   },
   {
@@ -240,7 +257,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m86684334585_1.jpg?width=256&quality=75&_=1790969129",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T13:24:00.099754+00:00",
+   "last_seen": "2026-10-04T14:25:59.857882+00:00",
    "stale": false
   },
   {
@@ -615,23 +632,6 @@
    "seller": "sorybby31",
    "condition": null,
    "last_seen": "2026-09-30T02:57:58.106105+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:miagr_15-vintage-coach-holiday-patchwork-tote-f1f1",
-   "first_seen": "2026-09-27T12:57:54.989780+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "vintage coach holiday patchwork tote (Women's multi colour bag)",
-   "price": 60,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/miagr_15-vintage-coach-holiday-patchwork-tote-f1f1/",
-   "image": "https://media-photos.depop.com/b1/282116000/3382738645_fb1428291cfa4637b8721f420bbe9b47/P0.jpg",
-   "seller": "miagr_15",
-   "condition": null,
-   "last_seen": "2026-10-01T02:43:59.437460+00:00",
    "stale": true
   },
   {
