@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T15:16:10.824585+00:00",
+ "generated": "2026-10-04T15:28:00.980780+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "mercari:m69481165659",
+   "first_seen": "2026-10-04T15:28:00.980780+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Vintage Soho Black Signature Jacquard Buckle Flap Shoulder Bag Y2K - Coach",
+   "price": 125,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m69481165659/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m69481165659_1.jpg?width=256&quality=75&_=1791124796",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-04T15:28:00.980780+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:mhpuni-vintage-coach-multicoloured-patchwork-tote-9d77",
    "first_seen": "2026-10-04T14:25:59.857882+00:00",
    "kind": "new",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/r1/40542730/4825653348_a0b243187abe4bc5b062d5468b2ad92c/P0.jpg",
    "seller": "mhpuni",
    "condition": null,
-   "last_seen": "2026-10-04T14:25:59.857882+00:00",
+   "last_seen": "2026-10-04T15:28:00.980780+00:00",
    "stale": false
   },
   {
@@ -70,7 +87,7 @@
    "image": "https://media-photos.depop.com/r1/53559562/4837776236_5220cf1d0e0e42069d18bc963425e9f7/P0.jpg",
    "seller": "thevictorian9wan",
    "condition": null,
-   "last_seen": "2026-10-04T14:25:59.857882+00:00",
+   "last_seen": "2026-10-04T15:28:00.980780+00:00",
    "stale": false
   },
   {
@@ -104,7 +121,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51112965022_1.jpg?width=256&quality=75&_=1791073416",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T14:25:59.857882+00:00",
+   "last_seen": "2026-10-04T15:28:00.980780+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m44886252042_1.jpg?width=256&quality=75&_=1790379526",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T14:25:59.857882+00:00",
+   "last_seen": "2026-10-04T15:28:00.980780+00:00",
    "stale": false
   },
   {
@@ -155,7 +172,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m47919012289_1.jpg?width=256&quality=75&_=1791114652",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T14:25:59.857882+00:00",
+   "last_seen": "2026-10-04T15:28:00.980780+00:00",
    "stale": false
   },
   {
@@ -206,7 +223,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m72894200698_1.jpg?width=256&quality=75&_=1790998134",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T14:25:59.857882+00:00",
+   "last_seen": "2026-10-04T15:28:00.980780+00:00",
    "stale": false
   },
   {
@@ -257,7 +274,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m86684334585_1.jpg?width=256&quality=75&_=1790969129",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-04T14:25:59.857882+00:00",
+   "last_seen": "2026-10-04T15:28:00.980780+00:00",
    "stale": false
   },
   {
@@ -615,23 +632,6 @@
    "seller": "as4rid2026",
    "condition": null,
    "last_seen": "2026-09-28T09:37:55.159090+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:sorybby31-coach-signature-monogram-canvas-satchel-a022",
-   "first_seen": "2026-09-27T13:59:55.130167+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "brown-soho-satchel",
-   "title": "coach signature monogram canvas satchel (Coach women's tan and brown bag)",
-   "price": 45,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/sorybby31-coach-signature-monogram-canvas-satchel-a022/",
-   "image": "https://media-photos.depop.com/b1/11219157/4790554390_2f00be82f905462ea386be32039507b1/P0.jpg",
-   "seller": "sorybby31",
-   "condition": null,
-   "last_seen": "2026-09-30T02:57:58.106105+00:00",
    "stale": true
   },
   {
