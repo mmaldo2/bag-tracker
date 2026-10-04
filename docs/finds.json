@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T21:12:57.714506+00:00",
+ "generated": "2026-10-04T21:38:56.375960+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6ac2c2b351d13afdb52cbd06",
+   "first_seen": "2026-10-04T21:38:56.375960+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Coach Soho Black Gray Signature C Large Buckle Strap Tote Shoulder/Satchel Bag",
+   "price": 85.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ac2c2b351d13afdb52cbd06",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/04/6ac2c2b351d13afdb52cbd06/m_6ac2c2d872825304bcc27590.jpg",
+   "seller": "susanjaros",
+   "condition": null,
+   "last_seen": "2026-10-04T21:38:56.375960+00:00",
+   "stale": false
+  },
   {
    "key": "depop:farron_e1ona-y2k-coach-soho-pleated-signature-47b5",
    "first_seen": "2026-10-04T20:38:07.901411+00:00",
@@ -121,7 +138,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/03/6ac192d81b53fe85c4dc5003/m_6ac192dc4941b5f097b0b82e.jpg",
    "seller": "smaslak13",
    "condition": "Used",
-   "last_seen": "2026-10-04T21:12:57.714506+00:00",
+   "last_seen": "2026-10-04T21:38:56.375960+00:00",
    "stale": false
   },
   {
@@ -257,7 +274,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/02/6ac0048251d13a55f712a747/m_6ac0048c32f934895971378a.jpg",
    "seller": "jpomponio",
    "condition": "ug",
-   "last_seen": "2026-10-04T21:12:57.714506+00:00",
+   "last_seen": "2026-10-04T21:38:56.375960+00:00",
    "stale": false
   },
   {
@@ -274,7 +291,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/09/21/6ab1973356502b762c87495e/m_6ab1975b8925d31eb2b4901d.jpg",
    "seller": "raquelresell",
    "condition": "uln",
-   "last_seen": "2026-10-04T21:12:57.714506+00:00",
+   "last_seen": "2026-10-04T21:38:56.375960+00:00",
    "stale": false
   },
   {
@@ -342,7 +359,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/01/6abf3327046d1fada090bcfc/m_6abf333de88d54d21f70ca64.jpg",
    "seller": "nevaehsvaultt",
    "condition": "uln",
-   "last_seen": "2026-10-04T21:12:57.714506+00:00",
+   "last_seen": "2026-10-04T21:38:56.375960+00:00",
    "stale": false
   },
   {
@@ -618,23 +635,6 @@
    "stale": true
   },
   {
-   "key": "depop:aorkivevtg-coach-holiday-patchwork-gallery-tote-1c94",
-   "first_seen": "2026-09-28T02:23:58.197580+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach holiday patchwork gallery tote (Coach women's multi colour boho y2_k chic bag)",
-   "price": 70,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/aorkivevtg-coach-holiday-patchwork-gallery-tote-1c94/",
-   "image": "https://media-photos.depop.com/b1/442690084/4806608185_ea65b76778344c98b4cea1a4f7ba68f0/P0.jpg",
-   "seller": "aorkivevtg",
-   "condition": null,
-   "last_seen": "2026-09-28T03:25:56.034435+00:00",
-   "stale": true
-  },
-  {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
    "first_seen": "2026-09-23T23:38:50.168261+00:00",
    "kind": "new",
@@ -665,7 +665,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-04T21:12:57.714506+00:00",
+   "last_seen": "2026-10-04T21:38:56.375960+00:00",
    "stale": false
   },
   {
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-04T21:12:57.714506+00:00",
+   "last_seen": "2026-10-04T21:38:56.375960+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-04T21:12:57.714506+00:00",
+   "last_seen": "2026-10-04T21:38:56.375960+00:00",
    "stale": false
   }
  ]
