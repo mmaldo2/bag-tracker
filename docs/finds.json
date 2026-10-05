@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T21:32:14.247377+00:00",
+ "generated": "2026-10-05T22:28:01.802852+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "mercari:m27653216680",
+   "first_seen": "2026-10-05T22:28:01.802852+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "VTG Y2K Mixed Patchwork Tote Handbag Women's Holiday 10437 - Coach",
+   "price": 125,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m27653216680/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m27653216680_1.jpg?width=256&quality=75&_=1791238133",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-05T22:28:01.802852+00:00",
+   "stale": false
+  },
   {
    "key": "depop:cocoacoech-2000s-coach-holiday-patchwork-tote-72a8",
    "first_seen": "2026-10-05T21:26:03.427913+00:00",
@@ -138,7 +155,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m38239001647_1.jpg?width=256&quality=75&_=1791232260",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T21:26:03.427913+00:00",
+   "last_seen": "2026-10-05T22:28:01.802852+00:00",
    "stale": false
   },
   {
@@ -172,7 +189,7 @@
    "image": "https://media-photos.depop.com/b1/36842252/repop_19691624_3222767727/4869749054_1ae05a44e15b4e209d5d475c3d9cafe8/P0.jpg",
    "seller": "kksapp65",
    "condition": null,
-   "last_seen": "2026-10-05T20:24:03.044222+00:00",
+   "last_seen": "2026-10-05T22:28:01.802852+00:00",
    "stale": false
   },
   {
@@ -308,7 +325,7 @@
    "image": "https://media-photos.depop.com/r1/53559562/4837776236_5220cf1d0e0e42069d18bc963425e9f7/P0.jpg",
    "seller": "thevictorian9wan",
    "condition": null,
-   "last_seen": "2026-10-05T20:24:03.044222+00:00",
+   "last_seen": "2026-10-05T22:28:01.802852+00:00",
    "stale": false
   },
   {
@@ -342,7 +359,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51112965022_1.jpg?width=256&quality=75&_=1791073416",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T21:26:03.427913+00:00",
+   "last_seen": "2026-10-05T22:28:01.802852+00:00",
    "stale": false
   },
   {
@@ -359,7 +376,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m44886252042_1.jpg?width=256&quality=75&_=1790379526",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T21:26:03.427913+00:00",
+   "last_seen": "2026-10-05T22:28:01.802852+00:00",
    "stale": false
   },
   {
@@ -369,14 +386,14 @@
    "old_price": null,
    "bag": "patchwork-leopard-tote",
    "title": "coach patchwork leather tote bag (Coach women's multi colour bag)",
-   "price": 200,
+   "price": 140,
    "currency": "USD",
    "source": "depop",
    "url": "https://www.depop.com/products/babybeniao-coach-patchwork-leather-tote-bag-fb92/",
    "image": "https://media-photos.depop.com/b1/400032131/4853582688_abfdcec6977346fe8df1f76195c6fbf0/P0.jpg",
    "seller": "babybeniao",
    "condition": null,
-   "last_seen": "2026-10-05T20:24:03.044222+00:00",
+   "last_seen": "2026-10-05T22:28:01.802852+00:00",
    "stale": false
   },
   {
@@ -393,7 +410,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m47919012289_1.jpg?width=256&quality=75&_=1791114652",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T21:26:03.427913+00:00",
+   "last_seen": "2026-10-05T22:28:01.802852+00:00",
    "stale": false
   },
   {
@@ -495,7 +512,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m86684334585_1.jpg?width=256&quality=75&_=1790969129",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T21:26:03.427913+00:00",
+   "last_seen": "2026-10-05T22:28:01.802852+00:00",
    "stale": false
   },
   {
@@ -615,23 +632,6 @@
    "seller": null,
    "condition": null,
    "last_seen": "2026-09-30T23:37:59.936119+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:vvle5_512-vintage-y2k-coach-signature-soho-4e12",
-   "first_seen": "2026-09-30T13:17:59.370307+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "black-soho-satchel",
-   "title": "vintage y2k coach signature soho (Coach women's black bag)",
-   "price": 22,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/vvle5_512-vintage-y2k-coach-signature-soho-4e12/",
-   "image": "https://media-photos.depop.com/r1/465901061/4821376162_385826749fbf4e30a012ec2c1471a513/P0.jpg",
-   "seller": "vvle5_512",
-   "condition": null,
-   "last_seen": "2026-09-30T15:22:02.749683+00:00",
    "stale": true
   },
   {
