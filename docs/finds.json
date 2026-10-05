@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T14:12:01.989667+00:00",
+ "generated": "2026-10-05T15:14:03.519413+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "depop:kksapp65-coach-patchwork-leather-tote-bag-6465",
+   "first_seen": "2026-10-05T15:14:03.519413+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork leather tote bag (Coach women's multi colour bag)",
+   "price": 28,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/kksapp65-coach-patchwork-leather-tote-bag-6465/",
+   "image": "https://media-photos.depop.com/b1/36842252/repop_19691624_3222767727/4869749054_1ae05a44e15b4e209d5d475c3d9cafe8/P0.jpg",
+   "seller": "kksapp65",
+   "condition": null,
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
+   "stale": false
+  },
   {
    "key": "poshmark:62d99f1cac9702ff61c48df3",
    "first_seen": "2026-10-05T08:48:58.631310+00:00",
@@ -87,7 +104,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m47428811780_1.jpg?width=256&quality=75&_=1791172149",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T14:12:01.989667+00:00",
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/r1/366554177/4863566080_3bd9f6aa3cf145e5847ac4ea8058c90c/P0.jpg",
    "seller": "farron_e1ona",
    "condition": null,
-   "last_seen": "2026-10-05T14:12:01.989667+00:00",
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
    "stale": false
   },
   {
@@ -172,7 +189,7 @@
    "image": "https://media-photos.depop.com/r1/53559562/4837776236_5220cf1d0e0e42069d18bc963425e9f7/P0.jpg",
    "seller": "thevictorian9wan",
    "condition": null,
-   "last_seen": "2026-10-05T14:12:01.989667+00:00",
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
    "stale": false
   },
   {
@@ -206,7 +223,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51112965022_1.jpg?width=256&quality=75&_=1791073416",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T14:12:01.989667+00:00",
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
    "stale": false
   },
   {
@@ -223,7 +240,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m44886252042_1.jpg?width=256&quality=75&_=1790379526",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T14:12:01.989667+00:00",
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
    "stale": false
   },
   {
@@ -240,7 +257,7 @@
    "image": "https://media-photos.depop.com/b1/400032131/4853582688_abfdcec6977346fe8df1f76195c6fbf0/P0.jpg",
    "seller": "babybeniao",
    "condition": null,
-   "last_seen": "2026-10-05T14:12:01.989667+00:00",
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
    "stale": false
   },
   {
@@ -257,7 +274,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m47919012289_1.jpg?width=256&quality=75&_=1791114652",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T14:12:01.989667+00:00",
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
    "stale": false
   },
   {
@@ -308,7 +325,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m72894200698_1.jpg?width=256&quality=75&_=1790998134",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T14:12:01.989667+00:00",
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
    "stale": false
   },
   {
@@ -359,7 +376,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m86684334585_1.jpg?width=256&quality=75&_=1790969129",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T14:12:01.989667+00:00",
+   "last_seen": "2026-10-05T15:14:03.519413+00:00",
    "stale": false
   },
   {
@@ -615,23 +632,6 @@
    "seller": "kristenjames24",
    "condition": "ug",
    "last_seen": "2026-09-29T11:27:40.583493+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:onew9eelerr-brown-leather-patchwork-tote-bag-8a81",
-   "first_seen": "2026-09-28T18:56:03.403727+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "brown leather patchwork tote bag (Coach women's brown bag)",
-   "price": 25,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/onew9eelerr-brown-leather-patchwork-tote-bag-8a81/",
-   "image": "https://media-photos.depop.com/r1/281391925/4811988945_e622db4b513445a7bd8fdbcb19a18cd5/P0.jpg",
-   "seller": "onew9eelerr",
-   "condition": null,
-   "last_seen": "2026-09-29T02:09:59.287089+00:00",
    "stale": true
   },
   {
