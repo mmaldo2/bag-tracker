@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T02:50:01.863115+00:00",
+ "generated": "2026-10-05T03:52:00.650151+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "mercari:m47428811780",
+   "first_seen": "2026-10-05T03:52:00.650151+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "VTG Mia Inlaid C Patchwork Tote Bag Leather Suede Gray Green 15748 - Coach",
+   "price": 47,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m47428811780/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m47428811780_1.jpg?width=256&quality=75&_=1791172149",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-05T03:52:00.650151+00:00",
+   "stale": false
+  },
   {
    "key": "poshmark:6ac2c2b351d13afdb52cbd06",
    "first_seen": "2026-10-04T21:38:56.375960+00:00",
@@ -104,7 +121,7 @@
    "image": "https://media-photos.depop.com/r1/40542730/4825653348_a0b243187abe4bc5b062d5468b2ad92c/P0.jpg",
    "seller": "mhpuni",
    "condition": null,
-   "last_seen": "2026-10-05T02:50:01.863115+00:00",
+   "last_seen": "2026-10-05T03:52:00.650151+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/r1/53559562/4837776236_5220cf1d0e0e42069d18bc963425e9f7/P0.jpg",
    "seller": "thevictorian9wan",
    "condition": null,
-   "last_seen": "2026-10-05T02:50:01.863115+00:00",
+   "last_seen": "2026-10-05T03:52:00.650151+00:00",
    "stale": false
   },
   {
@@ -155,7 +172,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51112965022_1.jpg?width=256&quality=75&_=1791073416",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T02:50:01.863115+00:00",
+   "last_seen": "2026-10-05T03:52:00.650151+00:00",
    "stale": false
   },
   {
@@ -172,7 +189,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m44886252042_1.jpg?width=256&quality=75&_=1790379526",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T02:50:01.863115+00:00",
+   "last_seen": "2026-10-05T03:52:00.650151+00:00",
    "stale": false
   },
   {
@@ -206,7 +223,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m47919012289_1.jpg?width=256&quality=75&_=1791114652",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T02:50:01.863115+00:00",
+   "last_seen": "2026-10-05T03:52:00.650151+00:00",
    "stale": false
   },
   {
@@ -257,7 +274,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m72894200698_1.jpg?width=256&quality=75&_=1790998134",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T02:50:01.863115+00:00",
+   "last_seen": "2026-10-05T03:52:00.650151+00:00",
    "stale": false
   },
   {
@@ -308,7 +325,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m86684334585_1.jpg?width=256&quality=75&_=1790969129",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-05T02:50:01.863115+00:00",
+   "last_seen": "2026-10-05T03:52:00.650151+00:00",
    "stale": false
   },
   {
@@ -615,23 +632,6 @@
    "seller": "jerseybovz956",
    "condition": null,
    "last_seen": "2026-09-28T11:41:55.439236+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:makimathhifts-coach-signature-canvas-patchwork-tote-520b",
-   "first_seen": "2026-09-28T06:31:56.027865+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach signature canvas patchwork tote (Coach women's multi colour bag)",
-   "price": 165,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/makimathhifts-coach-signature-canvas-patchwork-tote-520b/",
-   "image": "https://media-photos.depop.com/r1/455390180/4805184896_066d26ab252440ca9a21b732fc52af52/P0.jpg",
-   "seller": "makimathhifts",
-   "condition": null,
-   "last_seen": "2026-09-28T07:33:55.806158+00:00",
    "stale": true
   },
   {
