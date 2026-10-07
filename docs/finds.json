@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T12:42:03.456458+00:00",
+ "generated": "2026-10-07T13:44:04.950723+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:styledbykelseyd_-coach-signature-jacquard-bow-satchel-379a",
+   "first_seen": "2026-10-07T13:44:04.950723+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "brown-soho-satchel",
+   "title": "coach signature jacquard bow satchel (Coach women's brown and cream bag)",
+   "price": 28,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/styledbykelseyd_-coach-signature-jacquard-bow-satchel-379a/",
+   "image": "https://media-photos.depop.com/r1/311677625/4885473668_335759f86fd64bb2830fc21b2b8a7514/P0.jpg",
+   "seller": "styledbykelseyd_",
+   "condition": null,
+   "last_seen": "2026-10-07T13:44:04.950723+00:00",
+   "stale": false
+  },
+  {
    "key": "mercari:m20074901188",
    "first_seen": "2026-10-07T07:32:01.003515+00:00",
    "kind": "new",
@@ -70,7 +87,7 @@
    "image": "https://media-photos.depop.com/r1/478512719/4885391219_639e729c1a7e4f7bb4c1716709961a2a/P0.jpg",
    "seller": "nikkiscoachcollecttve",
    "condition": null,
-   "last_seen": "2026-10-07T12:42:03.456458+00:00",
+   "last_seen": "2026-10-07T13:44:04.950723+00:00",
    "stale": false
   },
   {
@@ -155,7 +172,7 @@
    "image": "https://media-photos.depop.com/r1/314819345/4857961358_ddbca920b994471fbb99c2e0655339e8/P0.jpg",
    "seller": "cocoacoech",
    "condition": null,
-   "last_seen": "2026-10-05T21:26:03.427913+00:00",
+   "last_seen": "2026-10-07T13:44:04.950723+00:00",
    "stale": false
   },
   {
@@ -240,7 +257,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m38239001647_1.jpg?width=256&quality=75&_=1791232260",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-07T12:42:03.456458+00:00",
+   "last_seen": "2026-10-07T13:44:04.950723+00:00",
    "stale": false
   },
   {
@@ -410,7 +427,7 @@
    "image": "https://media-photos.depop.com/r1/53559562/4837776236_5220cf1d0e0e42069d18bc963425e9f7/P0.jpg",
    "seller": "thevictorian9wan",
    "condition": null,
-   "last_seen": "2026-10-07T12:42:03.456458+00:00",
+   "last_seen": "2026-10-07T13:44:04.950723+00:00",
    "stale": false
   },
   {
@@ -444,7 +461,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51112965022_1.jpg?width=256&quality=75&_=1791073416",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-07T12:42:03.456458+00:00",
+   "last_seen": "2026-10-07T13:44:04.950723+00:00",
    "stale": false
   },
   {
@@ -461,7 +478,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m44886252042_1.jpg?width=256&quality=75&_=1790379526",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-07T12:42:03.456458+00:00",
+   "last_seen": "2026-10-07T13:44:04.950723+00:00",
    "stale": false
   },
   {
@@ -495,7 +512,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m47919012289_1.jpg?width=256&quality=75&_=1791114652",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-07T12:42:03.456458+00:00",
+   "last_seen": "2026-10-07T13:44:04.950723+00:00",
    "stale": false
   },
   {
@@ -530,7 +547,7 @@
    "seller": "nicholvrene",
    "condition": null,
    "last_seen": "2026-10-04T13:24:00.099754+00:00",
-   "stale": false
+   "stale": true
   },
   {
    "key": "mercari:m72894200698",
@@ -597,7 +614,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m86684334585_1.jpg?width=256&quality=75&_=1790969129",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-07T12:42:03.456458+00:00",
+   "last_seen": "2026-10-07T13:44:04.950723+00:00",
    "stale": false
   },
   {
@@ -615,23 +632,6 @@
    "seller": "jali2024",
    "condition": null,
    "last_seen": "2026-10-03T15:41:59.638063+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:sanlythriftfinds-coach-patchwork-multicolor-tote-shoulder-2232",
-   "first_seen": "2026-10-02T12:50:00.395535+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach patchwork multicolor tote shoulder (Coach women's multi colour bag)",
-   "price": 165,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/sanlythriftfinds-coach-patchwork-multicolor-tote-shoulder-2232/",
-   "image": "https://media-photos.depop.com/r1/251832955/4759308842_4608ed7df4744de7a5d9a619c106d5d1/P0.jpg",
-   "seller": "sanlythriftfinds",
-   "condition": null,
-   "last_seen": "2026-10-02T12:50:00.395535+00:00",
    "stale": true
   },
   {
