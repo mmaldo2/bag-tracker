@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T22:48:05.680355+00:00",
+ "generated": "2026-10-08T23:13:23.801270+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6ac8188cb3acdea0239113e2",
+   "first_seen": "2026-10-08T23:13:23.801270+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "brown-soho-satchel",
+   "title": "Coach Poppy Oxford Mini \u201cc\u201d Canvas Satchel in Khaki/Brown Approx. 12 x 9.5 x 4",
+   "price": 145.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ac8188cb3acdea0239113e2",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/08/6ac8188cb3acdea0239113e2/m_6ac8188cb3acdea0239113e3.jpg",
+   "seller": "neicyfish",
+   "condition": "uln",
+   "last_seen": "2026-10-08T23:13:23.801270+00:00",
+   "stale": false
+  },
   {
    "key": "mercari:m60395039554",
    "first_seen": "2026-10-08T20:44:05.174250+00:00",
@@ -444,7 +461,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2022/07/21/62d99f1cac9702ff61c48df3/m_62d99f1cac9702ff61c48df4.jpg",
    "seller": "dmoats12",
    "condition": null,
-   "last_seen": "2026-10-08T19:44:53.167634+00:00",
+   "last_seen": "2026-10-08T23:13:23.801270+00:00",
    "stale": false
   },
   {
@@ -461,7 +478,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/04/6ac2ebde24cc87539be32e38/m_6ac2ebe64adcb3d8f174a18a.jpg",
    "seller": "kellikertz",
    "condition": "uln",
-   "last_seen": "2026-10-08T19:44:53.167634+00:00",
+   "last_seen": "2026-10-08T23:13:23.801270+00:00",
    "stale": false
   },
   {
@@ -580,7 +597,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/03/6ac192d81b53fe85c4dc5003/m_6ac192dc4941b5f097b0b82e.jpg",
    "seller": "smaslak13",
    "condition": "Used",
-   "last_seen": "2026-10-08T19:44:53.167634+00:00",
+   "last_seen": "2026-10-08T23:13:23.801270+00:00",
    "stale": false
   },
   {
@@ -618,23 +635,6 @@
    "stale": false
   },
   {
-   "key": "depop:babybeniao-coach-patchwork-leather-tote-bag-fb92",
-   "first_seen": "2026-10-03T18:48:00.880376+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach patchwork leather tote bag (Coach women's multi colour bag)",
-   "price": 140,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/babybeniao-coach-patchwork-leather-tote-bag-fb92/",
-   "image": "https://media-photos.depop.com/b1/400032131/4853582688_abfdcec6977346fe8df1f76195c6fbf0/P0.jpg",
-   "seller": "babybeniao",
-   "condition": null,
-   "last_seen": "2026-10-06T01:34:03.133957+00:00",
-   "stale": false
-  },
-  {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
    "first_seen": "2026-09-23T23:38:50.168261+00:00",
    "kind": "new",
@@ -665,7 +665,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-08T19:44:53.167634+00:00",
+   "last_seen": "2026-10-08T23:13:23.801270+00:00",
    "stale": false
   },
   {
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-08T19:44:53.167634+00:00",
+   "last_seen": "2026-10-08T23:13:23.801270+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-08T19:44:53.167634+00:00",
+   "last_seen": "2026-10-08T23:13:23.801270+00:00",
    "stale": false
   }
  ]
