@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T12:28:02.874245+00:00",
+ "generated": "2026-10-08T13:30:04.072789+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "mercari:m10198757354",
+   "first_seen": "2026-10-08T13:30:04.072789+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Soho Pleated Flap Black & Gray Canvas Hobo Bag F13739 - Coach",
+   "price": 150,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m10198757354/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m10198757354_1.jpg?width=256&quality=75&_=1791462463",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:cdach_n_bags-coach-chelsea-optic-turn-lock-satchel-3927",
    "first_seen": "2026-10-08T07:18:00.936371+00:00",
    "kind": "new",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/r1/492955154/4870778845_8f506552573d4914bdf5797b0246fa56/P0.jpg",
    "seller": "cdach_n_bags",
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -87,7 +104,7 @@
    "image": "https://media-photos.depop.com/r1/237488577/4888436299_b1aa5117bb894577a9384e2af5d200d2/P0.jpg",
    "seller": "ar_12i0",
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -104,7 +121,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m17947363484_1.jpg?width=256&quality=75&_=1791392826",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/b1/454029842/4887009971_3cca1de424ff42228cbf522e89f413b3/P0.jpg",
    "seller": "byefemicia92",
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -138,7 +155,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m97931240069_1.jpg?width=256&quality=75&_=1791383573",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -189,7 +206,7 @@
    "image": "https://media-photos.depop.com/r1/478512719/4885391219_639e729c1a7e4f7bb4c1716709961a2a/P0.jpg",
    "seller": "nikkiscoachcollecttve",
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -359,7 +376,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m38239001647_1.jpg?width=256&quality=75&_=1791232260",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -529,7 +546,7 @@
    "image": "https://media-photos.depop.com/r1/53559562/4837776236_5220cf1d0e0e42069d18bc963425e9f7/P0.jpg",
    "seller": "thevictorian9wan",
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -563,7 +580,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51112965022_1.jpg?width=256&quality=75&_=1791073416",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -580,7 +597,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m44886252042_1.jpg?width=256&quality=75&_=1790379526",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
   },
   {
@@ -614,25 +631,8 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m47919012289_1.jpg?width=256&quality=75&_=1791114652",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-08T12:28:02.874245+00:00",
+   "last_seen": "2026-10-08T13:30:04.072789+00:00",
    "stale": false
-  },
-  {
-   "key": "depop:mydaisy5loset-vintage-y2k-coach-signature-soho-ee6c",
-   "first_seen": "2026-10-03T14:39:58.130732+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "brown-soho-satchel",
-   "title": "vintage y2k coach signature soho (Coach women's brown and khaki bag)",
-   "price": 55,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/mydaisy5loset-vintage-y2k-coach-signature-soho-ee6c/",
-   "image": "https://media-photos.depop.com/r1/52644465/4845156560_a38da6126dbf4346a519d55308c23b2c/P0.jpg",
-   "seller": "mydaisy5loset",
-   "condition": null,
-   "last_seen": "2026-10-03T17:46:01.645851+00:00",
-   "stale": true
   },
   {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
