@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T12:14:03.018951+00:00",
+ "generated": "2026-10-09T13:16:06.886389+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:rememberme4evar-coach-vintage-soho-metallic-signature-b2d5",
+   "first_seen": "2026-10-09T13:16:06.886389+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "brown-soho-satchel",
+   "title": "coach vintage soho metallic signature (Coach women's brown and burgundy bag)",
+   "price": 65,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/rememberme4evar-coach-vintage-soho-metallic-signature-b2d5/",
+   "image": "https://media-photos.depop.com/r1/42833756/4894071330_0a11213bbef2471ba5453fe27a7aa67f/P0.jpg",
+   "seller": "rememberme4evar",
+   "condition": null,
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:sweetbabyvintagx-coach-patchwork-tote-bag-with-8598",
    "first_seen": "2026-10-09T12:14:03.018951+00:00",
    "kind": "new",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/r1/397835037/4887101064_1a5ffff551904812808252b955ceaf6e/P0.jpg",
    "seller": "sweetbabyvintagx",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -70,7 +87,7 @@
    "image": "https://media-photos.depop.com/r1/207084876/4897105415_62b5dc46176c48a6b829424d7b4392d7/P0.jpg",
    "seller": "van1llauanessa",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -87,7 +104,7 @@
    "image": "https://media-photos.depop.com/r1/287310805/4901473356_6c84a2437cb3434a89af46751413d1b8/P0.jpg",
    "seller": "coachwlore",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -104,7 +121,7 @@
    "image": "https://media-photos.depop.com/r1/46815084/4876526795_5d86cb9b2afc42c9ae24e2b49a491d49/P0.jpg",
    "seller": "go2vintje",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/r1/25174858/4898967118_d24410300d86437898b4d62e0c7ca9a7/P0.jpg",
    "seller": "japdog1313",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -172,7 +189,7 @@
    "image": "https://media-photos.depop.com/r1/30357617/4895718882_8ba240c81dd44620a9576fc865a4329f/P0.jpg",
    "seller": "y2kcoach6lub",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -274,7 +291,7 @@
    "image": "https://media-photos.depop.com/r1/315886899/4869142806_4bfc9582445a4c4c9a8bff1205ea7c8d/P0.jpg",
    "seller": "jeunays_closet",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -291,7 +308,7 @@
    "image": "https://media-photos.depop.com/b1/46039676/repop_19691624_3222767727/4899742174_a989c2b129d648b386df40c77a02ee20/P0.jpg",
    "seller": "msnikitkat",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -359,7 +376,7 @@
    "image": "https://media-photos.depop.com/r1/492955154/4870778845_8f506552573d4914bdf5797b0246fa56/P0.jpg",
    "seller": "cdach_n_bags",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -393,7 +410,7 @@
    "image": "https://media-photos.depop.com/r1/237488577/4888436299_b1aa5117bb894577a9384e2af5d200d2/P0.jpg",
    "seller": "ar_12i0",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -410,7 +427,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m17947363484_1.jpg?width=256&quality=75&_=1791392826",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -427,7 +444,7 @@
    "image": "https://media-photos.depop.com/b1/454029842/4887009971_3cca1de424ff42228cbf522e89f413b3/P0.jpg",
    "seller": "byefemicia92",
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -444,7 +461,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m97931240069_1.jpg?width=256&quality=75&_=1791383573",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-09T12:14:03.018951+00:00",
+   "last_seen": "2026-10-09T13:16:06.886389+00:00",
    "stale": false
   },
   {
@@ -616,23 +633,6 @@
    "condition": null,
    "last_seen": "2026-10-05T21:26:03.427913+00:00",
    "stale": true
-  },
-  {
-   "key": "depop:mikasshoyjy99-coach-holiday-patchwork-gallery-tote-0f74",
-   "first_seen": "2026-10-05T21:26:03.427913+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach holiday patchwork gallery tote (Coach women's multi colour bag)",
-   "price": 185,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/mikasshoyjy99-coach-holiday-patchwork-gallery-tote-0f74/",
-   "image": "https://media-photos.depop.com/r1/427960045/4848886332_0c107168b6b742a2b92a43fb50fbce2c/P0.jpg",
-   "seller": "mikasshoyjy99",
-   "condition": null,
-   "last_seen": "2026-10-09T11:12:04.384374+00:00",
-   "stale": false
   },
   {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
