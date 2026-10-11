@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T04:32:04.594290+00:00",
+ "generated": "2026-10-11T05:34:04.966678+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,74 @@
   }
  },
  "finds": [
+  {
+   "key": "depop:marigjcho12-y2k-vintage-coach-soho-signature-8034",
+   "first_seen": "2026-10-11T05:34:04.966678+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-satchel",
+   "title": "y2k vintage coach soho signature (Coach women's black and navy bag)",
+   "price": 125,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/marigjcho12-y2k-vintage-coach-soho-signature-8034/",
+   "image": "https://media-photos.depop.com/r1/22736879/4914713821_d164d2357a444d1886ff875ca31992a8/P0.jpg",
+   "seller": "marigjcho12",
+   "condition": null,
+   "last_seen": "2026-10-11T05:34:04.966678+00:00",
+   "stale": false
+  },
+  {
+   "key": "depop:liva5raham-coach-colorful-patchwork-mini-tote-59f4",
+   "first_seen": "2026-10-11T05:34:04.966678+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach colorful patchwork mini tote (Coach women's multi colour bag)",
+   "price": 180,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/liva5raham-coach-colorful-patchwork-mini-tote-59f4/",
+   "image": "https://media-photos.depop.com/r1/20335169/4911243351_79e266bb703642f58ada0f5c71d7583c/P0.jpg",
+   "seller": "liva5raham",
+   "condition": null,
+   "last_seen": "2026-10-11T05:34:04.966678+00:00",
+   "stale": false
+  },
+  {
+   "key": "depop:mythriitprob-coach-patchwork-leather-tote-bag-2be4",
+   "first_seen": "2026-10-11T05:34:04.966678+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork leather tote bag (Coach women's multi colour bag)",
+   "price": 200,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/mythriitprob-coach-patchwork-leather-tote-bag-2be4/",
+   "image": "https://media-photos.depop.com/r1/300853509/4916418005_e971558c6b7f46a6ab44ddd3ee2f6e51/P0.jpg",
+   "seller": "mythriitprob",
+   "condition": null,
+   "last_seen": "2026-10-11T05:34:04.966678+00:00",
+   "stale": false
+  },
+  {
+   "key": "depop:valdk_rises-coach-patchwork-tote-bag-with-eae6",
+   "first_seen": "2026-10-11T05:34:04.966678+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork tote bag with (Coach women's multi colour bag)",
+   "price": 185,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/valdk_rises-coach-patchwork-tote-bag-with-eae6/",
+   "image": "https://media-photos.depop.com/r1/10522562/4910234999_e1aeb20e2b464fc1aee305adb9c6db4f/P0.jpg",
+   "seller": "valdk_rises",
+   "condition": null,
+   "last_seen": "2026-10-11T05:34:04.966678+00:00",
+   "stale": false
+  },
   {
    "key": "depop:fatima110b-coach-holiday-patchwork-tote-bag-3ba5",
    "first_seen": "2026-10-11T04:32:04.594290+00:00",
@@ -121,7 +189,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m70116877686_1.jpg?width=256&quality=75&_=1791644127",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-11T04:32:04.594290+00:00",
+   "last_seen": "2026-10-11T05:34:04.966678+00:00",
    "stale": false
   },
   {
@@ -138,7 +206,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m78021820101_1.jpg?width=256&quality=75&_=1791636858",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-11T04:32:04.594290+00:00",
+   "last_seen": "2026-10-11T05:34:04.966678+00:00",
    "stale": false
   },
   {
@@ -206,7 +274,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m19602775133_1.jpg?width=256&quality=75&_=1791579239",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-11T04:32:04.594290+00:00",
+   "last_seen": "2026-10-11T05:34:04.966678+00:00",
    "stale": false
   },
   {
@@ -257,7 +325,7 @@
    "image": "https://media-photos.depop.com/r1/397835037/4904254436_d2a47b4d2d684ecaa05e582bcfe498f5/P0.jpg",
    "seller": "sweetbabyvintage",
    "condition": null,
-   "last_seen": "2026-10-10T07:52:03.667171+00:00",
+   "last_seen": "2026-10-11T05:34:04.966678+00:00",
    "stale": false
   },
   {
@@ -444,7 +512,7 @@
    "image": "https://media-photos.depop.com/r1/25271089/3879325219_e2c567ed14f84762b2419c13fc787e79/P0.jpg",
    "seller": "xcdzdi4mond",
    "condition": null,
-   "last_seen": "2026-10-11T04:32:04.594290+00:00",
+   "last_seen": "2026-10-11T05:34:04.966678+00:00",
    "stale": false
   },
   {
@@ -564,74 +632,6 @@
    "seller": null,
    "condition": null,
    "last_seen": "2026-10-09T05:00:03.858491+00:00",
-   "stale": false
-  },
-  {
-   "key": "mercari:m10198757354",
-   "first_seen": "2026-10-08T13:30:04.072789+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "black-soho-flap-shoulder",
-   "title": "Soho Pleated Flap Black & Gray Canvas Hobo Bag F13739 - Coach",
-   "price": 150,
-   "currency": "USD",
-   "source": "mercari",
-   "url": "https://www.mercari.com/us/item/m10198757354/",
-   "image": "https://u-mercari-images.mercdn.net/photos/m10198757354_1.jpg?width=256&quality=75&_=1791462463",
-   "seller": null,
-   "condition": null,
-   "last_seen": "2026-10-08T19:42:05.512434+00:00",
-   "stale": false
-  },
-  {
-   "key": "depop:cdach_n_bags-coach-chelsea-optic-turn-lock-satchel-3927",
-   "first_seen": "2026-10-08T07:18:00.936371+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "chelsea-braided",
-   "title": "coach chelsea optic turn lock satchel (Coach women's vintage tan and brown glam casual y2_k bag)",
-   "price": 230,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/cdach_n_bags-coach-chelsea-optic-turn-lock-satchel-3927/",
-   "image": "https://media-photos.depop.com/r1/492955154/4870778845_8f506552573d4914bdf5797b0246fa56/P0.jpg",
-   "seller": "cdach_n_bags",
-   "condition": null,
-   "last_seen": "2026-10-11T04:32:04.594290+00:00",
-   "stale": false
-  },
-  {
-   "key": "mercari:m38358566753",
-   "first_seen": "2026-10-07T18:54:05.072073+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "brown-large-soho-flap",
-   "title": "Vintage Dark Brown Y2K Soho Signature Canvas Buckle Flap Shoulder Bag! - Coach",
-   "price": 150,
-   "currency": "USD",
-   "source": "mercari",
-   "url": "https://www.mercari.com/us/item/m38358566753/",
-   "image": "https://u-mercari-images.mercdn.net/photos/m38358566753_1.jpg?width=256&quality=75&_=1791408957",
-   "seller": null,
-   "condition": null,
-   "last_seen": "2026-10-07T23:02:04.442463+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:ar_12i0-coach-chelsea-optic-signature-satchel-5bfc",
-   "first_seen": "2026-10-07T17:52:03.100876+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "chelsea-braided",
-   "title": "coach chelsea optic signature satchel (Coach women's brown and tan bag)",
-   "price": 220,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/ar_12i0-coach-chelsea-optic-signature-satchel-5bfc/",
-   "image": "https://media-photos.depop.com/r1/237488577/4888436299_b1aa5117bb894577a9384e2af5d200d2/P0.jpg",
-   "seller": "ar_12i0",
-   "condition": null,
-   "last_seen": "2026-10-11T04:32:04.594290+00:00",
    "stale": false
   },
   {
