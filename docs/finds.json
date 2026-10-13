@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T21:38:09.838391+00:00",
+ "generated": "2026-10-13T21:54:40.923500+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6acea62232f9349758b098ce",
+   "first_seen": "2026-10-13T21:54:40.923500+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-flap-1463",
+   "title": "Coach Black Signature C Shoulder Bag Small Y2K Vintage #1444",
+   "price": 149.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6acea62232f9349758b098ce",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/13/6acea62232f9349758b098ce/m_6acea645ebb1a5893b56d69b.jpg",
+   "seller": "mygoodiescloset",
+   "condition": "ug",
+   "last_seen": "2026-10-13T21:54:40.923500+00:00",
+   "stale": false
+  },
   {
    "key": "depop:cha0n_d09-coach-patchwork-tote-bag-with-71cd",
    "first_seen": "2026-10-13T20:36:08.508512+00:00",
@@ -121,7 +138,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/12/6acd854917a3c4c233eb2ba7/m_6acd8571f00c5567e5913460.jpg",
    "seller": "xannpickss",
    "condition": "ug",
-   "last_seen": "2026-10-13T17:31:13.197654+00:00",
+   "last_seen": "2026-10-13T21:54:40.923500+00:00",
    "stale": false
   },
   {
@@ -342,7 +359,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/10/6acb07b9c840d3983256fdb2/m_6acb07bd1b53fe3ddcc32d38.jpg",
    "seller": "inchen260186",
    "condition": "ug",
-   "last_seen": "2026-10-13T17:31:13.197654+00:00",
+   "last_seen": "2026-10-13T21:54:40.923500+00:00",
    "stale": false
   },
   {
@@ -529,7 +546,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/09/6ac987ec05ce570d99ca501f/m_6ac988aeebb1a5422592ea01.jpg",
    "seller": "bebegurl82",
    "condition": "ug",
-   "last_seen": "2026-10-13T17:31:13.197654+00:00",
+   "last_seen": "2026-10-13T21:54:40.923500+00:00",
    "stale": false
   },
   {
@@ -546,7 +563,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/09/6ac99c797625b1dc5dc289ac/m_6ac99c814fcf26fa59fc06c9.jpg",
    "seller": "jjcase1",
    "condition": "ug",
-   "last_seen": "2026-10-13T17:31:13.197654+00:00",
+   "last_seen": "2026-10-13T21:54:40.923500+00:00",
    "stale": false
   },
   {
@@ -563,7 +580,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/09/6ac956aef00c5509b22f3830/m_6ac956aef00c5509b22f3831.jpeg",
    "seller": "majestic1966",
    "condition": "ug",
-   "last_seen": "2026-10-13T17:31:13.197654+00:00",
+   "last_seen": "2026-10-13T21:54:40.923500+00:00",
    "stale": false
   },
   {
@@ -618,23 +635,6 @@
    "stale": true
   },
   {
-   "key": "depop:sweetbabyvintage-rare-coach-patchwork-tote-bag-8b75",
-   "first_seen": "2026-10-09T15:20:07.270583+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "rare coach patchwork tote bag (Coach women's multi colour bag)",
-   "price": 188,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/sweetbabyvintage-rare-coach-patchwork-tote-bag-8b75/",
-   "image": "https://media-photos.depop.com/r1/397835037/4904254436_d2a47b4d2d684ecaa05e582bcfe498f5/P0.jpg",
-   "seller": "sweetbabyvintage",
-   "condition": null,
-   "last_seen": "2026-10-13T04:04:22.944385+00:00",
-   "stale": false
-  },
-  {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
    "first_seen": "2026-09-23T23:38:50.168261+00:00",
    "kind": "new",
@@ -665,7 +665,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-13T17:31:13.197654+00:00",
+   "last_seen": "2026-10-13T21:54:40.923500+00:00",
    "stale": false
   },
   {
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-13T17:31:13.197654+00:00",
+   "last_seen": "2026-10-13T21:54:40.923500+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-13T17:31:13.197654+00:00",
+   "last_seen": "2026-10-13T21:54:40.923500+00:00",
    "stale": false
   }
  ]
