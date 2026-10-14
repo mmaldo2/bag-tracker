@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T03:50:08.219349+00:00",
+ "generated": "2026-10-14T04:52:07.040309+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:justgurlvthrifts-vintage-coach-patchwork-tote-handbag-868c",
+   "first_seen": "2026-10-14T04:52:07.040309+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "vintage coach patchwork tote handbag (Coach women's multi colour bag)",
+   "price": 165,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/justgurlvthrifts-vintage-coach-patchwork-tote-handbag-868c/",
+   "image": "https://media-photos.depop.com/b1/201250647/3992360570_50015bedd3f54d219aa583d671743704/P0.jpg",
+   "seller": "justgurlvthrifts",
+   "condition": null,
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:merlotbco-coach-signature-stripe-patchwork-tote-9975",
    "first_seen": "2026-10-14T03:50:08.219349+00:00",
    "kind": "deal",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/r1/43391696/4946057023_32b5e4d1a7fc422d9760fa3cd1c5124a/P0.jpg",
    "seller": "merlotbco",
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -104,7 +121,7 @@
    "image": "https://media-photos.depop.com/b1/303538090/4943175620_377c470464c5451290046518b15b5436/P0.jpg",
    "seller": "angelinf808",
    "condition": null,
-   "last_seen": "2026-10-14T02:48:07.020619+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/r1/473029186/4942866778_83110222d199465b9063fd7855de7d3c/P0.jpg",
    "seller": "amelha_ellen_g",
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -240,7 +257,7 @@
    "image": "https://media-photos.depop.com/r1/45296494/4934431904_0f681eec37b54e80ad5e5224f2a9ce88/P0.jpg",
    "seller": "giulianas_listiags",
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -257,7 +274,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51719475778_1.jpg?width=256&quality=75&_=1791838067",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -274,7 +291,7 @@
    "image": "https://u-mercari-images.mercdn.net/thumb/photos/m22174746469_1.jpg?width=256&quality=75&_=1791834404",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -478,7 +495,7 @@
    "image": "https://media-photos.depop.com/r1/20335169/4911243351_79e266bb703642f58ada0f5c71d7583c/P0.jpg",
    "seller": "liva5raham",
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -512,7 +529,7 @@
    "image": "https://media-photos.depop.com/r1/10522562/4910234999_e1aeb20e2b464fc1aee305adb9c6db4f/P0.jpg",
    "seller": "valdk_rises",
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -530,7 +547,7 @@
    "seller": "fatima110b",
    "condition": null,
    "last_seen": "2026-10-11T04:32:04.594290+00:00",
-   "stale": false
+   "stale": true
   },
   {
    "key": "depop:iris9k53-coach-multicoloured-patchwork-tote-bag-20f9",
@@ -563,7 +580,7 @@
    "image": "https://media-photos.depop.com/r1/20770788/4917038020_fcdbd965520d407e911390037b0cdd59/P0.jpg",
    "seller": "coachyyhailey",
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -597,7 +614,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m70116877686_1.jpg?width=256&quality=75&_=1791644127",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -614,24 +631,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m78021820101_1.jpg?width=256&quality=75&_=1791757973",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
-   "stale": false
-  },
-  {
-   "key": "poshmark:6ac987ec05ce570d99ca501f",
-   "first_seen": "2026-10-10T02:26:59.576161+00:00",
-   "kind": "drop",
-   "old_price": 135.0,
-   "bag": "black-soho-flap-shoulder",
-   "title": "Coach Black Signature Soho Buckle Flap Shoulder Bag F10929",
-   "price": 145.0,
-   "currency": "USD",
-   "source": "poshmark",
-   "url": "https://poshmark.com/listing/6ac987ec05ce570d99ca501f",
-   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/09/6ac987ec05ce570d99ca501f/m_6ac988aeebb1a5422592ea01.jpg",
-   "seller": "bebegurl82",
-   "condition": "ug",
-   "last_seen": "2026-10-14T00:59:45.839224+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
@@ -648,7 +648,7 @@
    "image": "https://media-photos.depop.com/r1/283006094/4772447060_0a4d853be1c24ae29f209bdf5246667b/P0.jpg",
    "seller": "diataprdz",
    "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
+   "last_seen": "2026-10-14T04:52:07.040309+00:00",
    "stale": false
   },
   {
