@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T04:43:53.475360+00:00",
+ "generated": "2026-10-16T05:40:29.040339+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,20 +40,37 @@
  },
  "finds": [
   {
+   "key": "depop:stephaniesjlosett1-coach-patchwork-gallery-tote-25bb",
+   "first_seen": "2026-10-16T05:40:29.040339+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork gallery tote (Coach women's brown and tan bag)",
+   "price": 225,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/stephaniesjlosett1-coach-patchwork-gallery-tote-25bb/",
+   "image": "https://media-photos.depop.com/r1/207146955/4952799438_9d6c190891d74dba8d559b202e35568d/P0.jpg",
+   "seller": "stephaniesjlosett1",
+   "condition": null,
+   "last_seen": "2026-10-16T05:40:29.040339+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:mtdek_475-coach-soho-signature-c-canvas-08eb",
    "first_seen": "2026-10-16T04:38:31.112760+00:00",
    "kind": "new",
    "old_price": null,
    "bag": "brown-soho-satchel",
    "title": "coach soho signature c canvas (Coach women's tan and brown bag)",
-   "price": 100,
+   "price": 90,
    "currency": "USD",
    "source": "depop",
    "url": "https://www.depop.com/products/mtdek_475-coach-soho-signature-c-canvas-08eb/",
    "image": "https://media-photos.depop.com/r1/299575804/4961440715_6eacfae16ae24d97b96e8f370632ec96/P0.jpg",
    "seller": "mtdek_475",
    "condition": null,
-   "last_seen": "2026-10-16T04:38:31.112760+00:00",
+   "last_seen": "2026-10-16T05:40:29.040339+00:00",
    "stale": false
   },
   {
@@ -70,7 +87,7 @@
    "image": "https://media-photos.depop.com/r1/32973838/4954422129_e4e42bf791094bf480311b5e4f1a82ce/P0.jpg",
    "seller": "krysvalmtzzz",
    "condition": null,
-   "last_seen": "2026-10-16T04:38:31.112760+00:00",
+   "last_seen": "2026-10-16T05:40:29.040339+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/b1/290466369/4959717488_15248264bdbb4a4299a0395aef23906e/P0.jpg",
    "seller": "c9rmelitae98",
    "condition": null,
-   "last_seen": "2026-10-16T04:38:31.112760+00:00",
+   "last_seen": "2026-10-16T05:40:29.040339+00:00",
    "stale": false
   },
   {
@@ -138,7 +155,7 @@
    "image": "https://media-photos.depop.com/r1/225395617/4934140383_1270c3b938be4c0bb14de687ff58d400/P0.jpg",
    "seller": "xoxogossipbabexoxo",
    "condition": null,
-   "last_seen": "2026-10-16T04:38:31.112760+00:00",
+   "last_seen": "2026-10-16T05:40:29.040339+00:00",
    "stale": false
   },
   {
@@ -155,7 +172,7 @@
    "image": "https://media-photos.depop.com/r1/427960045/4954436572_a557274a22ce4982bc998499a5c1c929/P0.jpg",
    "seller": "mi3asshopjy99",
    "condition": null,
-   "last_seen": "2026-10-16T04:38:31.112760+00:00",
+   "last_seen": "2026-10-16T05:40:29.040339+00:00",
    "stale": false
   },
   {
@@ -172,7 +189,7 @@
    "image": "https://media-photos.depop.com/b1/230373701/4953831524_fdf2cdfda7e44c178264979f57547d7c/P0.jpg",
    "seller": "anaizcloset",
    "condition": null,
-   "last_seen": "2026-10-16T04:38:31.112760+00:00",
+   "last_seen": "2026-10-16T05:40:29.040339+00:00",
    "stale": false
   },
   {
@@ -240,7 +257,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m38805757967_1.jpg?width=256&quality=75&_=1791984295",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-16T04:38:31.112760+00:00",
+   "last_seen": "2026-10-16T05:40:29.040339+00:00",
    "stale": false
   },
   {
@@ -529,7 +546,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51719475778_1.jpg?width=256&quality=75&_=1791838067",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-16T04:38:31.112760+00:00",
+   "last_seen": "2026-10-16T05:40:29.040339+00:00",
    "stale": false
   },
   {
@@ -616,23 +633,6 @@
    "condition": null,
    "last_seen": "2026-10-14T03:50:08.219349+00:00",
    "stale": false
-  },
-  {
-   "key": "mercari:m25395471898",
-   "first_seen": "2026-10-11T22:06:05.910641+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "black-soho-flap-shoulder",
-   "title": "Vintage Signature Soho Hobo Shoulder Bag Black Canvas F10924 - Coach",
-   "price": 110,
-   "currency": "USD",
-   "source": "mercari",
-   "url": "https://www.mercari.com/us/item/m25395471898/",
-   "image": "https://u-mercari-images.mercdn.net/photos/m25395471898_1.jpg?width=256&quality=75&_=1791755002",
-   "seller": null,
-   "condition": null,
-   "last_seen": "2026-10-12T05:20:11.664494+00:00",
-   "stale": true
   },
   {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
