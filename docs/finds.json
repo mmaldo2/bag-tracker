@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T18:04:33.954627+00:00",
+ "generated": "2026-10-16T18:11:28.541241+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6ad24f94b55223e595a2f7d8",
+   "first_seen": "2026-10-16T18:11:28.541241+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-satchel",
+   "title": "Vintage Coach Soho F11405 Black Suede Studded Signature Y2K Shoulder Bag",
+   "price": 150.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ad24f94b55223e595a2f7d8",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/16/6ad24f94b55223e595a2f7d8/m_6ad24fa270333f77ddcd91ca.jpg",
+   "seller": "jashapotter",
+   "condition": null,
+   "last_seen": "2026-10-16T18:11:28.541241+00:00",
+   "stale": false
+  },
   {
    "key": "depop:stephaniesjlosett1-coach-patchwork-gallery-tote-25bb",
    "first_seen": "2026-10-16T05:40:29.040339+00:00",
@@ -376,7 +393,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/13/6acec5d309c3e3caf6438a61/m_6acec5d3b3acde69a43e6677.jpg",
    "seller": "kellydorriety",
    "condition": "ug",
-   "last_seen": "2026-10-16T14:43:33.472236+00:00",
+   "last_seen": "2026-10-16T18:11:28.541241+00:00",
    "stale": false
   },
   {
@@ -427,7 +444,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/13/6acea62232f9349758b098ce/m_6acea645ebb1a5893b56d69b.jpg",
    "seller": "mygoodiescloset",
    "condition": "ug",
-   "last_seen": "2026-10-16T14:43:33.472236+00:00",
+   "last_seen": "2026-10-16T18:11:28.541241+00:00",
    "stale": false
   },
   {
@@ -618,23 +635,6 @@
    "stale": true
   },
   {
-   "key": "depop:alfi3_511-coach-vintage-patchwork-leather-tote-e806",
-   "first_seen": "2026-10-11T22:06:05.910641+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach vintage patchwork leather tote (Coach women's multi colour bag)",
-   "price": 120,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/alfi3_511-coach-vintage-patchwork-leather-tote-e806/",
-   "image": "https://media-photos.depop.com/b1/389074562/4924238449_be93e7c1ae1741c992a644d483d229ee/P0.jpg",
-   "seller": "alfi3_511",
-   "condition": null,
-   "last_seen": "2026-10-14T03:50:08.219349+00:00",
-   "stale": false
-  },
-  {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
    "first_seen": "2026-09-23T23:38:50.168261+00:00",
    "kind": "new",
@@ -665,7 +665,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-16T14:43:33.472236+00:00",
+   "last_seen": "2026-10-16T18:11:28.541241+00:00",
    "stale": false
   },
   {
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-16T14:43:33.472236+00:00",
+   "last_seen": "2026-10-16T18:11:28.541241+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-16T14:43:33.472236+00:00",
+   "last_seen": "2026-10-16T18:11:28.541241+00:00",
    "stale": false
   }
  ]
