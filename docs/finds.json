@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T19:06:29.852048+00:00",
+ "generated": "2026-10-16T20:08:31.550688+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,40 @@
   }
  },
  "finds": [
+  {
+   "key": "depop:bhsellsmoach-y2k-coach-holiday-patchwork-gallery-65e6",
+   "first_seen": "2026-10-16T20:08:31.550688+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "y2k coach holiday patchwork gallery (Coach women's multi colour bag)",
+   "price": 220,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/bhsellsmoach-y2k-coach-holiday-patchwork-gallery-65e6/",
+   "image": "https://media-photos.depop.com/r1/44200952/4954636338_b2121774b6d44510ae3620b1c684f9c2/P0.jpg",
+   "seller": "bhsellsmoach",
+   "condition": null,
+   "last_seen": "2026-10-16T20:08:31.550688+00:00",
+   "stale": false
+  },
+  {
+   "key": "depop:kaysclosetnxo-y2k-coach-gallery-patchwork-tote-697c",
+   "first_seen": "2026-10-16T20:08:31.550688+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "y2k coach gallery patchwork tote (Coach women's brown and tan bag)",
+   "price": 180,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/kaysclosetnxo-y2k-coach-gallery-patchwork-tote-697c/",
+   "image": "https://media-photos.depop.com/r1/281552887/repop_439326343_3552066665/4962082150_f8c0bca0856d43da8695f940fc499a23/P0.jpg",
+   "seller": "kaysclosetnxo",
+   "condition": null,
+   "last_seen": "2026-10-16T20:08:31.550688+00:00",
+   "stale": false
+  },
   {
    "key": "poshmark:6ad24f94b55223e595a2f7d8",
    "first_seen": "2026-10-16T18:11:28.541241+00:00",
@@ -121,7 +155,7 @@
    "image": "https://media-photos.depop.com/r1/298088261/4959991447_fdf38f772f4e4035b17dcd6452c70955/P0.jpg",
    "seller": "meli7i_988",
    "condition": null,
-   "last_seen": "2026-10-16T03:36:30.748986+00:00",
+   "last_seen": "2026-10-16T20:08:31.550688+00:00",
    "stale": false
   },
   {
@@ -189,7 +223,7 @@
    "image": "https://media-photos.depop.com/r1/427960045/4954436572_a557274a22ce4982bc998499a5c1c929/P0.jpg",
    "seller": "mi3asshopjy99",
    "condition": null,
-   "last_seen": "2026-10-16T19:06:29.852048+00:00",
+   "last_seen": "2026-10-16T20:08:31.550688+00:00",
    "stale": false
   },
   {
@@ -274,7 +308,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m38805757967_1.jpg?width=256&quality=75&_=1791984295",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-16T19:06:29.852048+00:00",
+   "last_seen": "2026-10-16T20:08:31.550688+00:00",
    "stale": false
   },
   {
@@ -461,7 +495,7 @@
    "image": "https://media-photos.depop.com/r1/270410591/4941960829_a83f252f6429466dae34adfe70b274dc/P0.jpg",
    "seller": "cha0n_d09",
    "condition": null,
-   "last_seen": "2026-10-14T02:48:07.020619+00:00",
+   "last_seen": "2026-10-16T20:08:31.550688+00:00",
    "stale": false
   },
   {
@@ -563,7 +597,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51719475778_1.jpg?width=256&quality=75&_=1791838067",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-16T19:06:29.852048+00:00",
+   "last_seen": "2026-10-16T20:08:31.550688+00:00",
    "stale": false
   },
   {
@@ -598,40 +632,6 @@
    "seller": "soulj4twink",
    "condition": null,
    "last_seen": "2026-10-13T17:30:09.719728+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:nataliesstu7io-coach-y2k-signature-hamptons-satchel-5853",
-   "first_seen": "2026-10-12T05:20:11.664494+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "black-soho-satchel",
-   "title": "coach y2k signature hamptons satchel (Coach women's black bag)",
-   "price": 100,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/nataliesstu7io-coach-y2k-signature-hamptons-satchel-5853/",
-   "image": "https://media-photos.depop.com/r1/298714353/4917560701_e5140429377c46798ad523da53b4c7f7/P0.jpg",
-   "seller": "nataliesstu7io",
-   "condition": null,
-   "last_seen": "2026-10-13T04:04:22.944385+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:j5nny_linderman-coach-patchwork-tote-bag-with-ac37",
-   "first_seen": "2026-10-12T04:18:12.301352+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach patchwork tote bag with (Coach women's multi colour bag)",
-   "price": 1,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/j5nny_linderman-coach-patchwork-tote-bag-with-ac37/",
-   "image": "https://media-photos.depop.com/r1/6488345/4927756084_f2883f061d734c319a15f251a410db6a/P0.jpg",
-   "seller": "j5nny_linderman",
-   "condition": null,
-   "last_seen": "2026-10-12T16:42:12.143871+00:00",
    "stale": true
   },
   {
