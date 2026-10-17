@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T22:00:46.481153+00:00",
+ "generated": "2026-10-17T22:57:58.238595+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,40 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6ad3f96419212566ca2af554",
+   "first_seen": "2026-10-17T22:57:58.238595+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Coach Soho Signature Buckle Flap Shoulder Bag Black",
+   "price": 65.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ad3f96419212566ca2af554",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/17/6ad3f96419212566ca2af554/m_6ad3f97c1a9c991b66e3d867.jpg",
+   "seller": "mamatex30",
+   "condition": "ug",
+   "last_seen": "2026-10-17T22:57:58.238595+00:00",
+   "stale": false
+  },
+  {
+   "key": "poshmark:6ad3e4c8da3eeba14206a84d",
+   "first_seen": "2026-10-17T22:57:58.238595+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Vintage Y2K Coach SoHo Signature Monogram Black Canvas Flap Shoulder Bag",
+   "price": 150.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ad3e4c8da3eeba14206a84d",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/17/6ad3e4c8da3eeba14206a84d/m_6ad3e51b4985e82c20b75a42.jpg",
+   "seller": "viktorgalshop",
+   "condition": "ug",
+   "last_seen": "2026-10-17T22:57:58.238595+00:00",
+   "stale": false
+  },
   {
    "key": "depop:blondesuppxy-coach-patchwork-tote-bag-with-a805",
    "first_seen": "2026-10-17T20:57:49.019753+00:00",
@@ -240,7 +274,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/16/6ad24f94b55223e595a2f7d8/m_6ad24fa270333f77ddcd91ca.jpg",
    "seller": "jashapotter",
    "condition": null,
-   "last_seen": "2026-10-17T20:45:45.052175+00:00",
+   "last_seen": "2026-10-17T22:57:58.238595+00:00",
    "stale": false
   },
   {
@@ -580,7 +614,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/13/6acec5d309c3e3caf6438a61/m_6acec5d3b3acde69a43e6677.jpg",
    "seller": "kellydorriety",
    "condition": "ug",
-   "last_seen": "2026-10-17T20:45:45.052175+00:00",
+   "last_seen": "2026-10-17T22:57:58.238595+00:00",
    "stale": false
   },
   {
@@ -598,40 +632,6 @@
    "seller": "angelinf808",
    "condition": null,
    "last_seen": "2026-10-17T04:24:31.544362+00:00",
-   "stale": false
-  },
-  {
-   "key": "depop:amelha_ellen_g-vintage-y2k-coach-patchwork-tote-d4cb",
-   "first_seen": "2026-10-13T22:40:07.988032+00:00",
-   "kind": "deal",
-   "old_price": 60,
-   "bag": "patchwork-leopard-tote",
-   "title": "vintage y2k coach patchwork tote (Coach women's multi colour bag)",
-   "price": 25,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/amelha_ellen_g-vintage-y2k-coach-patchwork-tote-d4cb/",
-   "image": "https://media-photos.depop.com/r1/473029186/4942866778_83110222d199465b9063fd7855de7d3c/P0.jpg",
-   "seller": "amelha_ellen_g",
-   "condition": null,
-   "last_seen": "2026-10-15T17:16:28.532111+00:00",
-   "stale": false
-  },
-  {
-   "key": "poshmark:6acea62232f9349758b098ce",
-   "first_seen": "2026-10-13T21:54:40.923500+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "black-flap-1463",
-   "title": "Coach Black Signature C Shoulder Bag Small Y2K Vintage #1444",
-   "price": 149.0,
-   "currency": "USD",
-   "source": "poshmark",
-   "url": "https://poshmark.com/listing/6acea62232f9349758b098ce",
-   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/13/6acea62232f9349758b098ce/m_6acea645ebb1a5893b56d69b.jpg",
-   "seller": "mygoodiescloset",
-   "condition": "ug",
-   "last_seen": "2026-10-17T20:45:45.052175+00:00",
    "stale": false
   },
   {
@@ -665,7 +665,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-17T20:45:45.052175+00:00",
+   "last_seen": "2026-10-17T22:57:58.238595+00:00",
    "stale": false
   },
   {
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-17T20:45:45.052175+00:00",
+   "last_seen": "2026-10-17T22:57:58.238595+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-17T20:45:45.052175+00:00",
+   "last_seen": "2026-10-17T22:57:58.238595+00:00",
    "stale": false
   }
  ]
