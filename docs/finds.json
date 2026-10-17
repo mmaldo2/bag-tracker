@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T03:40:44.249288+00:00",
+ "generated": "2026-10-17T04:24:31.544362+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,40 @@
  },
  "finds": [
   {
+   "key": "depop:mell_gm-coach-patchwork-leather-tote-bag-061e",
+   "first_seen": "2026-10-17T04:24:31.544362+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork leather tote bag (Coach women's brown and gold bag)",
+   "price": 162.5,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/mell_gm-coach-patchwork-leather-tote-bag-061e/",
+   "image": "https://media-photos.depop.com/r1/446321618/4185520789_884544853bc040209ea44d15a352f62e/P0.jpg",
+   "seller": "mell_gm",
+   "condition": null,
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
+   "stale": false
+  },
+  {
+   "key": "depop:alyssaheffelfing5r-coach-patchwork-tote-bag-with-2e26",
+   "first_seen": "2026-10-17T04:24:31.544362+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork tote bag with (Coach women's brown and gold bag)",
+   "price": 150,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/alyssaheffelfing5r-coach-patchwork-tote-bag-with-2e26/",
+   "image": "https://media-photos.depop.com/r1/36890689/4781166578_615068e9a32844dd9dae8f0f61ad9dac/P0.jpg",
+   "seller": "alyssaheffelfing5r",
+   "condition": null,
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:u_ann5-coach-kristen-caryall-satchel-signature-13f5",
    "first_seen": "2026-10-16T23:14:34.210034+00:00",
    "kind": "new",
@@ -53,7 +87,7 @@
    "image": "https://media-photos.depop.com/b1/387830216/4966258829_58874a2109d24a75aa342a76ba181724/P0.jpg",
    "seller": "u_ann5",
    "condition": null,
-   "last_seen": "2026-10-17T03:22:32.150064+00:00",
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
    "stale": false
   },
   {
@@ -87,7 +121,7 @@
    "image": "https://media-photos.depop.com/r1/239706778/4968074585_3f1160e43ae74483b23aa3c4b7912a52/P0.jpg",
    "seller": "gtaci3638",
    "condition": null,
-   "last_seen": "2026-10-17T01:18:32.084622+00:00",
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
    "stale": false
   },
   {
@@ -172,7 +206,7 @@
    "image": "https://media-photos.depop.com/r1/207146955/4952799438_9d6c190891d74dba8d559b202e35568d/P0.jpg",
    "seller": "stephaniesjlosett1",
    "condition": null,
-   "last_seen": "2026-10-16T07:44:30.173641+00:00",
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
    "stale": false
   },
   {
@@ -257,7 +291,7 @@
    "image": "https://media-photos.depop.com/b1/290466369/4959717488_15248264bdbb4a4299a0395aef23906e/P0.jpg",
    "seller": "c9rmelitae98",
    "condition": null,
-   "last_seen": "2026-10-17T03:22:32.150064+00:00",
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
    "stale": false
   },
   {
@@ -291,7 +325,7 @@
    "image": "https://media-photos.depop.com/r1/427960045/4954436572_a557274a22ce4982bc998499a5c1c929/P0.jpg",
    "seller": "mi3asshopjy99",
    "condition": null,
-   "last_seen": "2026-10-17T03:22:32.150064+00:00",
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
    "stale": false
   },
   {
@@ -376,7 +410,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m38805757967_1.jpg?width=256&quality=75&_=1791984295",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-17T03:22:32.150064+00:00",
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
    "stale": false
   },
   {
@@ -461,7 +495,7 @@
    "image": "https://media-photos.depop.com/r1/43391696/4946057023_32b5e4d1a7fc422d9760fa3cd1c5124a/P0.jpg",
    "seller": "merlotbco",
    "condition": null,
-   "last_seen": "2026-10-15T07:58:28.432757+00:00",
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
    "stale": false
   },
   {
@@ -501,18 +535,18 @@
   {
    "key": "depop:angelinf808-coach-vintage-signature-patchwork-tote-40f3",
    "first_seen": "2026-10-13T22:40:07.988032+00:00",
-   "kind": "new",
-   "old_price": null,
+   "kind": "deal",
+   "old_price": 150,
    "bag": "patchwork-leopard-tote",
    "title": "coach vintage signature patchwork tote (Coach women's gold and brown bag)",
-   "price": 150,
+   "price": 100,
    "currency": "USD",
    "source": "depop",
    "url": "https://www.depop.com/products/angelinf808-coach-vintage-signature-patchwork-tote-40f3/",
-   "image": "https://media-photos.depop.com/b1/303538090/4943175620_377c470464c5451290046518b15b5436/P0.jpg",
+   "image": "https://media-photos.depop.com/r1/303538090/4950287090_1ce6246670644c1188edaa8b6cb94bfd/P0.jpg",
    "seller": "angelinf808",
    "condition": null,
-   "last_seen": "2026-10-14T07:58:07.161426+00:00",
+   "last_seen": "2026-10-17T04:24:31.544362+00:00",
    "stale": false
   },
   {
@@ -599,40 +633,6 @@
    "condition": null,
    "last_seen": "2026-10-13T07:10:06.222106+00:00",
    "stale": true
-  },
-  {
-   "key": "depop:sp96t_113-vintage-2006-coach-patchwork-tote-0ae6",
-   "first_seen": "2026-10-13T05:06:09.217195+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "vintage 2006 coach patchwork tote (Coach women's multi colour bag)",
-   "price": 80,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/sp96t_113-vintage-2006-coach-patchwork-tote-0ae6/",
-   "image": "https://media-photos.depop.com/r1/337929553/4928834986_1d90ffa2c2294943b5c6edd71bbe82bc/P0.jpg",
-   "seller": "sp96t_113",
-   "condition": null,
-   "last_seen": "2026-10-13T07:10:06.222106+00:00",
-   "stale": true
-  },
-  {
-   "key": "poshmark:6acd854917a3c4c233eb2ba7",
-   "first_seen": "2026-10-13T01:55:21.832262+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "chelsea-braided",
-   "title": "Y2K Coach Chelsea Optic Signature Turn Lock Satchel 10995 Tan Braided Handles",
-   "price": 145.0,
-   "currency": "USD",
-   "source": "poshmark",
-   "url": "https://poshmark.com/listing/6acd854917a3c4c233eb2ba7",
-   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/12/6acd854917a3c4c233eb2ba7/m_6acd8571f00c5567e5913460.jpg",
-   "seller": "xannpickss",
-   "condition": "ug",
-   "last_seen": "2026-10-16T04:43:53.475360+00:00",
-   "stale": false
   },
   {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
