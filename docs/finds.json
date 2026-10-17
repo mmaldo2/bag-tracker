@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T16:48:33.088901+00:00",
+ "generated": "2026-10-17T17:50:31.972237+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:onnl111-coach-pastel-patchwork-tote-848d",
+   "first_seen": "2026-10-17T17:50:31.972237+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach pastel patchwork tote (Coach women's multi colour bag)",
+   "price": 235,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/onnl111-coach-pastel-patchwork-tote-848d/",
+   "image": "https://media-photos.depop.com/b1/423756357/4784963956_418446ed4b95406888bdce4004fe7bba/P0.jpg",
+   "seller": "onnl111",
+   "condition": null,
+   "last_seen": "2026-10-17T17:50:31.972237+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:anfrt_974-coach-patchwork-tote-bag-with-b9dc",
    "first_seen": "2026-10-17T05:26:31.724633+00:00",
    "kind": "deal",
@@ -70,7 +87,7 @@
    "image": "https://media-photos.depop.com/r1/446321618/4185520789_884544853bc040209ea44d15a352f62e/P0.jpg",
    "seller": "mell_gm",
    "condition": null,
-   "last_seen": "2026-10-17T16:48:33.088901+00:00",
+   "last_seen": "2026-10-17T17:50:31.972237+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/b1/50754782/4688463596_c0b00d083b9c41c682b2c2625230a827/P0.jpg",
    "seller": "thriftydragonr",
    "condition": null,
-   "last_seen": "2026-10-17T16:48:33.088901+00:00",
+   "last_seen": "2026-10-17T17:50:31.972237+00:00",
    "stale": false
   },
   {
@@ -223,7 +240,7 @@
    "image": "https://media-photos.depop.com/r1/207146955/4952799438_9d6c190891d74dba8d559b202e35568d/P0.jpg",
    "seller": "stephaniesjlosett1",
    "condition": null,
-   "last_seen": "2026-10-17T16:48:33.088901+00:00",
+   "last_seen": "2026-10-17T17:50:31.972237+00:00",
    "stale": false
   },
   {
@@ -274,7 +291,7 @@
    "image": "https://media-photos.depop.com/r1/298088261/4959991447_fdf38f772f4e4035b17dcd6452c70955/P0.jpg",
    "seller": "meli7i_988",
    "condition": null,
-   "last_seen": "2026-10-17T16:48:33.088901+00:00",
+   "last_seen": "2026-10-17T17:50:31.972237+00:00",
    "stale": false
   },
   {
@@ -342,7 +359,7 @@
    "image": "https://media-photos.depop.com/r1/427960045/4954436572_a557274a22ce4982bc998499a5c1c929/P0.jpg",
    "seller": "mi3asshopjy99",
    "condition": null,
-   "last_seen": "2026-10-17T16:48:33.088901+00:00",
+   "last_seen": "2026-10-17T17:50:31.972237+00:00",
    "stale": false
   },
   {
@@ -427,7 +444,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m38805757967_1.jpg?width=256&quality=75&_=1791984295",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-17T16:48:33.088901+00:00",
+   "last_seen": "2026-10-17T17:50:31.972237+00:00",
    "stale": false
   },
   {
@@ -618,23 +635,6 @@
    "stale": false
   },
   {
-   "key": "depop:viynn_-coach-soho-signature-flap-shoulder-1d16",
-   "first_seen": "2026-10-13T05:06:09.217195+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "brown-large-soho-flap",
-   "title": "coach soho signature flap shoulder (Coach women's brown and tan bag)",
-   "price": 70,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/viynn_-coach-soho-signature-flap-shoulder-1d16/",
-   "image": "https://media-photos.depop.com/r1/26654175/repop_43967064_4266861806/4927255088_929bb7f5f4d946a6a1f3b1a75462ea73/P0.jpg",
-   "seller": "viynn_",
-   "condition": null,
-   "last_seen": "2026-10-13T14:24:07.610952+00:00",
-   "stale": true
-  },
-  {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
    "first_seen": "2026-09-23T23:38:50.168261+00:00",
    "kind": "new",
@@ -648,7 +648,7 @@
    "image": "https://media-photos.depop.com/r1/283006094/4772447060_0a4d853be1c24ae29f209bdf5246667b/P0.jpg",
    "seller": "diataprdz",
    "condition": null,
-   "last_seen": "2026-10-17T16:48:33.088901+00:00",
+   "last_seen": "2026-10-17T17:50:31.972237+00:00",
    "stale": false
   },
   {
