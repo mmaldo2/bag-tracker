@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T04:14:32.190621+00:00",
+ "generated": "2026-10-18T05:16:31.733439+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:sivrr4_-coach-pastel-patchwork-tote-bag-e0d1",
+   "first_seen": "2026-10-18T05:16:31.733439+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach pastel patchwork tote bag (Coach women's multi colour bag)",
+   "price": 230,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/sivrr4_-coach-pastel-patchwork-tote-bag-e0d1/",
+   "image": "https://media-photos.depop.com/b1/33420290/4969000238_00656708cd114a8792e18d2d4c7fbef9/P0.jpg",
+   "seller": "sivrr4_",
+   "condition": null,
+   "last_seen": "2026-10-18T05:16:31.733439+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:rrqay_90s-coach-signature-patchwork-tote-bag-2a2b",
    "first_seen": "2026-10-18T02:10:32.932198+00:00",
    "kind": "new",
@@ -70,7 +87,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m61272147685_1.jpg?width=256&quality=75&_=1792288047",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-18T04:14:32.190621+00:00",
+   "last_seen": "2026-10-18T05:16:31.733439+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/r1/264969543/4977073231_4d030c5dbb3c45ad800466014ba51fac/P0.jpg",
    "seller": "blondesuppxy",
    "condition": null,
-   "last_seen": "2026-10-18T04:14:32.190621+00:00",
+   "last_seen": "2026-10-18T05:16:31.733439+00:00",
    "stale": false
   },
   {
@@ -138,7 +155,7 @@
    "image": "https://media-photos.depop.com/b1/423756357/4784963956_418446ed4b95406888bdce4004fe7bba/P0.jpg",
    "seller": "onnl111",
    "condition": null,
-   "last_seen": "2026-10-18T04:14:32.190621+00:00",
+   "last_seen": "2026-10-18T05:16:31.733439+00:00",
    "stale": false
   },
   {
@@ -274,7 +291,7 @@
    "image": "https://media-photos.depop.com/r1/44200952/4954636338_b2121774b6d44510ae3620b1c684f9c2/P0.jpg",
    "seller": "bhsellsmoach",
    "condition": null,
-   "last_seen": "2026-10-16T20:08:31.550688+00:00",
+   "last_seen": "2026-10-18T05:16:31.733439+00:00",
    "stale": false
   },
   {
@@ -410,7 +427,7 @@
    "image": "https://media-photos.depop.com/b1/290466369/4959717488_15248264bdbb4a4299a0395aef23906e/P0.jpg",
    "seller": "c9rmelitae98",
    "condition": null,
-   "last_seen": "2026-10-17T04:24:31.544362+00:00",
+   "last_seen": "2026-10-18T05:16:31.733439+00:00",
    "stale": false
   },
   {
@@ -444,7 +461,7 @@
    "image": "https://media-photos.depop.com/r1/427960045/4954436572_a557274a22ce4982bc998499a5c1c929/P0.jpg",
    "seller": "mi3asshopjy99",
    "condition": null,
-   "last_seen": "2026-10-18T04:14:32.190621+00:00",
+   "last_seen": "2026-10-18T05:16:31.733439+00:00",
    "stale": false
   },
   {
@@ -529,7 +546,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m38805757967_1.jpg?width=256&quality=75&_=1791984295",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-18T04:14:32.190621+00:00",
+   "last_seen": "2026-10-18T05:16:31.733439+00:00",
    "stale": false
   },
   {
@@ -615,23 +632,6 @@
    "seller": "merlotbco",
    "condition": null,
    "last_seen": "2026-10-17T04:24:31.544362+00:00",
-   "stale": false
-  },
-  {
-   "key": "depop:coaohedbymars-coach-holiday-patchwork-tote-style-0c92",
-   "first_seen": "2026-10-14T01:46:08.842281+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach holiday patchwork tote style (Coach women's multi colour bag)",
-   "price": 175,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/coaohedbymars-coach-holiday-patchwork-tote-style-0c92/",
-   "image": "https://media-photos.depop.com/b1/463901761/4944723870_18f630f0f7a44de8a63226d6687fecce/P0.jpg",
-   "seller": "coaohedbymars",
-   "condition": null,
-   "last_seen": "2026-10-15T07:58:28.432757+00:00",
    "stale": false
   },
   {
