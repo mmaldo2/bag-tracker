@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T16:16:35.291094+00:00",
+ "generated": "2026-10-20T17:18:34.511599+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "mercari:m13411890724",
+   "first_seen": "2026-10-20T17:18:34.511599+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Vintage Soho Signature Black Flap Shoulder Bag - Coach",
+   "price": 105,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m13411890724/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m13411890724_1.jpg?width=256&quality=75&_=1792515132",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-20T17:18:34.511599+00:00",
+   "stale": false
+  },
   {
    "key": "poshmark:6acc102505ce57929ae26664",
    "first_seen": "2026-10-20T14:54:36.617928+00:00",
@@ -87,7 +104,7 @@
    "image": "https://media-photos.depop.com/r1/257848269/4987442318_f6b58fff762f48b6bc52c15dca0f3168/P0.jpg",
    "seller": "skmonsaysaccessory",
    "condition": null,
-   "last_seen": "2026-10-20T16:16:35.291094+00:00",
+   "last_seen": "2026-10-20T17:18:34.511599+00:00",
    "stale": false
   },
   {
@@ -104,7 +121,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m26821786955_1.jpg?width=256&quality=75&_=1792465888",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-20T16:16:35.291094+00:00",
+   "last_seen": "2026-10-20T17:18:34.511599+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/r1/30766495/4934162619_bd6fe8172d6749e5bc2099a17980afb6/P0.jpg",
    "seller": "gossipblbexoxo",
    "condition": null,
-   "last_seen": "2026-10-20T16:16:35.291094+00:00",
+   "last_seen": "2026-10-20T17:18:34.511599+00:00",
    "stale": false
   },
   {
@@ -291,7 +308,7 @@
    "image": "https://media-photos.depop.com/b1/248745501/4982639029_31e369fb36bb414fac25af0bf95bbff2/P0.jpg",
    "seller": "rrqay_90s",
    "condition": null,
-   "last_seen": "2026-10-20T16:16:35.291094+00:00",
+   "last_seen": "2026-10-20T17:18:34.511599+00:00",
    "stale": false
   },
   {
@@ -359,7 +376,7 @@
    "image": "https://media-photos.depop.com/r1/264969543/4977073231_4d030c5dbb3c45ad800466014ba51fac/P0.jpg",
    "seller": "blondesuppxy",
    "condition": null,
-   "last_seen": "2026-10-20T16:16:35.291094+00:00",
+   "last_seen": "2026-10-20T17:18:34.511599+00:00",
    "stale": false
   },
   {
@@ -461,7 +478,7 @@
    "image": "https://media-photos.depop.com/b1/50754782/4688463596_c0b00d083b9c41c682b2c2625230a827/P0.jpg",
    "seller": "thriftydragonr",
    "condition": null,
-   "last_seen": "2026-10-20T16:16:35.291094+00:00",
+   "last_seen": "2026-10-20T17:18:34.511599+00:00",
    "stale": false
   },
   {
@@ -512,7 +529,7 @@
    "image": "https://media-photos.depop.com/r1/44200952/4954636338_b2121774b6d44510ae3620b1c684f9c2/P0.jpg",
    "seller": "bhsellsmoach",
    "condition": null,
-   "last_seen": "2026-10-20T16:16:35.291094+00:00",
+   "last_seen": "2026-10-20T17:18:34.511599+00:00",
    "stale": false
   },
   {
@@ -563,7 +580,7 @@
    "image": "https://media-photos.depop.com/r1/207146955/4952799438_9d6c190891d74dba8d559b202e35568d/P0.jpg",
    "seller": "stephaniesjlosett1",
    "condition": null,
-   "last_seen": "2026-10-20T16:16:35.291094+00:00",
+   "last_seen": "2026-10-20T17:18:34.511599+00:00",
    "stale": false
   },
   {
@@ -633,23 +650,6 @@
    "condition": null,
    "last_seen": "2026-10-16T02:34:31.321849+00:00",
    "stale": true
-  },
-  {
-   "key": "depop:c9rmelitae98-coach-patchwork-tote-bag-with-5620",
-   "first_seen": "2026-10-15T20:22:31.367468+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach patchwork tote bag with (Coach women's gold and brown bag)",
-   "price": 120,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/c9rmelitae98-coach-patchwork-tote-bag-with-5620/",
-   "image": "https://media-photos.depop.com/b1/290466369/4959717488_15248264bdbb4a4299a0395aef23906e/P0.jpg",
-   "seller": "c9rmelitae98",
-   "condition": null,
-   "last_seen": "2026-10-18T18:42:33.286746+00:00",
-   "stale": false
   },
   {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
