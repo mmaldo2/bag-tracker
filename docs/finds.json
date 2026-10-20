@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T13:10:34.739739+00:00",
+ "generated": "2026-10-20T14:12:36.450622+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "depop:famigy_thrift-vintage-y2k-coach-soho-signature-d990",
+   "first_seen": "2026-10-20T14:12:36.450622+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "brown-soho-satchel",
+   "title": "vintage y2k coach soho signature (Coach women's brown and tan bag)",
+   "price": 110,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/famigy_thrift-vintage-y2k-coach-soho-signature-d990/",
+   "image": "https://media-photos.depop.com/b1/335693718/4986066658_64cfb73df78c41aeaf964dabc6362e15/P0.jpg",
+   "seller": "famigy_thrift",
+   "condition": null,
+   "last_seen": "2026-10-20T14:12:36.450622+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:skmonsaysaccessory-coach-2007-holiday-patchwork-tote-cf2f",
    "first_seen": "2026-10-20T13:10:34.739739+00:00",
    "kind": "new",
@@ -53,7 +70,7 @@
    "image": "https://media-photos.depop.com/r1/257848269/4987442318_f6b58fff762f48b6bc52c15dca0f3168/P0.jpg",
    "seller": "skmonsaysaccessory",
    "condition": null,
-   "last_seen": "2026-10-20T13:10:34.739739+00:00",
+   "last_seen": "2026-10-20T14:12:36.450622+00:00",
    "stale": false
   },
   {
@@ -70,7 +87,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m26821786955_1.jpg?width=256&quality=75&_=1792465888",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-20T13:10:34.739739+00:00",
+   "last_seen": "2026-10-20T14:12:36.450622+00:00",
    "stale": false
   },
   {
@@ -87,7 +104,7 @@
    "image": "https://media-photos.depop.com/r1/30766495/4934162619_bd6fe8172d6749e5bc2099a17980afb6/P0.jpg",
    "seller": "gossipblbexoxo",
    "condition": null,
-   "last_seen": "2026-10-20T13:10:34.739739+00:00",
+   "last_seen": "2026-10-20T14:12:36.450622+00:00",
    "stale": false
   },
   {
@@ -240,7 +257,7 @@
    "image": "https://media-photos.depop.com/b1/33420290/4969000238_00656708cd114a8792e18d2d4c7fbef9/P0.jpg",
    "seller": "sivrr4_",
    "condition": null,
-   "last_seen": "2026-10-20T13:10:34.739739+00:00",
+   "last_seen": "2026-10-20T14:12:36.450622+00:00",
    "stale": false
   },
   {
@@ -257,7 +274,7 @@
    "image": "https://media-photos.depop.com/b1/248745501/4982639029_31e369fb36bb414fac25af0bf95bbff2/P0.jpg",
    "seller": "rrqay_90s",
    "condition": null,
-   "last_seen": "2026-10-20T13:10:34.739739+00:00",
+   "last_seen": "2026-10-20T14:12:36.450622+00:00",
    "stale": false
   },
   {
@@ -325,7 +342,7 @@
    "image": "https://media-photos.depop.com/r1/264969543/4977073231_4d030c5dbb3c45ad800466014ba51fac/P0.jpg",
    "seller": "blondesuppxy",
    "condition": null,
-   "last_seen": "2026-10-20T13:10:34.739739+00:00",
+   "last_seen": "2026-10-20T14:12:36.450622+00:00",
    "stale": false
   },
   {
@@ -478,7 +495,7 @@
    "image": "https://media-photos.depop.com/r1/44200952/4954636338_b2121774b6d44510ae3620b1c684f9c2/P0.jpg",
    "seller": "bhsellsmoach",
    "condition": null,
-   "last_seen": "2026-10-20T13:10:34.739739+00:00",
+   "last_seen": "2026-10-20T14:12:36.450622+00:00",
    "stale": false
   },
   {
@@ -630,23 +647,6 @@
    "url": "https://www.depop.com/products/xoxogossipbabexoxo-coach-patchwork-signature-tote-e718/",
    "image": "https://media-photos.depop.com/r1/225395617/4934140383_1270c3b938be4c0bb14de687ff58d400/P0.jpg",
    "seller": "xoxogossipbabexoxo",
-   "condition": null,
-   "last_seen": "2026-10-20T13:10:34.739739+00:00",
-   "stale": false
-  },
-  {
-   "key": "depop:mi3asshopjy99-coach-chelsea-optic-signature-satchel-02d4",
-   "first_seen": "2026-10-15T02:48:32.261825+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "chelsea-braided",
-   "title": "coach chelsea optic signature satchel (Coach women's brown and tan bag)",
-   "price": 175,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/mi3asshopjy99-coach-chelsea-optic-signature-satchel-02d4/",
-   "image": "https://media-photos.depop.com/r1/427960045/4954436572_a557274a22ce4982bc998499a5c1c929/P0.jpg",
-   "seller": "mi3asshopjy99",
    "condition": null,
    "last_seen": "2026-10-20T13:10:34.739739+00:00",
    "stale": false
