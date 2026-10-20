@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T14:12:36.450622+00:00",
+ "generated": "2026-10-20T14:54:36.617928+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6acc102505ce57929ae26664",
+   "first_seen": "2026-10-20T14:54:36.617928+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "chelsea-braided",
+   "title": "Coach Chelsea Optic Signature Duffle Satchel (Style No. 10145), a highly sought",
+   "price": 228.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6acc102505ce57929ae26664",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/11/6acc102505ce57929ae26664/m_6acc107d13a647236f598fc4.jpg",
+   "seller": "eddylids17",
+   "condition": "ug",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
+   "stale": false
+  },
   {
    "key": "depop:famigy_thrift-vintage-y2k-coach-soho-signature-d990",
    "first_seen": "2026-10-20T14:12:36.450622+00:00",
@@ -121,7 +138,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/19/6ad6b22c7aaa641a1e73e24a/m_6ad6b24a5551aa6698039c85.jpg",
    "seller": "jackiesthrift72",
    "condition": "ug",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -138,7 +155,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/19/6ad6a30828951ff0ba66adee/m_6ad6a32028951f803366af3f.jpg",
    "seller": "monianar",
    "condition": "Used",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -155,7 +172,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/19/6ad68bdc7e297b80344fb9e0/m_6ad68c16e2131b0398ef6f14.jpg",
    "seller": "emily_scott2",
    "condition": "ug",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -189,7 +206,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/18/6ad51e5f76de00fd010c1942/m_6ad51e6024cc87ac4d27ac1a.jpg",
    "seller": "kell1986oh",
    "condition": "Used",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -206,7 +223,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/18/6ad521c0946da27f253cf401/m_6ad521d3e2131be770ed64be.jpg",
    "seller": "mrosenblatt92",
    "condition": "ug",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -240,7 +257,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/17/6ad3d9bd88963fb51c56a573/m_6ad3d9c95650fe5a58c4c17e.jpg",
    "seller": "adaezenc2005",
    "condition": "ug",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -308,7 +325,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/17/6ad3f96419212566ca2af554/m_6ad3f97c1a9c991b66e3d867.jpg",
    "seller": "mamatex30",
    "condition": "ug",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -325,7 +342,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/17/6ad3e4c8da3eeba14206a84d/m_6ad3e51b4985e82c20b75a42.jpg",
    "seller": "viktorgalshop",
    "condition": "ug",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -377,7 +394,7 @@
    "seller": "anfrt_974",
    "condition": null,
    "last_seen": "2026-10-17T14:44:35.079988+00:00",
-   "stale": false
+   "stale": true
   },
   {
    "key": "depop:mell_gm-coach-patchwork-leather-tote-bag-061e",
@@ -635,23 +652,6 @@
    "stale": false
   },
   {
-   "key": "depop:xoxogossipbabexoxo-coach-patchwork-signature-tote-e718",
-   "first_seen": "2026-10-15T04:52:28.853147+00:00",
-   "kind": "drop",
-   "old_price": 230,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach patchwork signature tote (Coach women's multi colour bag)",
-   "price": 186,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/xoxogossipbabexoxo-coach-patchwork-signature-tote-e718/",
-   "image": "https://media-photos.depop.com/r1/225395617/4934140383_1270c3b938be4c0bb14de687ff58d400/P0.jpg",
-   "seller": "xoxogossipbabexoxo",
-   "condition": null,
-   "last_seen": "2026-10-20T13:10:34.739739+00:00",
-   "stale": false
-  },
-  {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
    "first_seen": "2026-09-23T23:38:50.168261+00:00",
    "kind": "new",
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -699,7 +699,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-20T10:15:05.030238+00:00",
+   "last_seen": "2026-10-20T14:54:36.617928+00:00",
    "stale": false
   }
  ]
