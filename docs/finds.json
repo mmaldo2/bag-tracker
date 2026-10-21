@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T02:36:35.720213+00:00",
+ "generated": "2026-10-21T03:38:43.245443+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,40 @@
   }
  },
  "finds": [
+  {
+   "key": "depop:ar8vnnaxo-coach-patchwork-leather-tote-bag-8b5a",
+   "first_seen": "2026-10-21T03:38:43.245443+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork leather tote bag (Coach women's multi colour bag)",
+   "price": 170,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/ar8vnnaxo-coach-patchwork-leather-tote-bag-8b5a/",
+   "image": "https://media-photos.depop.com/r1/37098798/5007092121_7738d63d6e1e46a18731d34e50ef89b5/P0.jpg",
+   "seller": "ar8vnnaxo",
+   "condition": null,
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
+   "stale": false
+  },
+  {
+   "key": "mercari:m96619665067",
+   "first_seen": "2026-10-21T03:38:43.245443+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "inlaid patchwork tote 2012 - Coach",
+   "price": 79.95,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m96619665067/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m96619665067_1.jpg?width=256&quality=75&_=1792553541",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
+   "stale": false
+  },
   {
    "key": "poshmark:6ad8030e7aaa64ac1e80417d",
    "first_seen": "2026-10-21T01:00:27.536189+00:00",
@@ -155,7 +189,7 @@
    "image": "https://media-photos.depop.com/r1/257848269/4987442318_f6b58fff762f48b6bc52c15dca0f3168/P0.jpg",
    "seller": "skmonsaysaccessory",
    "condition": null,
-   "last_seen": "2026-10-21T02:36:35.720213+00:00",
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
    "stale": false
   },
   {
@@ -172,7 +206,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m26821786955_1.jpg?width=256&quality=75&_=1792465888",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-21T02:36:35.720213+00:00",
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
    "stale": false
   },
   {
@@ -189,7 +223,7 @@
    "image": "https://media-photos.depop.com/r1/30766495/4934162619_bd6fe8172d6749e5bc2099a17980afb6/P0.jpg",
    "seller": "gossipblbexoxo",
    "condition": null,
-   "last_seen": "2026-10-21T02:36:35.720213+00:00",
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
    "stale": false
   },
   {
@@ -342,7 +376,7 @@
    "image": "https://media-photos.depop.com/b1/33420290/4969000238_00656708cd114a8792e18d2d4c7fbef9/P0.jpg",
    "seller": "sivrr4_",
    "condition": null,
-   "last_seen": "2026-10-21T02:36:35.720213+00:00",
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
    "stale": false
   },
   {
@@ -359,7 +393,7 @@
    "image": "https://media-photos.depop.com/b1/248745501/4982639029_31e369fb36bb414fac25af0bf95bbff2/P0.jpg",
    "seller": "rrqay_90s",
    "condition": null,
-   "last_seen": "2026-10-21T02:36:35.720213+00:00",
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
    "stale": false
   },
   {
@@ -427,7 +461,7 @@
    "image": "https://media-photos.depop.com/r1/264969543/4977073231_4d030c5dbb3c45ad800466014ba51fac/P0.jpg",
    "seller": "blondesuppxy",
    "condition": null,
-   "last_seen": "2026-10-21T02:36:35.720213+00:00",
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
    "stale": false
   },
   {
@@ -529,7 +563,7 @@
    "image": "https://media-photos.depop.com/b1/50754782/4688463596_c0b00d083b9c41c682b2c2625230a827/P0.jpg",
    "seller": "thriftydragonr",
    "condition": null,
-   "last_seen": "2026-10-21T02:36:35.720213+00:00",
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
    "stale": false
   },
   {
@@ -580,7 +614,7 @@
    "image": "https://media-photos.depop.com/r1/44200952/4954636338_b2121774b6d44510ae3620b1c684f9c2/P0.jpg",
    "seller": "bhsellsmoach",
    "condition": null,
-   "last_seen": "2026-10-21T02:36:35.720213+00:00",
+   "last_seen": "2026-10-21T03:38:43.245443+00:00",
    "stale": false
   },
   {
@@ -615,40 +649,6 @@
    "seller": "jashapotter",
    "condition": null,
    "last_seen": "2026-10-18T00:50:58.551383+00:00",
-   "stale": true
-  },
-  {
-   "key": "depop:stephaniesjlosett1-coach-patchwork-gallery-tote-25bb",
-   "first_seen": "2026-10-16T05:40:29.040339+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach patchwork gallery tote (Coach women's brown and tan bag)",
-   "price": 225,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/stephaniesjlosett1-coach-patchwork-gallery-tote-25bb/",
-   "image": "https://media-photos.depop.com/r1/207146955/4952799438_9d6c190891d74dba8d559b202e35568d/P0.jpg",
-   "seller": "stephaniesjlosett1",
-   "condition": null,
-   "last_seen": "2026-10-21T02:36:35.720213+00:00",
-   "stale": false
-  },
-  {
-   "key": "depop:mtdek_475-coach-soho-signature-c-canvas-08eb",
-   "first_seen": "2026-10-16T04:38:31.112760+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "brown-soho-satchel",
-   "title": "coach soho signature c canvas (Coach women's tan and brown bag)",
-   "price": 90,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/mtdek_475-coach-soho-signature-c-canvas-08eb/",
-   "image": "https://media-photos.depop.com/r1/299575804/4961440715_6eacfae16ae24d97b96e8f370632ec96/P0.jpg",
-   "seller": "mtdek_475",
-   "condition": null,
-   "last_seen": "2026-10-16T07:44:30.173641+00:00",
    "stale": true
   },
   {
