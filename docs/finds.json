@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T03:38:43.245443+00:00",
+ "generated": "2026-10-21T04:40:35.927637+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,40 @@
  },
  "finds": [
   {
+   "key": "depop:szashellseaa-coach-braided-chelsea-shoulder-bag-1094",
+   "first_seen": "2026-10-21T04:40:35.927637+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "chelsea-braided",
+   "title": "coach braided chelsea shoulder bag (Coach women's vintage brown and tan bag)",
+   "price": 80,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/szashellseaa-coach-braided-chelsea-shoulder-bag-1094/",
+   "image": "https://media-photos.depop.com/r1/12679464/3934594244_f3f37d79a1bd4ecd8ad13e44b1c6f1f5/P0.jpg",
+   "seller": "szashellseaa",
+   "condition": null,
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
+   "stale": false
+  },
+  {
+   "key": "mercari:m92893322913",
+   "first_seen": "2026-10-21T04:40:35.927637+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "black-soho-satchel",
+   "title": "Vintage Signature Black Satchel Handbag - Coach",
+   "price": 65,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m92893322913/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m92893322913_1.jpg?width=256&quality=75&_=1792555329",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:ar8vnnaxo-coach-patchwork-leather-tote-bag-8b5a",
    "first_seen": "2026-10-21T03:38:43.245443+00:00",
    "kind": "new",
@@ -53,7 +87,7 @@
    "image": "https://media-photos.depop.com/r1/37098798/5007092121_7738d63d6e1e46a18731d34e50ef89b5/P0.jpg",
    "seller": "ar8vnnaxo",
    "condition": null,
-   "last_seen": "2026-10-21T03:38:43.245443+00:00",
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
    "stale": false
   },
   {
@@ -70,7 +104,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m96619665067_1.jpg?width=256&quality=75&_=1792553541",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-21T03:38:43.245443+00:00",
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
    "stale": false
   },
   {
@@ -104,7 +138,7 @@
    "image": "https://media-photos.depop.com/b1/457137757/5005523926_28d7f8c0faca49cfbfb7a84b9496cd67/P0.jpg",
    "seller": "a7ava_432",
    "condition": null,
-   "last_seen": "2026-10-21T01:34:36.777775+00:00",
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
    "stale": false
   },
   {
@@ -121,7 +155,7 @@
    "image": "https://media-photos.depop.com/r1/440287210/5003473034_5830c8a9b70b452a9c847b754d8c85d6/P0.jpg",
    "seller": "liz0t_136",
    "condition": null,
-   "last_seen": "2026-10-21T01:34:36.777775+00:00",
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
    "stale": false
   },
   {
@@ -189,7 +223,7 @@
    "image": "https://media-photos.depop.com/r1/257848269/4987442318_f6b58fff762f48b6bc52c15dca0f3168/P0.jpg",
    "seller": "skmonsaysaccessory",
    "condition": null,
-   "last_seen": "2026-10-21T03:38:43.245443+00:00",
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
    "stale": false
   },
   {
@@ -206,7 +240,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m26821786955_1.jpg?width=256&quality=75&_=1792465888",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-21T03:38:43.245443+00:00",
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
    "stale": false
   },
   {
@@ -223,7 +257,7 @@
    "image": "https://media-photos.depop.com/r1/30766495/4934162619_bd6fe8172d6749e5bc2099a17980afb6/P0.jpg",
    "seller": "gossipblbexoxo",
    "condition": null,
-   "last_seen": "2026-10-21T03:38:43.245443+00:00",
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
    "stale": false
   },
   {
@@ -376,7 +410,7 @@
    "image": "https://media-photos.depop.com/b1/33420290/4969000238_00656708cd114a8792e18d2d4c7fbef9/P0.jpg",
    "seller": "sivrr4_",
    "condition": null,
-   "last_seen": "2026-10-21T03:38:43.245443+00:00",
+   "last_seen": "2026-10-21T04:40:35.927637+00:00",
    "stale": false
   },
   {
@@ -513,7 +547,7 @@
    "seller": "mell_gm",
    "condition": null,
    "last_seen": "2026-10-18T04:14:32.190621+00:00",
-   "stale": false
+   "stale": true
   },
   {
    "key": "depop:alyssaheffelfing5r-coach-patchwork-tote-bag-with-2e26",
@@ -616,40 +650,6 @@
    "condition": null,
    "last_seen": "2026-10-21T03:38:43.245443+00:00",
    "stale": false
-  },
-  {
-   "key": "depop:kaysclosetnxo-y2k-coach-gallery-patchwork-tote-697c",
-   "first_seen": "2026-10-16T20:08:31.550688+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "y2k coach gallery patchwork tote (Coach women's brown and tan bag)",
-   "price": 180,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/kaysclosetnxo-y2k-coach-gallery-patchwork-tote-697c/",
-   "image": "https://media-photos.depop.com/r1/281552887/repop_439326343_3552066665/4962082150_f8c0bca0856d43da8695f940fc499a23/P0.jpg",
-   "seller": "kaysclosetnxo",
-   "condition": null,
-   "last_seen": "2026-10-16T20:08:31.550688+00:00",
-   "stale": true
-  },
-  {
-   "key": "poshmark:6ad24f94b55223e595a2f7d8",
-   "first_seen": "2026-10-16T18:11:28.541241+00:00",
-   "kind": "drop",
-   "old_price": 150.0,
-   "bag": "black-soho-satchel",
-   "title": "Vintage Coach Soho F11405 Black Suede Studded Signature Y2K Shoulder Bag",
-   "price": 120.0,
-   "currency": "USD",
-   "source": "poshmark",
-   "url": "https://poshmark.com/listing/6ad24f94b55223e595a2f7d8",
-   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/16/6ad24f94b55223e595a2f7d8/m_6ad24fa270333f77ddcd91ca.jpg",
-   "seller": "jashapotter",
-   "condition": null,
-   "last_seen": "2026-10-18T00:50:58.551383+00:00",
-   "stale": true
   },
   {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
