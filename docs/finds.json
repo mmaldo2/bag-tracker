@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T00:27:05.529675+00:00",
+ "generated": "2026-10-23T00:28:42.139707+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,40 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6ada9c78b9dd7012894a6ba6",
+   "first_seen": "2026-10-23T00:28:42.139707+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-satchel",
+   "title": "Coach Soho Signature Double Pocket Buckle Satchel in Black & Gray",
+   "price": 130.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ada9c78b9dd7012894a6ba6",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/22/6ada9c78b9dd7012894a6ba6/m_6ada9cd40511550c3201f394.jpg",
+   "seller": "kaylakiser32",
+   "condition": "ug",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
+   "stale": false
+  },
+  {
+   "key": "poshmark:6ad8a808571a7e8b14d3aa46",
+   "first_seen": "2026-10-23T00:28:42.139707+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Vintage Coach Soho Signature Flap Shoulder Bag Black",
+   "price": 135.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ad8a808571a7e8b14d3aa46",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/21/6ad8a808571a7e8b14d3aa46/m_6ad8a8403a16285626a9c311.jpg",
+   "seller": "lindaperkins960",
+   "condition": "ug",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
+   "stale": false
+  },
   {
    "key": "mercari:m46032238017",
    "first_seen": "2026-10-22T19:56:54.802637+00:00",
@@ -104,7 +138,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/21/6ad98fe168414738b8e24043/m_6ad98fe29709886da16c363c.jpg",
    "seller": "inchen260186",
    "condition": "ug",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   },
   {
@@ -121,7 +155,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/21/6ad974777625b1d9d09f3dcc/m_6ad9748cf0ff25ccb88a828a.jpg",
    "seller": "goodplanet",
    "condition": "uln",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   },
   {
@@ -444,7 +478,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/19/6ad6b22c7aaa641a1e73e24a/m_6ad6b24a5551aa6698039c85.jpg",
    "seller": "jackiesthrift72",
    "condition": "ug",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   },
   {
@@ -461,7 +495,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/19/6ad6a30828951ff0ba66adee/m_6ad6a32028951f803366af3f.jpg",
    "seller": "monianar",
    "condition": "Used",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   },
   {
@@ -478,7 +512,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/19/6ad68bdc7e297b80344fb9e0/m_6ad68c16e2131b0398ef6f14.jpg",
    "seller": "emily_scott2",
    "condition": "ug",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   },
   {
@@ -512,7 +546,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/18/6ad51e5f76de00fd010c1942/m_6ad51e6024cc87ac4d27ac1a.jpg",
    "seller": "kell1986oh",
    "condition": "Used",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   },
   {
@@ -563,7 +597,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/17/6ad3d9bd88963fb51c56a573/m_6ad3d9c95650fe5a58c4c17e.jpg",
    "seller": "adaezenc2005",
    "condition": "ug",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   },
   {
@@ -618,40 +652,6 @@
    "stale": true
   },
   {
-   "key": "poshmark:6ad3f96419212566ca2af554",
-   "first_seen": "2026-10-17T22:57:58.238595+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "black-soho-flap-shoulder",
-   "title": "Coach Soho Signature Buckle Flap Shoulder Bag Black",
-   "price": 65.0,
-   "currency": "USD",
-   "source": "poshmark",
-   "url": "https://poshmark.com/listing/6ad3f96419212566ca2af554",
-   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/17/6ad3f96419212566ca2af554/m_6ad3f97c1a9c991b66e3d867.jpg",
-   "seller": "mamatex30",
-   "condition": "ug",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
-   "stale": false
-  },
-  {
-   "key": "poshmark:6ad3e4c8da3eeba14206a84d",
-   "first_seen": "2026-10-17T22:57:58.238595+00:00",
-   "kind": "drop",
-   "old_price": 150.0,
-   "bag": "black-soho-flap-shoulder",
-   "title": "Vintage Y2K Coach SoHo Signature Monogram Black Canvas Flap Shoulder Bag",
-   "price": 125.0,
-   "currency": "USD",
-   "source": "poshmark",
-   "url": "https://poshmark.com/listing/6ad3e4c8da3eeba14206a84d",
-   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/17/6ad3e4c8da3eeba14206a84d/m_6ad3e51b4985e82c20b75a42.jpg",
-   "seller": "viktorgalshop",
-   "condition": "ug",
-   "last_seen": "2026-10-21T11:35:22.172704+00:00",
-   "stale": false
-  },
-  {
    "key": "depop:diataprdz-coach-patchwork-leather-tote-bag-c8e8",
    "first_seen": "2026-09-23T23:38:50.168261+00:00",
    "kind": "drop",
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   },
   {
@@ -699,7 +699,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-22T21:45:40.074841+00:00",
+   "last_seen": "2026-10-23T00:28:42.139707+00:00",
    "stale": false
   }
  ]
