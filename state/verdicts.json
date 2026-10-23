@@ -1,10 +1,25 @@
 {
  "bags": {},
- "fetched": "2026-10-23T19:01:50.080591+00:00",
+ "fetched": "2026-10-23T19:31:55.226982+00:00",
  "listings": {
+  "depop:a7ava_432-vintage-coach-soho-signature-jacquard-0e1a": {
+   "notified": false,
+   "t": "2026-10-23T19:09:11.328Z",
+   "v": "no"
+  },
+  "depop:ar8vnnaxo-coach-patchwork-leather-tote-bag-8b5a": {
+   "notified": true,
+   "t": "2026-10-23T19:09:08.716Z",
+   "v": "keep"
+  },
   "depop:b0rizy-coach-chelsea-signature-braided-strap-fecc": {
    "notified": false,
    "t": "2026-09-24T01:01:43.497Z",
+   "v": "no"
+  },
+  "depop:cheesecakeoutie-coach-2006-patchwork-suede-tote-eff4": {
+   "notified": false,
+   "t": "2026-10-23T19:08:30.833Z",
    "v": "no"
   },
   "depop:chxrrybloom916-coach-patchwork-tote-bag-before-733e": {
@@ -12,10 +27,25 @@
    "t": "2026-09-24T05:49:32.106Z",
    "v": "no"
   },
+  "depop:clarence_314-coach-patchwork-tote-bag-with-a195": {
+   "notified": false,
+   "t": "2026-10-23T19:08:54.958Z",
+   "v": "no"
+  },
+  "depop:closetcandc55-coach-poppy-patchwork-tote-bag-bc2c": {
+   "notified": false,
+   "t": "2026-10-23T19:08:55.947Z",
+   "v": "no"
+  },
   "depop:coknr-coach-patchwork-tote-bag-with-52dc": {
    "notified": false,
    "t": "2026-09-27T00:22:30.882Z",
    "v": "no"
+  },
+  "depop:cra9d-coach-chelsea-signature-braided-flap-8b9c": {
+   "notified": true,
+   "t": "2026-10-23T19:08:24.994Z",
+   "v": "keep"
   },
   "depop:denimlnthedaily-coach-vintage-patchwork-signature-tote-5936": {
    "notified": false,
@@ -27,14 +57,49 @@
    "t": "2026-09-24T01:01:31.428Z",
    "v": "keep"
   },
+  "depop:famigy_thrift-vintage-y2k-coach-soho-signature-d990": {
+   "notified": false,
+   "t": "2026-10-23T19:09:20.686Z",
+   "v": "no"
+  },
   "depop:fcercefitz-y2k-coach-patchwork-brownmetallic-tote-72fc": {
    "notified": false,
    "t": "2026-09-27T00:22:22.833Z",
    "v": "no"
   },
+  "depop:frogf2cefinds-vintage-y2k-coach-patchwork-tote-074d": {
+   "notified": false,
+   "t": "2026-10-23T19:08:56.835Z",
+   "v": "no"
+  },
+  "depop:gexcrae-coach-patchwork-tote-pictures-shown-c3a0": {
+   "notified": false,
+   "t": "2026-10-23T19:08:57.427Z",
+   "v": "no"
+  },
+  "depop:gossipblbexoxo-coach-patchwork-signature-tote-24d9": {
+   "notified": false,
+   "t": "2026-10-23T19:09:23.734Z",
+   "v": "no"
+  },
+  "depop:hadazhamza-coach-patchwork-tote-bag-with-009a": {
+   "notified": false,
+   "t": "2026-10-23T19:09:32.269Z",
+   "v": "no"
+  },
   "depop:henlokitty_xoxo_-authentic-coach-signature-patchwork-tote-9da0": {
    "notified": false,
    "t": "2026-09-27T00:22:29.763Z",
+   "v": "no"
+  },
+  "depop:kijgmaseray-y2k-coach-chelsea-signature-braided-4d37": {
+   "notified": true,
+   "t": "2026-10-23T19:08:59.093Z",
+   "v": "keep"
+  },
+  "depop:liz0t_136-coach-patchwork-tote-bag-with-14fb": {
+   "notified": false,
+   "t": "2026-10-23T19:09:12.164Z",
    "v": "no"
   },
   "depop:marinavtp-coach-large-patchwork-tote-large-06b5": {
@@ -45,6 +110,11 @@
   "depop:mirowpreo-unique-coach-patchwork-tote-featuring-673a": {
    "notified": false,
    "t": "2026-09-24T01:17:47.952Z",
+   "v": "no"
+  },
+  "depop:mommy_987-coach-patchwork-leather-tote-bag-7446": {
+   "notified": false,
+   "t": "2026-10-23T19:08:43.329Z",
    "v": "no"
   },
   "depop:petsav-coach-vintage-patchwork-tote-bag-b170": {
@@ -62,10 +132,35 @@
    "t": "2026-09-27T00:22:19.633Z",
    "v": "no"
   },
+  "depop:sivrr4_-coach-pastel-patchwork-tote-bag-e0d1": {
+   "notified": false,
+   "t": "2026-10-23T19:09:33.797Z",
+   "v": "no"
+  },
+  "depop:skmonsaysaccessory-coach-2007-holiday-patchwork-tote-cf2f": {
+   "notified": false,
+   "t": "2026-10-23T19:09:21.932Z",
+   "v": "no"
+  },
+  "depop:sumyscldset-vintage-coach-patchwork-tote-bag-b8de": {
+   "notified": false,
+   "t": "2026-10-23T19:09:28.854Z",
+   "v": "no"
+  },
+  "depop:szashellseaa-coach-braided-chelsea-shoulder-bag-1094": {
+   "notified": false,
+   "t": "2026-10-23T19:09:00.223Z",
+   "v": "no"
+  },
   "depop:thriftywndthrivingg-2007-coach-holiday-patchwork-tote-ffd1": {
    "notified": false,
    "t": "2026-09-27T00:22:24.284Z",
    "v": "no"
+  },
+  "mercari:m13411890724": {
+   "notified": true,
+   "t": "2026-10-23T19:09:14.787Z",
+   "v": "keep"
   },
   "mercari:m14336017791": {
    "notified": false,
@@ -92,9 +187,19 @@
    "t": "2026-09-24T01:01:57.998Z",
    "v": "no"
   },
+  "mercari:m26821786955": {
+   "notified": false,
+   "t": "2026-10-23T19:09:22.748Z",
+   "v": "no"
+  },
   "mercari:m39508493714": {
    "notified": false,
    "t": "2026-09-24T01:02:00.078Z",
+   "v": "no"
+  },
+  "mercari:m46032238017": {
+   "notified": false,
+   "t": "2026-10-23T19:08:40.838Z",
    "v": "no"
   },
   "mercari:m64510635953": {
@@ -122,9 +227,24 @@
    "t": "2026-09-24T01:01:37.377Z",
    "v": "no"
   },
+  "mercari:m91291480325": {
+   "notified": false,
+   "t": "2026-10-23T19:08:44.063Z",
+   "v": "no"
+  },
+  "mercari:m92893322913": {
+   "notified": false,
+   "t": "2026-10-23T19:09:06.800Z",
+   "v": "no"
+  },
   "mercari:m95197557037": {
    "notified": false,
    "t": "2026-09-27T00:22:22.026Z",
+   "v": "no"
+  },
+  "mercari:m96619665067": {
+   "notified": false,
+   "t": "2026-10-23T19:09:09.844Z",
    "v": "no"
   },
   "poshmark:5503a9a344adba74400034bd": {
@@ -215,6 +335,66 @@
   "poshmark:6ab7c909f09fc89fe4ea1ccd": {
    "notified": false,
    "t": "2026-09-27T00:22:21.002Z",
+   "v": "no"
+  },
+  "poshmark:6acc102505ce57929ae26664": {
+   "notified": true,
+   "t": "2026-10-23T19:09:19.472Z",
+   "v": "keep"
+  },
+  "poshmark:6ad3d9bd88963fb51c56a573": {
+   "notified": false,
+   "t": "2026-10-23T19:09:32.831Z",
+   "v": "no"
+  },
+  "poshmark:6ad51e5f76de00fd010c1942": {
+   "notified": false,
+   "t": "2026-10-23T19:09:29.583Z",
+   "v": "no"
+  },
+  "poshmark:6ad521c0946da27f253cf401": {
+   "notified": false,
+   "t": "2026-10-23T19:09:30.379Z",
+   "v": "no"
+  },
+  "poshmark:6ad68bdc7e297b80344fb9e0": {
+   "notified": false,
+   "t": "2026-10-23T19:09:26.372Z",
+   "v": "no"
+  },
+  "poshmark:6ad6a30828951ff0ba66adee": {
+   "notified": false,
+   "t": "2026-10-23T19:09:25.794Z",
+   "v": "no"
+  },
+  "poshmark:6ad6b22c7aaa641a1e73e24a": {
+   "notified": false,
+   "t": "2026-10-23T19:09:24.733Z",
+   "v": "no"
+  },
+  "poshmark:6ad8030e7aaa64ac1e80417d": {
+   "notified": false,
+   "t": "2026-10-23T19:09:10.776Z",
+   "v": "no"
+  },
+  "poshmark:6ad8a808571a7e8b14d3aa46": {
+   "notified": false,
+   "t": "2026-10-23T19:08:39.857Z",
+   "v": "no"
+  },
+  "poshmark:6ad974777625b1d9d09f3dcc": {
+   "notified": false,
+   "t": "2026-10-23T19:08:50.983Z",
+   "v": "no"
+  },
+  "poshmark:6ad98fe168414738b8e24043": {
+   "notified": true,
+   "t": "2026-10-23T19:08:49.950Z",
+   "v": "keep"
+  },
+  "poshmark:6ada9c78b9dd7012894a6ba6": {
+   "notified": false,
+   "t": "2026-10-23T19:08:38.207Z",
    "v": "no"
   }
  }
