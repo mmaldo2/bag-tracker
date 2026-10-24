@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T04:21:08.631905+00:00",
+ "generated": "2026-10-24T05:23:11.286744+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -53,7 +53,7 @@
    "image": "https://media-photos.depop.com/r1/354778212/5025457024_54d7458a35c64ca3a96feb8cdfa2ac28/P0.jpg",
    "seller": "isabelclos4t21",
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
@@ -87,7 +87,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m39609866092_1.jpg?width=256&quality=75&_=1792804712",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
@@ -121,7 +121,7 @@
    "image": "https://media-photos.depop.com/r1/208629961/5029274080_2caf40f233f64c22a56d17f80d747470/P0.jpg",
    "seller": "lindseyloue009",
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
@@ -155,7 +155,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m50841355222_1.jpg?width=256&quality=75&_=1792783932",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
@@ -172,7 +172,7 @@
    "image": "https://media-photos.depop.com/r1/470044318/5010761370_aa8e6750d160434899eb3dd9447a34b6/P0.jpg",
    "seller": "cra9d",
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
@@ -224,7 +224,7 @@
    "seller": "ar8vnnaxo",
    "condition": null,
    "last_seen": "2026-10-21T04:40:35.927637+00:00",
-   "stale": false
+   "stale": true
   },
   {
    "key": "mercari:m13411890724",
@@ -291,7 +291,7 @@
    "image": "https://media-photos.depop.com/r1/264969543/4977073231_4d030c5dbb3c45ad800466014ba51fac/P0.jpg",
    "seller": "blondesuppxy",
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
@@ -312,6 +312,23 @@
    "stale": false
   },
   {
+   "key": "depop:thriftydragonr-coach-patchwork-signature-mini-tote-177f",
+   "first_seen": "2026-10-16T23:14:34.210034+00:00",
+   "kind": "deal",
+   "old_price": 90,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork signature mini tote (Coach women's multi colour bag)",
+   "price": 65,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/thriftydragonr-coach-patchwork-signature-mini-tote-177f/",
+   "image": "https://media-photos.depop.com/b1/50754782/4688463596_c0b00d083b9c41c682b2c2625230a827/P0.jpg",
+   "seller": "thriftydragonr",
+   "condition": null,
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:stephaniesjlosett1-coach-patchwork-gallery-tote-25bb",
    "first_seen": "2026-10-16T05:40:29.040339+00:00",
    "kind": "new",
@@ -329,6 +346,23 @@
    "stale": false
   },
   {
+   "key": "depop:xoxogossipbabexoxo-coach-patchwork-signature-tote-e718",
+   "first_seen": "2026-10-15T04:52:28.853147+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "coach patchwork signature tote (Coach women's multi colour bag)",
+   "price": 195,
+   "currency": "USD",
+   "source": "depop",
+   "url": "https://www.depop.com/products/xoxogossipbabexoxo-coach-patchwork-signature-tote-e718/",
+   "image": "https://media-photos.depop.com/r1/225395617/4934140383_1270c3b938be4c0bb14de687ff58d400/P0.jpg",
+   "seller": "xoxogossipbabexoxo",
+   "condition": null,
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
+   "stale": false
+  },
+  {
    "key": "depop:mi3asshopjy99-coach-chelsea-optic-signature-satchel-02d4",
    "first_seen": "2026-10-15T02:48:32.261825+00:00",
    "kind": "new",
@@ -342,7 +376,7 @@
    "image": "https://media-photos.depop.com/r1/427960045/4954436572_a557274a22ce4982bc998499a5c1c929/P0.jpg",
    "seller": "mi3asshopjy99",
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
@@ -359,7 +393,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m38805757967_1.jpg?width=256&quality=75&_=1792622428",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
@@ -393,7 +427,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m51719475778_1.jpg?width=256&quality=75&_=1791838067",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
@@ -410,7 +444,7 @@
    "image": "https://media-photos.depop.com/r1/283006094/4772447060_0a4d853be1c24ae29f209bdf5246667b/P0.jpg",
    "seller": "diataprdz",
    "condition": null,
-   "last_seen": "2026-10-24T04:21:08.631905+00:00",
+   "last_seen": "2026-10-24T05:23:11.286744+00:00",
    "stale": false
   },
   {
