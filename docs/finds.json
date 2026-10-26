@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T05:57:10.154942+00:00",
+ "generated": "2026-10-26T06:25:45.776531+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6adeb3989fd4b989bab0c8cb",
+   "first_seen": "2026-10-26T06:25:45.776531+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "chelsea-braided",
+   "title": "Y2K Coach Chelsea Optic Signature Turn Lock Satchel 10995 Tan Braided Handle VTG",
+   "price": 135.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6adeb3989fd4b989bab0c8cb",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/25/6adeb3989fd4b989bab0c8cb/m_6adeb399221dcb607696277d.jpg",
+   "seller": "purplribbonposh",
+   "condition": "ug",
+   "last_seen": "2026-10-26T06:25:45.776531+00:00",
+   "stale": false
+  },
   {
    "key": "depop:k0waiipotatoe69-coach-signature-patchwork-tote-bag-e6f6",
    "first_seen": "2026-10-26T04:55:10.518435+00:00",
@@ -189,7 +206,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/24/6add5d7b06c77307ffeb75e7/m_6add5d7b970988a2c50f0a3c.jpeg",
    "seller": "mamiontherack",
    "condition": "ug",
-   "last_seen": "2026-10-26T01:04:11.187158+00:00",
+   "last_seen": "2026-10-26T06:25:45.776531+00:00",
    "stale": false
   },
   {
@@ -342,7 +359,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/24/6add0802ad242a3c74df31fe/m_6add0887441b1986b1b05c7b.jpg",
    "seller": "equintero88",
    "condition": "ug",
-   "last_seen": "2026-10-26T01:04:11.187158+00:00",
+   "last_seen": "2026-10-26T06:25:45.776531+00:00",
    "stale": false
   },
   {
@@ -376,7 +393,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/24/6adc9cf831f0f600e29060e9/m_6adc9d24051155d29f040144.jpg",
    "seller": "carrieehrke",
    "condition": "ug",
-   "last_seen": "2026-10-26T01:04:11.187158+00:00",
+   "last_seen": "2026-10-26T06:25:45.776531+00:00",
    "stale": false
   },
   {
@@ -631,24 +648,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/17/6ad3f96419212566ca2af554/m_6ad3f97c1a9c991b66e3d867.jpg",
    "seller": "mamatex30",
    "condition": "ug",
-   "last_seen": "2026-10-26T01:04:11.187158+00:00",
-   "stale": false
-  },
-  {
-   "key": "depop:blondesuppxy-coach-patchwork-tote-bag-with-a805",
-   "first_seen": "2026-10-17T20:57:49.019753+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach patchwork tote bag with (Coach women's multi colour bag)",
-   "price": 50,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/blondesuppxy-coach-patchwork-tote-bag-with-a805/",
-   "image": "https://media-photos.depop.com/r1/264969543/4977073231_4d030c5dbb3c45ad800466014ba51fac/P0.jpg",
-   "seller": "blondesuppxy",
-   "condition": null,
-   "last_seen": "2026-10-26T05:57:10.154942+00:00",
+   "last_seen": "2026-10-26T06:25:45.776531+00:00",
    "stale": false
   },
   {
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-26T01:04:11.187158+00:00",
+   "last_seen": "2026-10-26T06:25:45.776531+00:00",
    "stale": false
   },
   {
@@ -699,7 +699,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-26T01:04:11.187158+00:00",
+   "last_seen": "2026-10-26T06:25:45.776531+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-26T01:04:11.187158+00:00",
+   "last_seen": "2026-10-26T06:25:45.776531+00:00",
    "stale": false
   }
  ]
