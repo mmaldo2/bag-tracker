@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T19:09:30.528443+00:00",
+ "generated": "2026-10-27T19:41:21.532735+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6ae0ca741921252598e5f73b",
+   "first_seen": "2026-10-27T19:41:21.532735+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Coach Soho Signature Flap Shoulder Bag Black Signature Tote Bag",
+   "price": 65.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ae0ca741921252598e5f73b",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/27/6ae0ca741921252598e5f73b/m_6ae0ca8931efec7e646e2bad.jpg",
+   "seller": "mmajorglo",
+   "condition": "ug",
+   "last_seen": "2026-10-27T19:41:21.532735+00:00",
+   "stale": false
+  },
   {
    "key": "depop:nilaa514-coach-vintage-soho-signature-jacquard-4b95",
    "first_seen": "2026-10-27T16:03:42.162671+00:00",
@@ -121,7 +138,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/25/6ade8833b9dd7017a86e999e/m_6ade88450511550c3206f987.jpg",
    "seller": "stylevault_2026",
    "condition": "ug",
-   "last_seen": "2026-10-27T15:49:56.621973+00:00",
+   "last_seen": "2026-10-27T19:41:21.532735+00:00",
    "stale": false
   },
   {
@@ -138,7 +155,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/26/6ae004ed9c93e0bf3087fb41/m_6ae00559e625d2b674d3b1b9.jpg",
    "seller": "wearingwhimsy",
    "condition": "ug",
-   "last_seen": "2026-10-27T15:49:56.621973+00:00",
+   "last_seen": "2026-10-27T19:41:21.532735+00:00",
    "stale": false
   },
   {
@@ -223,7 +240,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/25/6adeb3989fd4b989bab0c8cb/m_6adeb399221dcb607696277d.jpg",
    "seller": "purplribbonposh",
    "condition": "ug",
-   "last_seen": "2026-10-27T15:49:56.621973+00:00",
+   "last_seen": "2026-10-27T19:41:21.532735+00:00",
    "stale": false
   },
   {
@@ -376,7 +393,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/24/6add5d7b06c77307ffeb75e7/m_6add5d7b970988a2c50f0a3c.jpeg",
    "seller": "mamiontherack",
    "condition": "ug",
-   "last_seen": "2026-10-27T15:49:56.621973+00:00",
+   "last_seen": "2026-10-27T19:41:21.532735+00:00",
    "stale": false
   },
   {
@@ -533,23 +550,6 @@
    "stale": false
   },
   {
-   "key": "mercari:m56540815150",
-   "first_seen": "2026-10-24T14:41:08.889862+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "limited edition, holiday Patchwork Leather Tote Bag - Coach",
-   "price": 210,
-   "currency": "USD",
-   "source": "mercari",
-   "url": "https://www.mercari.com/us/item/m56540815150/",
-   "image": "https://u-mercari-images.mercdn.net/photos/m56540815150_1.jpg?width=256&quality=75&_=1792849286",
-   "seller": null,
-   "condition": null,
-   "last_seen": "2026-10-27T19:09:30.528443+00:00",
-   "stale": false
-  },
-  {
    "key": "depop:cra9d-coach-chelsea-signature-braided-flap-8b9c",
    "first_seen": "2026-10-23T16:59:08.923948+00:00",
    "kind": "new",
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-27T15:49:56.621973+00:00",
+   "last_seen": "2026-10-27T19:41:21.532735+00:00",
    "stale": false
   },
   {
@@ -699,7 +699,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-27T15:49:56.621973+00:00",
+   "last_seen": "2026-10-27T19:41:21.532735+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-27T15:49:56.621973+00:00",
+   "last_seen": "2026-10-27T19:41:21.532735+00:00",
    "stale": false
   }
  ]
