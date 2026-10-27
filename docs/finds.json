@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T01:35:45.654721+00:00",
+ "generated": "2026-10-27T02:14:25.754187+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,57 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6adffb63e912b3686407f2d3",
+   "first_seen": "2026-10-27T02:14:25.754187+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Coach Soho Signature Buckle Flap Shoulder Bag Black",
+   "price": 125.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6adffb63e912b3686407f2d3",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/26/6adffb63e912b3686407f2d3/m_6adffb788e5ab2ddf030bf68.jpg",
+   "seller": "mrichard928",
+   "condition": "uln",
+   "last_seen": "2026-10-27T02:14:25.754187+00:00",
+   "stale": false
+  },
+  {
+   "key": "poshmark:6ade8833b9dd7017a86e999e",
+   "first_seen": "2026-10-27T02:14:25.754187+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Coach Soho Signature Buckle Flap Shoulder Bag Black Satchel",
+   "price": 65.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ade8833b9dd7017a86e999e",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/25/6ade8833b9dd7017a86e999e/m_6ade88450511550c3206f987.jpg",
+   "seller": "stylevault_2026",
+   "condition": "ug",
+   "last_seen": "2026-10-27T02:14:25.754187+00:00",
+   "stale": false
+  },
+  {
+   "key": "poshmark:6ae004ed9c93e0bf3087fb41",
+   "first_seen": "2026-10-27T02:14:25.754187+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "brown-large-soho-flap",
+   "title": "COACH Vintage Soho Signature Double Pocket Flap Satchel Bag Brown/Khaki AMAZING",
+   "price": 129.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ae004ed9c93e0bf3087fb41",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/26/6ae004ed9c93e0bf3087fb41/m_6ae00559e625d2b674d3b1b9.jpg",
+   "seller": "wearingwhimsy",
+   "condition": "ug",
+   "last_seen": "2026-10-27T02:14:25.754187+00:00",
+   "stale": false
+  },
   {
    "key": "depop:aandrean43-y2k-coach-chelsea-braided-shoulder-16cf",
    "first_seen": "2026-10-27T01:35:45.654721+00:00",
@@ -121,7 +172,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/25/6adeb3989fd4b989bab0c8cb/m_6adeb399221dcb607696277d.jpg",
    "seller": "purplribbonposh",
    "condition": "ug",
-   "last_seen": "2026-10-26T23:21:06.120755+00:00",
+   "last_seen": "2026-10-27T02:14:25.754187+00:00",
    "stale": false
   },
   {
@@ -274,7 +325,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/24/6add5d7b06c77307ffeb75e7/m_6add5d7b970988a2c50f0a3c.jpeg",
    "seller": "mamiontherack",
    "condition": "ug",
-   "last_seen": "2026-10-26T23:21:06.120755+00:00",
+   "last_seen": "2026-10-27T02:14:25.754187+00:00",
    "stale": false
   },
   {
@@ -461,7 +512,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/24/6adc9cf831f0f600e29060e9/m_6adc9d24051155d29f040144.jpg",
    "seller": "carrieehrke",
    "condition": "ug",
-   "last_seen": "2026-10-26T23:21:06.120755+00:00",
+   "last_seen": "2026-10-27T02:14:25.754187+00:00",
    "stale": false
   },
   {
@@ -496,57 +547,6 @@
    "seller": "isabelclos4t21",
    "condition": null,
    "last_seen": "2026-10-25T13:25:11.000956+00:00",
-   "stale": false
-  },
-  {
-   "key": "depop:lmkn990-vintage-coach-holiday-patchwork-tote-10fc",
-   "first_seen": "2026-10-24T03:19:08.595416+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "vintage coach holiday patchwork tote (Coach women's multi colour bag)",
-   "price": 120,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/lmkn990-vintage-coach-holiday-patchwork-tote-10fc/",
-   "image": "https://media-photos.depop.com/r1/13398977/5032493911_72679915ff5c4ed28f715b28236c4e4c/P0.jpg",
-   "seller": "lmkn990",
-   "condition": null,
-   "last_seen": "2026-10-26T18:21:39.437640+00:00",
-   "stale": false
-  },
-  {
-   "key": "mercari:m39609866092",
-   "first_seen": "2026-10-24T02:17:09.869964+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "Patchwork Canvas Leather Tote Bag Purse Handbag Multicolor Vintage NEW - Coach",
-   "price": 69,
-   "currency": "USD",
-   "source": "mercari",
-   "url": "https://www.mercari.com/us/item/m39609866092/",
-   "image": "https://u-mercari-images.mercdn.net/photos/m39609866092_1.jpg?width=256&quality=75&_=1792804712",
-   "seller": null,
-   "condition": null,
-   "last_seen": "2026-10-26T09:03:10.216719+00:00",
-   "stale": false
-  },
-  {
-   "key": "depop:ajle3man-coach-multicoloured-patchwork-tote-bag-e123",
-   "first_seen": "2026-10-23T21:07:09.359449+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach multicoloured patchwork tote bag (Coach women's multi colour bag)",
-   "price": 150,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/ajle3man-coach-multicoloured-patchwork-tote-bag-e123/",
-   "image": "https://media-photos.depop.com/r1/39533079/5029560492_98611fec33e14660b080283b351ff695/P0.jpg",
-   "seller": "ajle3man",
-   "condition": null,
-   "last_seen": "2026-10-24T10:33:11.203899+00:00",
    "stale": false
   },
   {
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-26T23:21:06.120755+00:00",
+   "last_seen": "2026-10-27T02:14:25.754187+00:00",
    "stale": false
   },
   {
@@ -699,7 +699,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-26T23:21:06.120755+00:00",
+   "last_seen": "2026-10-27T02:14:25.754187+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-26T23:21:06.120755+00:00",
+   "last_seen": "2026-10-27T02:14:25.754187+00:00",
    "stale": false
   }
  ]
