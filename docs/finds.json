@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T16:55:17.987600+00:00",
+ "generated": "2026-10-28T17:57:09.636936+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "mercari:m54604445093",
+   "first_seen": "2026-10-28T17:57:09.636936+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "patchwork-leopard-tote",
+   "title": "Patchwork Signature Tote Bag - Coach",
+   "price": 190,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m54604445093/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m54604445093_1.jpg?width=256&quality=75&_=1793207161",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
+   "stale": false
+  },
   {
    "key": "depop:vicemityshopz-coach-signature-tassel-satchel-vintage-f370",
    "first_seen": "2026-10-28T04:31:15.338408+00:00",
@@ -104,7 +121,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m77822267092_1.jpg?width=256&quality=75&_=1793151024",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-28T16:55:17.987600+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://media-photos.depop.com/r1/430622340/5064585289_289fd7bcfaf84109b467616ba88990b1/P0.jpg",
    "seller": "jenngdbbert12",
    "condition": null,
-   "last_seen": "2026-10-28T16:55:17.987600+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
@@ -257,7 +274,7 @@
    "image": "https://media-photos.depop.com/b1/25758461/5057428917_89b7c1e34bed45e79674d19d2d6977c1/P0.jpg",
    "seller": "aandrean43",
    "condition": null,
-   "last_seen": "2026-10-28T16:55:17.987600+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
@@ -308,7 +325,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m20663483124_1.jpg?width=256&quality=75&_=1793040984",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-28T16:55:17.987600+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
@@ -359,7 +376,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m37266746181_1.jpg?width=256&quality=75&_=1792961748",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-28T16:55:17.987600+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
@@ -393,7 +410,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m20659899444_1.jpg?width=256&quality=75&_=1792953848",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-28T16:55:17.987600+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
@@ -495,7 +512,7 @@
    "image": "https://media-photos.depop.com/r1/427960045/5032191038_a3d6526c1b304c3ebaf5c2042a959eb5/P0.jpg",
    "seller": "mikasshoxjy99",
    "condition": null,
-   "last_seen": "2026-10-28T12:47:15.469817+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
@@ -533,23 +550,6 @@
    "stale": true
   },
   {
-   "key": "depop:cyrlierose_10-coach-patchwork-tote-bag-with-2cb0",
-   "first_seen": "2026-10-25T01:01:11.346677+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "patchwork-leopard-tote",
-   "title": "coach patchwork tote bag with (Coach women's multi colour bag)",
-   "price": 45,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/cyrlierose_10-coach-patchwork-tote-bag-with-2cb0/",
-   "image": "https://media-photos.depop.com/r1/470212279/5039635063_c406e49820d04a42ad46c241fbe32e66/P0.jpg",
-   "seller": "cyrlierose_10",
-   "condition": null,
-   "last_seen": "2026-10-26T19:23:38.460417+00:00",
-   "stale": false
-  },
-  {
    "key": "depop:cra9d-coach-chelsea-signature-braided-flap-8b9c",
    "first_seen": "2026-10-23T16:59:08.923948+00:00",
    "kind": "new",
@@ -563,7 +563,7 @@
    "image": "https://media-photos.depop.com/r1/470044318/5010761370_aa8e6750d160434899eb3dd9447a34b6/P0.jpg",
    "seller": "cra9d",
    "condition": null,
-   "last_seen": "2026-10-28T16:55:17.987600+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
@@ -597,7 +597,7 @@
    "image": "https://media-photos.depop.com/b1/31470268/5012549032_40b21d63a4ac4ca0b1bf5f76b40c8e35/P0.jpg",
    "seller": "kijgmaseray",
    "condition": null,
-   "last_seen": "2026-10-28T16:55:17.987600+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
@@ -665,7 +665,7 @@
    "image": "https://media-photos.depop.com/r1/283006094/4772447060_0a4d853be1c24ae29f209bdf5246667b/P0.jpg",
    "seller": "diataprdz",
    "condition": null,
-   "last_seen": "2026-10-28T16:55:17.987600+00:00",
+   "last_seen": "2026-10-28T17:57:09.636936+00:00",
    "stale": false
   },
   {
