@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T18:59:10.599357+00:00",
+ "generated": "2026-10-28T20:01:12.633979+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -40,6 +40,23 @@
  },
  "finds": [
   {
+   "key": "mercari:m39952192548",
+   "first_seen": "2026-10-28T20:01:12.633979+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-satchel",
+   "title": "Signature Black Soho - Coach",
+   "price": 160,
+   "currency": "USD",
+   "source": "mercari",
+   "url": "https://www.mercari.com/us/item/m39952192548/",
+   "image": "https://u-mercari-images.mercdn.net/photos/m39952192548_1.jpg?width=256&quality=75&_=1793216089",
+   "seller": null,
+   "condition": null,
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
+   "stale": false
+  },
+  {
    "key": "mercari:m54604445093",
    "first_seen": "2026-10-28T17:57:09.636936+00:00",
    "kind": "new",
@@ -53,7 +70,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m54604445093_1.jpg?width=256&quality=75&_=1793207161",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -121,7 +138,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m77822267092_1.jpg?width=256&quality=75&_=1793151024",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -138,7 +155,7 @@
    "image": "https://media-photos.depop.com/r1/430622340/5064585289_289fd7bcfaf84109b467616ba88990b1/P0.jpg",
    "seller": "jenngdbbert12",
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -274,7 +291,7 @@
    "image": "https://media-photos.depop.com/b1/25758461/5057428917_89b7c1e34bed45e79674d19d2d6977c1/P0.jpg",
    "seller": "aandrean43",
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -325,7 +342,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m20663483124_1.jpg?width=256&quality=75&_=1793040984",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -376,7 +393,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m37266746181_1.jpg?width=256&quality=75&_=1792961748",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -403,14 +420,14 @@
    "old_price": null,
    "bag": "patchwork-leopard-tote",
    "title": "8J99 is a vintage Y2K limited-edition Holiday Patchwork Gallery Tote Bag - Coach",
-   "price": 180,
+   "price": 171,
    "currency": "USD",
    "source": "mercari",
    "url": "https://www.mercari.com/us/item/m20659899444/",
    "image": "https://u-mercari-images.mercdn.net/photos/m20659899444_1.jpg?width=256&quality=75&_=1792953848",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -428,7 +445,7 @@
    "seller": null,
    "condition": null,
    "last_seen": "2026-10-25T19:37:13.710397+00:00",
-   "stale": false
+   "stale": true
   },
   {
    "key": "depop:luvspusses-coach-holiday-patchwork-gallery-tote-0327",
@@ -512,7 +529,7 @@
    "image": "https://media-photos.depop.com/r1/427960045/5032191038_a3d6526c1b304c3ebaf5c2042a959eb5/P0.jpg",
    "seller": "mikasshoxjy99",
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -533,23 +550,6 @@
    "stale": false
   },
   {
-   "key": "mercari:m89869495513",
-   "first_seen": "2026-10-25T02:03:12.483184+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "brown-soho-satchel",
-   "title": "y2k Vintage Soho Satchel Bag Canvas Leather Signature Brown KHAKI - Coach",
-   "price": 160,
-   "currency": "USD",
-   "source": "mercari",
-   "url": "https://www.mercari.com/us/item/m89869495513/",
-   "image": "https://u-mercari-images.mercdn.net/photos/m89869495513_1.jpg?width=256&quality=75&_=1792892452",
-   "seller": null,
-   "condition": null,
-   "last_seen": "2026-10-25T11:21:10.782291+00:00",
-   "stale": true
-  },
-  {
    "key": "depop:cra9d-coach-chelsea-signature-braided-flap-8b9c",
    "first_seen": "2026-10-23T16:59:08.923948+00:00",
    "kind": "new",
@@ -563,7 +563,7 @@
    "image": "https://media-photos.depop.com/r1/470044318/5010761370_aa8e6750d160434899eb3dd9447a34b6/P0.jpg",
    "seller": "cra9d",
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -597,7 +597,7 @@
    "image": "https://media-photos.depop.com/b1/31470268/5012549032_40b21d63a4ac4ca0b1bf5f76b40c8e35/P0.jpg",
    "seller": "kijgmaseray",
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
@@ -665,7 +665,7 @@
    "image": "https://media-photos.depop.com/r1/283006094/4772447060_0a4d853be1c24ae29f209bdf5246667b/P0.jpg",
    "seller": "diataprdz",
    "condition": null,
-   "last_seen": "2026-10-28T18:59:10.599357+00:00",
+   "last_seen": "2026-10-28T20:01:12.633979+00:00",
    "stale": false
   },
   {
