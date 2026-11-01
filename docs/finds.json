@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T21:10:20.708393+00:00",
+ "generated": "2026-11-01T21:56:51.284490+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6ae79bc3e6776c41863d6d22",
+   "first_seen": "2026-11-01T21:56:51.284490+00:00",
+   "kind": "new",
+   "old_price": null,
+   "bag": "black-soho-satchel",
+   "title": "COACH Soho Signature, Large Black Satchel",
+   "price": 135.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ae79bc3e6776c41863d6d22",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/11/01/6ae79bc3e6776c41863d6d22/m_6ae79bc505ce5735a85e9ba0.jpeg",
+   "seller": "amandajoesells",
+   "condition": "ug",
+   "last_seen": "2026-11-01T21:56:51.284490+00:00",
+   "stale": false
+  },
   {
    "key": "depop:mikasshtpjy99-coach-signature-patchwork-tote-condition-bcb4",
    "first_seen": "2026-11-01T21:10:20.708393+00:00",
@@ -138,7 +155,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/31/6ae6678031f0f6c4f48690ce/m_6ae6683afcc907e1447903cf.jpg",
    "seller": "texasjackie11",
    "condition": "ug",
-   "last_seen": "2026-11-01T18:48:57.800879+00:00",
+   "last_seen": "2026-11-01T21:56:51.284490+00:00",
    "stale": false
   },
   {
@@ -529,25 +546,8 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/27/6ae0ca741921252598e5f73b/m_6ae0ca8931efec7e646e2bad.jpg",
    "seller": "mmajorglo",
    "condition": "ug",
-   "last_seen": "2026-11-01T18:48:57.800879+00:00",
+   "last_seen": "2026-11-01T21:56:51.284490+00:00",
    "stale": false
-  },
-  {
-   "key": "depop:nilaa514-coach-vintage-soho-signature-jacquard-4b95",
-   "first_seen": "2026-10-27T16:03:42.162671+00:00",
-   "kind": "deal",
-   "old_price": null,
-   "bag": "brown-soho-satchel",
-   "title": "coach vintage soho signature jacquard (Coach women's brown and tan bag)",
-   "price": 65,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/nilaa514-coach-vintage-soho-signature-jacquard-4b95/",
-   "image": "https://media-photos.depop.com/b1/25616464/5061038905_33b0d3364a4a41fd8a1a3cc6bdcd68ab/P0.jpg",
-   "seller": "nilaa514",
-   "condition": null,
-   "last_seen": "2026-10-27T16:03:42.162671+00:00",
-   "stale": true
   },
   {
    "key": "depop:cra9d-coach-chelsea-signature-braided-flap-8b9c",
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-11-01T18:48:57.800879+00:00",
+   "last_seen": "2026-11-01T21:56:51.284490+00:00",
    "stale": false
   },
   {
@@ -699,7 +699,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-11-01T18:48:57.800879+00:00",
+   "last_seen": "2026-11-01T21:56:51.284490+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-11-01T18:48:57.800879+00:00",
+   "last_seen": "2026-11-01T21:56:51.284490+00:00",
    "stale": false
   }
  ]
