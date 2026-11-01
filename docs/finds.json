@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T23:28:16.619657+00:00",
+ "generated": "2026-11-01T00:14:10.867610+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -39,6 +39,23 @@
   }
  },
  "finds": [
+  {
+   "key": "poshmark:6ae6678031f0f6c4f48690ce",
+   "first_seen": "2026-11-01T00:14:10.867610+00:00",
+   "kind": "deal",
+   "old_price": null,
+   "bag": "black-soho-flap-shoulder",
+   "title": "Coach Soho Signature Buckle Flap Shoulder Bag Black & Black",
+   "price": 65.0,
+   "currency": "USD",
+   "source": "poshmark",
+   "url": "https://poshmark.com/listing/6ae6678031f0f6c4f48690ce",
+   "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/31/6ae6678031f0f6c4f48690ce/m_6ae6683afcc907e1447903cf.jpg",
+   "seller": "texasjackie11",
+   "condition": "ug",
+   "last_seen": "2026-11-01T00:14:10.867610+00:00",
+   "stale": false
+  },
   {
    "key": "depop:elsmeondepop-coach-patchwork-daisy-tote-bag-6689",
    "first_seen": "2026-10-31T18:18:16.515656+00:00",
@@ -427,7 +444,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/27/6ae0ca741921252598e5f73b/m_6ae0ca8931efec7e646e2bad.jpg",
    "seller": "mmajorglo",
    "condition": "ug",
-   "last_seen": "2026-10-31T21:20:36.239271+00:00",
+   "last_seen": "2026-11-01T00:14:10.867610+00:00",
    "stale": false
   },
   {
@@ -529,24 +546,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/10/26/6ae004ed9c93e0bf3087fb41/m_6ae00559e625d2b674d3b1b9.jpg",
    "seller": "wearingwhimsy",
    "condition": "ug",
-   "last_seen": "2026-10-31T21:20:36.239271+00:00",
-   "stale": false
-  },
-  {
-   "key": "depop:aandrean43-y2k-coach-chelsea-braided-shoulder-16cf",
-   "first_seen": "2026-10-27T01:35:45.654721+00:00",
-   "kind": "new",
-   "old_price": null,
-   "bag": "chelsea-braided",
-   "title": "y2k coach chelsea braided shoulder (Coach women's vintage preloved tan y2_k coquette grunge bag)",
-   "price": 200,
-   "currency": "USD",
-   "source": "depop",
-   "url": "https://www.depop.com/products/aandrean43-y2k-coach-chelsea-braided-shoulder-16cf/",
-   "image": "https://media-photos.depop.com/b1/25758461/5057428917_89b7c1e34bed45e79674d19d2d6977c1/P0.jpg",
-   "seller": "aandrean43",
-   "condition": null,
-   "last_seen": "2026-10-31T12:06:16.801151+00:00",
+   "last_seen": "2026-11-01T00:14:10.867610+00:00",
    "stale": false
   },
   {
@@ -682,7 +682,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/01/02/69586fb09f034cface3c80dd/m_69586fbbb7f0ac1a4f43cd08.jpg",
    "seller": "directfindsllc",
    "condition": "ug",
-   "last_seen": "2026-10-31T21:20:36.239271+00:00",
+   "last_seen": "2026-11-01T00:14:10.867610+00:00",
    "stale": false
   },
   {
@@ -699,7 +699,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2026/08/10/6a79ec249bca6175d439b40b/m_6a79ec2583b26c4e19a35f02.jpeg",
    "seller": "jjklm",
    "condition": "ug",
-   "last_seen": "2026-10-31T21:20:36.239271+00:00",
+   "last_seen": "2026-11-01T00:14:10.867610+00:00",
    "stale": false
   },
   {
@@ -716,7 +716,7 @@
    "image": "https://di2ponv0v5otw.cloudfront.net/posts/2025/06/12/684a97a6b591ed25c5cac5ef/m_684a990b21b801172e4996c1.jpeg",
    "seller": "abigailthomp854",
    "condition": "not_nwt",
-   "last_seen": "2026-10-31T21:20:36.239271+00:00",
+   "last_seen": "2026-11-01T00:14:10.867610+00:00",
    "stale": false
   }
  ]
