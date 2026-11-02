@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T20:56:22.797936+00:00",
+ "generated": "2026-11-02T21:58:01.181499+00:00",
  "bags": {
   "black-flap-1463": {
    "name": "Black Signature Flap #1463 / #1444",
@@ -53,7 +53,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m92319432956_1.jpg?width=256&quality=75&_=1793638040",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-11-02T20:56:22.797936+00:00",
+   "last_seen": "2026-11-02T21:58:01.181499+00:00",
    "stale": false
   },
   {
@@ -155,7 +155,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m15320837660_1.jpg?width=256&quality=75&_=1793641299",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-11-02T20:56:22.797936+00:00",
+   "last_seen": "2026-11-02T21:58:01.181499+00:00",
    "stale": false
   },
   {
@@ -206,7 +206,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m64621886891_1.jpg?width=256&quality=75&_=1793562455",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-11-02T20:56:22.797936+00:00",
+   "last_seen": "2026-11-02T21:58:01.181499+00:00",
    "stale": false
   },
   {
@@ -359,7 +359,7 @@
    "image": "https://u-mercari-images.mercdn.net/photos/m81877621253_1.jpg?width=256&quality=75&_=1793404932",
    "seller": null,
    "condition": null,
-   "last_seen": "2026-11-02T20:56:22.797936+00:00",
+   "last_seen": "2026-11-02T21:58:01.181499+00:00",
    "stale": false
   },
   {
@@ -394,7 +394,7 @@
    "seller": "ginagespinosa",
    "condition": null,
    "last_seen": "2026-10-30T21:38:17.899231+00:00",
-   "stale": false
+   "stale": true
   },
   {
    "key": "mercari:m32299830382",
